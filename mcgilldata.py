@@ -8,11 +8,18 @@ class mcgillSong:
 		self.artist = ''
 		self.phrases = list() 
 		self.measuresFlat = list() #for ease of parsing measure content without opening mcgillPhrase and mcgill Measure
+		self.form = list() #gives form of the song
 
 class mcgillPhrase:
 	def __init__(self):
 		self.time = -1.	#watch emptyMeasure variable for timestamp purposes
 		self.measures = list() 
+		self.measureLength = '' #identifies how long phrase is
+		self.formLevel = '' #identifies formal letter label of phrase
+		self.formFunction = '' #identifies formal function of phrase
+	#NEW INFO FOR PRINTING FORM INFO
+	def __str__(self):
+		return self.formLevel + self.formFunction
 
 class mcgillMeasure:
 	def __init__(self):
@@ -90,7 +97,18 @@ class mcgillCorpus:
 				elif theLine[0] in string.digits: #If a line begins with a digit, assume it's a time marker
 					thePhrase = mcgillPhrase() #store thePhrase as class mcgillPhrase
 					splitLine = string.split(theLine) #split the line by whitespaces
-					thePhrase.time = float(splitLine[0]) #interpret first split as float for timestamp
+					lineMetaText = string.split(splitLine[0], '\t') #Split by '\t' to separate timestamp and form info
+					thePhrase.time = float(lineMetaText[0]) 
+					#identify if lineMetaText contains formal information
+					if ", " in lineMetaText[-1]: #lineMetaText contains formal information
+						#populate form information for phrase from 
+						lineFormInfo = string.strip(lineMetaText[-1]) #strip form items from ending whitespace
+						splitLineFormInfo = string.split(lineFormInfo, ',')
+						thePhrase.formLevel = string.strip(lineFormInfo[0], ',') #Strip comma and store first item as letter label
+						thePhrase.formFunction = string.strip(lineFormInfo[-1], ',') #strip comma and store last item as function label
+					else: #lineMetaText contains silence/end information
+						thePhrase.formFunction = string.strip(lineMetaText[-1]) #strip and store last item as function label
+						continue
 					#split following line information by '|' to identify measure spans
 					splitLine = string.split(theLine, '|')
 					#populate measure information based on split entities 1 to end of line (all data after timestamp)
@@ -105,7 +123,7 @@ class mcgillCorpus:
 							theMeasure.changeTonic = True
 							prevTonic = currentTonic
 						string.strip(theMeasureText) #gets rid of extra white space before/after '|'  
-						chords = string.split(theMeasureText) #sets chords as the splits of measure data line
+						chords = string.split(theMeasureText) #sets chords as the splits of the measure line
 						emptyMeasure = False 
 						currentBeat = 0 
 						#parse data split-by-split of each line (within each measure - identify if empty or complete measure)  

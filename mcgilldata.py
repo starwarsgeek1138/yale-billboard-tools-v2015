@@ -17,9 +17,17 @@ class mcgillPhrase:
 		self.measureLength = '' #identifies how long phrase is
 		self.formLevel = '' #identifies formal letter label of phrase
 		self.formFunction = '' #identifies formal function of phrase
+		self.splitLine = list()
 	#NEW INFO FOR PRINTING FORM INFO
 	def __str__(self):
-		return self.formLevel + self.formFunction
+		print str(self.time) + ': ', 
+		if self.formLevel == '':
+			return '*' + self.formFunction + '*'
+		else:
+			if self.formFunction == '':
+				return self.formLevel
+			else: 
+				return self.formLevel + ' (' + self.formFunction + ')'
 
 class mcgillMeasure:
 	def __init__(self):
@@ -97,19 +105,30 @@ class mcgillCorpus:
 				elif theLine[0] in string.digits: #If a line begins with a digit, assume it's a time marker
 					thePhrase = mcgillPhrase() #store thePhrase as class mcgillPhrase
 					splitLine = string.split(theLine) #split the line by whitespaces
-					lineMetaText = string.split(splitLine[0], '\t') #Split by '\t' to separate timestamp and form info
-					thePhrase.time = float(lineMetaText[0]) 
-					#identify if lineMetaText contains formal information
-					if ", " in lineMetaText[-1]: #lineMetaText contains formal information
-						#populate form information for phrase from 
-						lineFormInfo = string.strip(lineMetaText[-1]) #strip form items from ending whitespace
-						splitLineFormInfo = string.split(lineFormInfo, ',')
-						thePhrase.formLevel = string.strip(lineFormInfo[0], ',') #Strip comma and store first item as letter label
-						thePhrase.formFunction = string.strip(lineFormInfo[-1], ',') #strip comma and store last item as function label
-					else: #lineMetaText contains silence/end information
-						thePhrase.formFunction = string.strip(lineMetaText[-1]) #strip and store last item as function label
+					thePhrase.time = float(splitLine[0]) #Set/store timestamp information as float
+					#FORM INFORMATION
+					thePhrase.splitLine = splitLine
+					if splitLine[1] == '|' : #ignore if phrase has no form information
 						continue
-					#split following line information by '|' to identify measure spans
+					else: #find form information
+						if splitLine[1].find('end') != -1 or splitLine[1].find('silence') != -1 or splitLine[1].find('fadeout') != -1: #identify phrases with silence/end/fadeout markers (no letters)
+							thePhrase.formLevel = ''
+							thePhrase.formFunction = string.strip(splitLine[1], ',')
+						else: #other cases without end, silence, fadeout markers
+							if len(splitLine) > 2: #identify phrases that have more than 2 list items
+								if splitLine[2] == '|': #identify phrases that only have 1 form label
+									if len(splitLine[1]) > 2: #identify phrases that have item [1] as function label (any text with more than two characters)
+										thePhrase.formFunction = string.strip(splitLine[1], ',')
+										thePhrase.formLevel = ''
+									else: #identify phrases that have item [1] as letter label (but no function marker)
+										thePhrase.formLevel = string.strip(splitLine[1], ',')
+										thePhrase.formFunction = ''
+								else: # identify phrases that have both form labels (letter and function)
+									thePhrase.formLevel = string.strip(splitLine[1], ',')
+									thePhrase.formFunction = string.strip(splitLine[2], ',')
+							else: #case for splitLines shorter than 2 (non- 'end,' 'silence,' or 'fadeout)
+								continue		
+					#MEASURE DATA: split following line information by '|' to identify measure spans
 					splitLine = string.split(theLine, '|')
 					#populate measure information based on split entities 1 to end of line (all data after timestamp)
 					for theMeasureText in splitLine[1:-1]:

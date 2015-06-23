@@ -1,11 +1,11 @@
-import mcgilldata, string
+import mcgilldata, string, os, sys
+
+os.chdir(os.path.dirname(sys.argv[0]))
 
 mcgillPath = 'mcgill-billboard'
 
 theCorpus = mcgilldata.mcgillCorpus(mcgillPath)
 
 for theSongid, theSong in theCorpus.songs.iteritems():
-	for thePhrase in theSong.phrases:
-			print thePhrase
-	for theMeasure in theSong.measuresFlat:
-			print theMeasure
+    for thePhrase in theSong.phrases:
+    	print thePhrase

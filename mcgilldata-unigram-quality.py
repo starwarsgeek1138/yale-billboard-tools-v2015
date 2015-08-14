@@ -4,7 +4,7 @@ mcgillPath = 'mcgill-billboard'
 
 theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = True)
 
-ChordTally = dict() #Create dictionary of unigram distributions for all keys  
+majorChordTally = dict() #Create dictionary of unigram distributions for all keys  
 outputColumns = collections.Counter()
 
 for theSongid, theSong in theCorpus.songs.iteritems():

@@ -1,4 +1,4 @@
-import os, string, music21, sys, cPickle, time
+import os, string, music21, sys, cPickle, time, json, csv
 
 #Following are classes defined for mcgill data Corpus, Song, Phrase, Measure, Chord.
 
@@ -49,6 +49,7 @@ class mcgillPhrase:
         self.formFunction = set() #identifies formal function of phrase
         self.changeForm = False #determines if change in formal section
         self.theLine = ''
+        self.mode = ''
         self.splitLine = list()
     #NEW INFO FOR PRINTING FORM INFO
     def __str__(self):
@@ -86,8 +87,9 @@ class mcgillChord:
         self.rootPC = ''
         self.rootSD = ''
         self.quality = ''
+        self.qualityNormalForm = ''
         self.beat = ''
-        self.beatStrength = '' #hard - do later
+        self.beatStrength = '' 
         self.beatDuration = ''
         self.secsDuration = '' #determines chord length in seconds -  - TO DO AT A LATER TIME
     def __str__(self): #function for printing chord: gives beat, rootPC and quality information
@@ -101,6 +103,13 @@ class mcgillCorpus:
         #  PICKLE        #
         ##################
         
+        ### Define quality2NF as dictionary that calls normal chord list from RockPop-ChordTo-NF.csv for conversion       
+        quality2NF = dict()        
+        theReader = csv.reader(open('RockPop-ChordToNF.csv', 'rU'))
+        for row in theReader:
+            normalChord = json.loads(row[1]) #json will read text from NFchord .csv as list data  
+            quality2NF[row[0]] = normalChord
+
         pickleFilename = 'mcgillCorpusData.pickle'
         if os.path.isfile(pickleFilename):
             sys.stderr.write("getting data from pickle... ")
@@ -225,8 +234,14 @@ class mcgillCorpus:
                                     x = music21.pitch.Pitch(currentTonic.replace('b','-')) #pitch of the current tonic 
                                     y = music21.pitch.Pitch('C') #pitch of 'C' (reference for transposition)
                                     ivl = music21.interval.Interval(noteStart = x, noteEnd = y) #interval between reference 'C' and SD root of chord    
+                                    theChord.rootPC = p
                                     theChord.rootSD = p.transpose(ivl).name
                                     theChord.quality = s[1]
+                                    theChord.qualitySplit = string.split(theChord.quality, "/")[0]
+                                    try: 
+                                        theChord.qualityNormalForm = quality2NF[theChord.qualitySplit]
+                                    except:
+                                        print theChord.qualitySplit 
                                     theChord.beat = currentBeat
                                     #identify and store current beat strength 
                                     meterStrengths = beatStrengthByMeter[theMeasure.meter]

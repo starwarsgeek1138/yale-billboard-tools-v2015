@@ -2,6 +2,10 @@ import mcgilldata, string, os, sys, collections, csv
 
 mcgillPath = 'mcgill-billboard'
 
+#Determines distribution of chords (all tonics) by strength of beat position (metrical strength)
+#Listed by SD of chord root, organized by song tonic (ALL tonics)
+#Prints percentages
+
 theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = True)
 
 chordTally = dict() #Create dictionary of unigram distributions for diff beat strengths 

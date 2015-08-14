@@ -1,6 +1,6 @@
 import mcgilldata, string, os, sys, collections, csv
 
-##Code to find distribution of roots for all chords for all keys within the McGill Corpus
+##Code to find distribution of roots for all chords for all tonics within the McGill Corpus
 ##Output gives percentages and total counts per chord root for all tonics
 
 mcgillPath = 'mcgill-billboard'

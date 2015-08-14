@@ -1,6 +1,7 @@
 import os, string, music21, sys, cPickle, time, json, csv
 
 #Following are classes defined for mcgill data Corpus, Song, Phrase, Measure, Chord.
+#Main parser for McGill data Corpus
 
 beatsPerMeasure = { #lookup table for beat definitions per meter
     '1/4': 1,
@@ -234,7 +235,6 @@ class mcgillCorpus:
                                     x = music21.pitch.Pitch(currentTonic.replace('b','-')) #pitch of the current tonic 
                                     y = music21.pitch.Pitch('C') #pitch of 'C' (reference for transposition)
                                     ivl = music21.interval.Interval(noteStart = x, noteEnd = y) #interval between reference 'C' and SD root of chord    
-                                    theChord.rootPC = p
                                     theChord.rootSD = p.transpose(ivl).name
                                     theChord.quality = s[1]
                                     theChord.qualitySplit = string.split(theChord.quality, "/")[0]

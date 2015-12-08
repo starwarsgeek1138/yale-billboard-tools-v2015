@@ -40,7 +40,7 @@ for theSongid, theSong in theCorpus.songs.iteritems():
             else:
                 pass
                         
-outputCsv = csv.writer(open('chordUnigrams-rootByModeandBeatStrength-noBS2.csv', 'wb'))
+outputCsv = csv.writer(open('csv-results/chordUnigrams-rootByModeandBeatStrength-noBS2.csv', 'wb'))
 headerRow = list()
 headerRow.append('Mode')
 headerRow.append('Beat Strength')

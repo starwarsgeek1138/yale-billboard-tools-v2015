@@ -27,7 +27,7 @@ for theSongid, theSong in theCorpus.songs.iteritems():
 				ChordTally[songTonic][chordRoot] += 1
 
 #Output file writing: organize by song tonic/chord root
-outputCsv = csv.writer(open('chordUnigrams-byRoot.csv', 'wb'))
+outputCsv = csv.writer(open('csv-results/chordUnigrams-byRoot.csv', 'wb'))
 headerRow = list()
 headerRow.append('Song Tonic')
 headerRow.append('Chord Count')

@@ -31,7 +31,7 @@ for theSongid, theSong in theCorpus.songs.iteritems():
 				else: 
 					chordTally[beatStrength][chordRoot] += 1
 					
-outputCsv = csv.writer(open('chordUnigrams-rootByBeatStrength.csv', 'wb'))
+outputCsv = csv.writer(open('csv-results/chordUnigrams-rootByBeatStrength.csv', 'wb'))
 headerRow = list()
 headerRow.append('Beat Strength')
 headerRow.append('Chord Count')

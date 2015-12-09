@@ -1,15 +1,14 @@
-import mcgilldata, string, os, sys
+import mcgilldata, string, os, sys, collections, pprint, csv
 
 mcgillPath = 'mcgill-billboard'
 
 theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = False)
 
-for theSongid, theSong in theCorpus.songs.iteritems():
-    for thePhrase in theSong.phrases:
-        print ">>> " + thePhrase.theLine, "    ", 
-        print thePhrase
-        print 'Phrase Length: ' + str(thePhrase.measureLength)
-        print thePhrase.formLetter 
-        print thePhrase.formFunction
-        
-        
+theCorpus.findLicks()
+outputList = theCorpus.listLicks()
+
+
+w = csv.writer(open('ngrams-entropyByProgression.csv', 'w'))
+for row in outputList:
+    w.writerow(row)
+    

@@ -1,4 +1,26 @@
-import os, string, music21, sys, cPickle, time, json, csv
+import os, string, music21, sys, cPickle, time, json, csv, collections, math
+
+# from http://stackoverflow.com/questions/3012421/python-lazy-property-decorator
+# used for lazy evaluation of flatLetter and flatSD
+
+class lazy_property(object):
+    '''
+    meant to be used for lazy evaluation of an object attribute.
+    property should represent non-mutable data, as it replaces itself.
+    '''
+
+    def __init__(self,fget):
+        self.fget = fget
+        self.func_name = fget.__name__
+
+
+    def __get__(self,obj,cls):
+        if obj is None:
+            return None
+        value = self.fget(obj)
+        setattr(obj,self.func_name,value)
+        return value
+
 
 #Following are classes defined for mcgill data Corpus, Song, Phrase, Measure, Chord.
 #Main parser for McGill data Corpus
@@ -80,13 +102,42 @@ formTranslateDict = { #lookup/standardization table for form functions
     'vocal': ''}
 
 class mcgillSong:
-     def __init__(self):
+    def __init__(self):
         self.title = ''
         self.artist = ''
         self.phrases = list() 
         self.measuresFlat = list() #for ease of parsing measure content without opening mcgillPhrase and mcgill Measure
         self.form = list() #gives form of the song
+    
+    @lazy_property #Lazy prop for a flat list of chords with transposed SD and quality
+    def chordsFlat(self):
+        outputList = ['>S'] #one element list with this as first element (start token)
+        for thePhrase in self.phrases:
+            for theMeasure in thePhrase.measures:
+                for theChord in theMeasure.chords:
+                    qualitySplit = string.split(theChord.quality, "/")[0]
+                    if qualitySplit == '':
+                        continue
+                    currentChord = theChord.rootSD + reducedQuality[qualitySplit]
+                    if len(outputList) > 1 and currentChord == outputList[-1]:
+                        continue
+                    outputList.append(currentChord)
+        outputList.append('>E') #set end token 
+        return outputList       
+        
+    @lazy_property
+    def begTonic(self):
+        begTonic = ''
+        for thePhrase in self.phrases:
+            for theMeasure in thePhrase.measures:
+                if theMeasure.measureNumber == 1:
+                    begTonic = theMeasure.tonic
+                    break
+            if begTonic != '':
+                break
+        return begTonic
 
+             
 class mcgillPhrase:
     def __init__(self):
         self.time = -1. #watch emptyMeasure variable for timestamp purposes
@@ -141,7 +192,7 @@ class mcgillChord:
         self.secsDuration = '' #determines chord length in seconds -  - TO DO AT A LATER TIME
     def __str__(self): #function for printing chord: gives beat, rootPC and quality information
         return 'b=' + str(self.beat) + ' d=' + str(self.beatDuration) + ' sd=' + self.rootSD + ' q=' + self.quality + ' bs=' + str(self.beatStrength)
-        
+  
         
 class mcgillCorpus:
     def __init__(self, mcgillPath, testMode = False): #set variable for testing parameters (shorten time!)
@@ -151,11 +202,18 @@ class mcgillCorpus:
         ##################
         
         ### Define quality2NF as dictionary that calls normal chord list from RockPop-ChordTo-NF.csv for conversion       
-        quality2NF = dict()        
+        global quality2NF
+        global reducedQuality
+        global triadQuality
+        quality2NF = dict()
+        reducedQuality = dict()
+        triadQuality = dict()        
         theReader = csv.reader(open('RockPop-ChordToNF.csv', 'rU'))
         for row in theReader:
             normalChord = json.loads(row[1]) #json will read text from NFchord .csv as list data  
             quality2NF[row[0]] = normalChord
+            reducedQuality[row[0]] = row[2] #translates quality of chord to reduced triad or 7th chord
+            triadQuality[row[0]] = row[3] #translates quality of chord to maximally reduced name (triad)
 
         pickleFilename = 'mcgillCorpusData.pickle'
         if os.path.isfile(pickleFilename):
@@ -383,7 +441,136 @@ class mcgillCorpus:
                 self.songs[theFolder] = theSong #define theFolder item number as dictionary key for theSong
         
             #write pickle
-            cPickle.dump(self.songs, open(pickleFilename,'w'))
+            cPickle.dump(self.songs, open(pickleFilename,'w'), protocol=cPickle.HIGHEST_PROTOCOL)
             sys.stderr.write(str(time.clock()-start) + ' secs\n')
-     
-     
+#####END OF MAIN PARSING CODE      
+    
+###############################################################################     
+#########TRAVERSE SUFFIX TREE - for chord progression finding##################
+############################################################################### 
+    def findLicks( self, treeDepth = 20, countThreshold = 10, entropyThreshold = .9):
+        #Parameters for findLicks:
+            #treeDepth - delimits the number of levels created for suffix tree
+            #countThreshold - delimits the size of the count for each case
+        
+        self.suffixTree = dict()
+        self.treeDepth = treeDepth
+        self.countThreshold = countThreshold
+        self.entropyThreshold = entropyThreshold
+        for n in range(1,self.treeDepth+1): #sets up suffix tree - a dict of dict for progressions of various lengths (n)
+            self.suffixTree[n] = dict()
+            self.suffixTree[n]['total'] = 0
+
+        self.keyDistribution = collections.defaultdict(collections.Counter)
+            #are certain progressions confined to specific keys?
+
+
+        for theSongID, theSong in self.songs.items():
+
+            mList = theSong.chordsFlat
+            # Build suffix tree
+
+            for n in range(1, self.treeDepth+1):
+    
+                # suffix tree
+    
+                for loc in range(len(mList)):
+                    if loc >= (len(mList) - n + 1): break #n is length of unit (ngram); must start n-gram with enough room to account for all
+                    ngram = tuple(mList[loc:loc+n]) #make the ngram
+                    prefix = tuple(ngram[0:-1]) #prefix = all but the last element of ngram
+                    suffix = tuple([ngram[-1]]) #suffix = last element of ngram
+                    if prefix not in self.suffixTree[n]: #create prefix entry if not in dictionary
+                        self.suffixTree[n][prefix] = dict() #tallies number of times that the suffix follows this prefix
+                        self.suffixTree[n][prefix]['total'] = 0
+                    if suffix in self.suffixTree[n][prefix]:
+                        self.suffixTree[n][prefix][suffix] += 1
+                    else:
+                        self.suffixTree[n][prefix][suffix] = 1
+                    self.suffixTree[n][prefix]['total'] += 1
+            
+                    self.suffixTree[n]['total'] += 1
+        
+                    # tally modal distribution of lick
+                    
+                    self.keyDistribution[ngram][theSong.begTonic] += 1 #adds ngram to dictionary of tonics
+
+    def traverseSuffixTree ( self, lick, chainLength, outputList ):
+        #traverse through suffix tree (built above)
+
+        def suffixProb ( lick ): #probability that, given a lick, the suffix follows the prefix
+            n = len(lick)
+            branch = self.suffixTree[n][lick[0:-1]]
+#             print lick, lick[-1], branch
+            return branch[(lick[-1],)] * 1. / branch['total']
+        
+        def suffixEntropy ( lick ): #treats the lick as a prefix and calculates entropy of the distribution of suffixes
+            n = len(lick) + 1
+            H = 9.99 #set ceiling on H (entropy)
+            if n > 1 and n <= self.treeDepth and lick[-1] != '>E':
+                #prevents calculation if tree doesn't have enough levels or if endtoken (hence H would be 9.99)
+                H = 0. #reset entropy at 0
+                branch = self.suffixTree[n][lick]
+                #calculate entropy for all possible cases of suffixes following this lick
+                for leaf in branch:
+                    if leaf == 'total': continue
+                    P = branch[leaf] * 1. / branch['total']
+                    H -= P * math.log(P, 2)
+#                print '{:3f} {:45}  {:10}  {}'.format(H, lick[0:-1], leaf, branch)
+            return H
+
+        n = len(lick) 
+        theSuffixEntropy = suffixEntropy(lick)
+        
+        sortString = '' 
+        for i in reversed(lick):
+            sortString += i
+            
+        hashes = ''
+        
+        #output = row of ngram (lick) + parameters
+        output = list() 
+        output.append(self.suffixTree[n][lick[0:-1]][lick[-1:]]) #how many times does a lick happen?
+        output.append(len(lick))
+        for i in range(n,self.treeDepth-1): output.append('') #empty cells
+        for c in lick: output.append(c) #chords in lick 
+        output.append(theSuffixEntropy) #resulting entropy at end of lick (treats lick as prefix)
+        if suffixProb(lick) < .5: chainLength = 0 #If probability of last chord in ngram is less than 0.5 for the rest of the ngram, set chainLength to 0
+        if theSuffixEntropy < self.entropyThreshold - .3: #if entropy after last chord is less than set threshold, add 1 to chainLength 1
+            chainLength += 1
+        if chainLength != 0 and theSuffixEntropy >= self.entropyThreshold: #if entropy below threshold 
+            if theSuffixEntropy >= self.entropyThreshold: 
+                for i in range(chainLength):
+                    hashes += '#' 
+            chainLength = 0 #starts at zero
+        output.append(hashes)
+            
+        if hashes != '': 
+            output.append('_'+sortString)
+            
+            # calculate entropy of this lick's distribution over selected modes
+
+            # NOTE: this currently ignores any transposed or "capitalized" mode
+                        
+            #tonicEntropy = 0
+            #total = 0
+            #for m in self.modeFilter:      
+            #    total += self.keyDistribution[lick][m]
+            # for m in self.modeFilter:
+#                 p = self.keyDistribution[lick][m] * 1. / total
+#                 if p != 0: tonicEntropy -= p * math.log(p)
+#             output.append(tonicEntropy)
+#             output.append(str(self.keyDistribution[lick]))
+            
+            outputList.append(output)
+        if lick[-1] == '>E' or n+1 == self.treeDepth: return
+        for suffix in sorted(self.suffixTree[n+1][lick]):
+            if suffix == 'total': continue
+            if self.suffixTree[n+1][lick][suffix] >= self.countThreshold:
+                    self.traverseSuffixTree ( lick + suffix, chainLength, outputList )  #calls itself until it can't anymore
+                    
+    def listLicks (self): #creates your output list and starts the suffix tree traversal
+        outputList = list()
+        for note in sorted(self.suffixTree[2]):
+            if note == 'total': continue
+            self.traverseSuffixTree(note, 0, outputList)
+        return outputList 

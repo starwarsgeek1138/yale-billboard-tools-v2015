@@ -4,11 +4,11 @@ mcgillPath = 'mcgill-billboard'
 
 theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = False)
 
-theCorpus.findLicks()
+theCorpus.findLicksNoKey()
 outputList = theCorpus.listLicks()
 
 
-w = csv.writer(open('ngrams-entropyByProgression.csv', 'w'))
+w = csv.writer(open('ngrams-entropyByProgressionNoKey.csv', 'w'))
 for row in outputList:
     w.writerow(row)
     

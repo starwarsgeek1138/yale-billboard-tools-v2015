@@ -6,7 +6,7 @@ mcgillPath = 'mcgill-billboard'
     #Each song's tonic, mode, meter, instrumentation (including tonic/mode/meter change
 #Mode includes ambiguous, major, and minor
 
-theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = True)
+theCorpus = mcgilldata.mcgillCorpus(mcgillPath, testMode = False)
 
 #create spreadsheet with basic song information metadata
 outputCsv = csv.writer(open('csv-results/corpusStatsByVariable.csv', 'wb'))
@@ -14,11 +14,13 @@ headerRow = list()
 headerRow.append('SongID')
 headerRow.append('Title')
 headerRow.append('Artist')
+headerRow.append('Song Length (in mm.)')
+headerRow.append('Song Length in Phrases')
 headerRow.append('Beg. Tonic') 
-headerRow.append('Beg. Mode')
 headerRow.append('Beg. Meter')
 headerRow.append('Meter Change?')
 headerRow.append('Tonic Change?')
+headerRow.append('Beg. Mode')
 headerRow.append('Mode Change?')
 outputCsv.writerow(headerRow)
 
@@ -34,52 +36,37 @@ songTallyMeter = dict() #create dictionary of song meters
 ####CODE INFORMATION
 
 for theSongid, theSong in theCorpus.songs.iteritems():
-    thisRow = list()
 #Build metadata spreadsheet
-    songID = theSongid
-        if songID not in songMetaData:
-            songMetaData[songID] = dict()
-    songMetaData[songID][songTitle] = theSong.title
-    songMetaData[songID][songArtist] = theSong.artist
-    begTonicTrack = 0
-    begMode = 0
+    thisRow = list()
+    thisRow.append(theSongid)
+    thisRow.append(theSong.title)
+    thisRow.append(theSong.artist)
+    thisRow.append(theSong.songLength)
+    thisRow.append(theSong.numPhrases)
+    thisRow.append(theSong.begTonic)
+    thisRow.append(theSong.begMeter)
+    meterChange = 0
+    tonicChange = 0
     for thePhrase in theSong.phrases:
-        #FIND BEGINNING SONG VALUES ONLY (TONIC, METER, MODE)    
         for theMeasure in thePhrase.measures:
-            while begTonicTrack == 0:
-                if theMeasure.measureNumber == 1:
-                    songMetaData[songID]['begTonic'] = theMeasure.tonic
-                    songMetaData[songID]['begMode'] = thePhrase.mode
-                    begMode = 0
-                    songMetaData[songID]['begMeter'] = theMeasure.meter
-                    begTonicTrack += 1
-            meterChange = 0
-            while meterChange == 0:
-                if theMeasure.changeMeter == True:
-                    songMetaData[songID]['meterChange'] = 1
-                    meterChange = 1
-                else:
-                    songMetaData[songID]['meterChange'] = 0
-                    meterChange = 0
-            tonicChange = 0
-            while tonicChange == 0:
-                if theMeasure.changeTonic == True:
-                    songMetaData[songID]['tonicChange'] = 1
-                    tonicChange = 1
-                else:
-                    songMetaData[songID]['tonicChange'] = 0
-                    tonicChange = 0
-                    
-        #POPULATE REMAINDER OF VALUES     
-        phraseMode = thePhrase.mode
-        if phraseMode not in songTallyMode:
-            songTallyMode[phraseMode] = dict()
-        if songID not in songTallyMode[phraseMode]:
-            songTallyMode[phraseMode][songID] = set.counter()    
-        songTallyMode[phraseMode][songID] += 1
-        if phraseMode = begMode:
-            songMetaData[songID]['modeChange'] = 0
-        else: 
-            songMetaDat[songID]['modeChange'] = 1
-            
-outputCsv.writerow(thisRow)
+            if theMeasure.changeMeter == True:
+                meterChange = 1
+            if theMeasure.changeTonic == True:
+                tonicChange = 1
+    thisRow.append(meterChange)
+    thisRow.append(tonicChange)
+    outputCsv.writerow(thisRow)  
+    
+    # for thePhrase in theSong.phrases:
+#         #POPULATE REMAINDER OF VALUES     
+#         phraseMode = thePhrase.mode
+#         if phraseMode not in songTallyMode:
+#             songTallyMode[phraseMode] = dict()
+#         if songID not in songTallyMode[phraseMode]:
+#             songTallyMode[phraseMode][songID] = set.counter()    
+#         songTallyMode[phraseMode][songID] += 1
+#         if phraseMode = begMode:
+#             songMetaData[songID]['modeChange'] = 0
+#         else: 
+#             songMetaDat[songID]['modeChange'] = 1
+#             

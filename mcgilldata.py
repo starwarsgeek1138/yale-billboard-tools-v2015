@@ -100,14 +100,46 @@ formTranslateDict = { #lookup/standardization table for form functions
     'versethree': 'verse',
     'versetwo': 'verse',
     'vocal': ''}
+    
+pitchClassTranslate = {
+    'C' : 0,
+    'B#' : 0,
+    'C#' : 1,
+    'D-' : 1,
+    'D' : 2,
+    'E--': 2,
+    'D#' : 3,
+    'E-' : 3,
+    'E' : 4,
+    'F-' : 4,
+    'E#' : 5, 
+    'F' : 5,
+    'F#' : 6,
+    'G-' : 6,
+    'F##' : 7,
+    'G' : 7,
+    'A--': 7,
+    'G#' : 8,
+    'A-' : 8,
+    'A' : 9,
+    'B--' : 9,
+    'A#' : 10,
+    'B-' : 10,
+    'B' : 11,
+    'C-' : 11 }
 
 class mcgillSong:
     def __init__(self):
+        self.songID = ''
         self.title = ''
         self.artist = ''
         self.phrases = list() 
+        self.numPhrases = '' #number of phrases in song with harmonic content ONLY
         self.measuresFlat = list() #for ease of parsing measure content without opening mcgillPhrase and mcgill Measure
         self.form = list() #gives form of the song
+        self.begTonic = '' #gives beginning tonic of song
+        self.begMeter = '' #gives beginning tonic of song
+        self.songLength = 0 #identifies number of measures in song
     
     @lazy_property #Lazy prop for a flat list of chords with transposed SD and quality
     def chordsFlat(self):
@@ -142,7 +174,7 @@ class mcgillPhrase:
     def __init__(self):
         self.time = -1. #watch emptyMeasure variable for timestamp purposes
         self.measures = list() 
-        self.measureLength = '' #identifies how long phrase is
+        self.measureLength = 0 #identifies how long phrase is
         self.formLetter = '' #identifies formal letter label of phrase
         self.formFunction = list() #identifies formal function of phrase
         self.changeForm = False #determines if change in formal section
@@ -168,7 +200,7 @@ class mcgillMeasure:
         self.chords = list()
         self.changeMeter = False #determines change of meter within song structure
         self.changeTonic = False #determines change of song within song structure
-        self.measureNumber = '' #determines measure number within the phrase
+        self.measureNumber = 0 #determines measure number within the phrase
     def __str__(self): #function for printing measure information
         if len(self.chords) == 0 :
             return 'empty measure' + '\n' #if no chords (i.e. 'N' or *), print as empty measure
@@ -235,13 +267,17 @@ class mcgillCorpus:
                 theFile = open(theFileName, 'r') #theFile is each song: read-only
                 #Establish variables for tonic, meter and potential changes
                 currentTonic = '' 
+                songID = 'theFolder'
                 prevTonic = ''
                 currentMeter = ''
                 prevMeter = ''
                 currentFormLetter = ''
                 currentFormFunction = list()
+                begMeterCounter = 0
+                begTonicCounter = 0
         
                 #Populate classes with individual file data, enumerating through each salami_chords.txt line
+                songPhraseLength = 0 #start phrase counter  
                 for i, theLine in enumerate(theFile):
                     #find title metadata for each song, store as theSong.title
                     if theLine[0:9] == '# title: ':
@@ -259,25 +295,35 @@ class mcgillCorpus:
             
                     #find meter metadata, store as currentMeter
                     elif theLine[0:9] == '# metre: ':
+                        begMeterCounter += 1
                         #if the line is longer than 9 characters, emit error
                         if theLine[9] == ' ':
                             raise RuntimeError('theLine contains too many spaces')  
-                        prevMeter = currentMeter    #identify prevMeter for future use
+                        if begMeterCounter < 2:
+                            prevMeter = theLine[9:-1]
+                            theSong.begMeter = theLine[9:-1]
+                        else:
+                            prevMeter = currentMeter #identify prevMeter for future use
                         currentMeter = theLine[9:-1]
-            
+  
                     #find tonic metadata, store as currentTonic
                     elif theLine[0:9] == '# tonic: ':
+                        begTonicCounter += 1
                         #if the line is longer than 9 characters, emit error
                         if theLine[9] == ' ':
                             raise RuntimeError('theLine contains too many spaces')  
-                        prevTonic = currentTonic #identify prevTonic for future use
+                        if begTonicCounter < 2:
+                            prevTonic = theLine[9:-1]
+                            theSong.begTonic = theLine[9:-1]
+                        else:
+                            prevTonic = currentTonic #identify prevTonic for future use
                         currentTonic = theLine[9:-1]
-            
+                        
                     #Parse data line-by-line; start with timespan data, parse into measures, then into individual chords
                     elif theLine[0] in string.digits: #If a line begins with a digit, assume it's a time marker
                         thePhrase = mcgillPhrase() #store thePhrase as class mcgillPhrase
                         splitLine = string.split(theLine) #split the line by whitespaces
-                        thePhrase.time = float(splitLine[0]) #Set/store timestamp information as float
+                        thePhrase.time = float(splitLine[0]) #Set/store timestamp information as floate
                         thePhrase.theLine = theLine
                         theLine = ' '.join(splitLine[1:]) #theLine without timestamp information
                                 
@@ -398,8 +444,8 @@ class mcgillCorpus:
                                         theChord.rootPC = '.'
                                         currentBeat += 1
                                 theMeasure.chords.append(theChord) #append chord data to theMeasure class
-                                theMeasure.measureNumber = measureCounter   
-                            
+                                theMeasure.measureNumber = measureCounter   #appends # of measure (within phrase)
+                                                                
                             ##FIND BEAT DURATION FOR MEASURES WITH *, N, ' ' or other values   
                             if emptyMeasure : #keeps empty measures from being in analysis
                                 continue
@@ -418,10 +464,15 @@ class mcgillCorpus:
                                 if w < (len(theMeasure.chords) - 1):
                                     theMeasure.chords[w].beatDuration = theMeasure.chords[w+1].beat - theMeasure.chords[w].beat
                                 else:
-                                    theMeasure.chords[w].beatDuration = beatsPerMeasure[currentMeter] - theMeasure.chords[w].beat     
-                            thePhrase.measureLength = int(measureCounter) * 1.0      
+                                    theMeasure.chords[w].beatDuration = beatsPerMeasure[currentMeter] - theMeasure.chords[w].beat                                   
+                            thePhrase.measureLength = int(measureCounter) * 1.0 #stores length of Phrase (in measures) information 
                             thePhrase.measures.append(theMeasure) #append theMeasure information to thePhrase class
                             theSong.measuresFlat.append(theMeasure) #append theMeasure information to theSong class
+                        
+                        if int(thePhrase.measureLength) > 0:  # Gets # of phrases in song and # of measures in song                     
+                            songPhraseLength += 1     
+                        theSong.numPhrases = songPhraseLength #Store length of song (in phrases)                    
+                        theSong.songLength += int(thePhrase.measureLength)  #store total number of measures in song
                         
                         ##MODE: Calculate Phrase Mode Information
                         ##Mode is determined by: 
@@ -436,7 +487,7 @@ class mcgillCorpus:
                             #if minorScore prevails, phrase encoded as minor, chords added to minor dictionary tally
                             thePhrase.mode = 'minor'
                         else:
-                            thePhrase.mode = 'major'           
+                            thePhrase.mode = 'major'       
                         theSong.phrases.append(thePhrase) #append thePhrase information to theSong class
                 self.songs[theFolder] = theSong #define theFolder item number as dictionary key for theSong
         
@@ -448,10 +499,11 @@ class mcgillCorpus:
 ###############################################################################     
 #########TRAVERSE SUFFIX TREE - for chord progression finding##################
 ############################################################################### 
+###CODE FOR FINDING LICKS BASED ON TONICS AND ROMAN NUMERALS
     def findLicks( self, treeDepth = 20, countThreshold = 10, entropyThreshold = .9):
         #Parameters for findLicks:
             #treeDepth - delimits the number of levels created for suffix tree
-            #countThreshold - delimits the size of the count for each case
+            #countThreshold - delimits the size of the count for each case (prefix)
         
         self.suffixTree = dict()
         self.treeDepth = treeDepth
@@ -477,6 +529,7 @@ class mcgillCorpus:
                 for loc in range(len(mList)):
                     if loc >= (len(mList) - n + 1): break #n is length of unit (ngram); must start n-gram with enough room to account for all
                     ngram = tuple(mList[loc:loc+n]) #make the ngram
+                    #print ngram
                     prefix = tuple(ngram[0:-1]) #prefix = all but the last element of ngram
                     suffix = tuple([ngram[-1]]) #suffix = last element of ngram
                     if prefix not in self.suffixTree[n]: #create prefix entry if not in dictionary
@@ -493,17 +546,100 @@ class mcgillCorpus:
                     # tally modal distribution of lick
                     
                     self.keyDistribution[ngram][theSong.begTonic] += 1 #adds ngram to dictionary of tonics
+                    
+###CODE FOR FINDING LICKS NAIVE TO TONIC/RN (BASED ON CHORD QUALITY AND INTERVAL MOTION ONLY)                   
+    def findLicksNoKey(self, treeDepth = 20, countThreshold = 10, entropyThreshold = .9):
+        def transToC(ngram):
+            #print 'I AM TRANSTOC SEE ME TRANSPOSE'
+            transposedNgram = list()
+            def chordSplit(chord):
+                n = chord.rfind('-')
+                p = chord.rfind('#')
+                if n == -1 and p == -1:
+                    y = 0
+                else:
+                    y = max(n,p)
+                chordRoot = chord[0:y+1]
+                chordQuality = chord[y+1:]
+                return (chordRoot, chordQuality)            
+            
+            ####MAKE SURE TO OMIT >S SOMEWHERE
+            first = True
+            for chord in ngram:
+                if chord == '>S' or chord == '>E':
+                    newChord = chord
+                else:
+                    chordParts = chordSplit(chord)
+                    if first:
+                        firstChordRoot = chordParts[0]
+                        transInterval = pitchClassTranslate[firstChordRoot]
+                        first = False
+                    newRoot = pitchClassTranslate[chordParts[0]] - transInterval
+                    newChordRoot = ['C','D-','D','E-','E','F','F#','G','A-','A','B-','B'][newRoot]
+                    newChord = newChordRoot + chordParts[1]
+                transposedNgram.append(newChord)
+            return tuple(transposedNgram)
+    
+        #Parameters for findLicksNoKey:
+            #treeDepth - delimits the number of levels created for suffix tree
+            #countThreshold - delimits the size of the count for each case
+        
+        self.suffixTree = dict()
+        self.treeDepth = treeDepth
+        self.countThreshold = countThreshold
+        self.entropyThreshold = entropyThreshold
+        for n in range(1,self.treeDepth+1): #sets up suffix tree - a dict of dict for progressions of various lengths (n)
+            self.suffixTree[n] = dict()
+            self.suffixTree[n]['total'] = 0
+
+        self.keyDistribution = collections.defaultdict(collections.Counter)
+            #are certain progressions confined to specific keys?
+
+
+        for theSongID, theSong in self.songs.items():
+
+            mList = theSong.chordsFlat
+            # Build suffix tree
+            songID = str(theSong.songID)
+            songTree = dict()
+
+            for n in range(1, self.treeDepth+1):
+    
+                # suffix tree
+    
+                for loc in range(len(mList)):
+                    if loc >= (len(mList) - n + 1): 
+                        break #n is length of unit (ngram); must start n-gram with enough room to account for all
+                    ngram = transToC(mList[loc:loc+n]) #make the ngram, transposes to C based on first chord of progression
+                    prefix = tuple(ngram[0:-1]) #prefix = all but the last element of ngram
+                    suffix = tuple([ngram[-1]]) #suffix = last element of ngram
+                    if prefix not in self.suffixTree[n]: #create prefix entry if not in dictionary
+                        self.suffixTree[n][prefix] = dict() #tallies number of times that the suffix follows this prefix
+                        self.suffixTree[n][prefix]['total'] = 0 
+                    if suffix in self.suffixTree[n][prefix]:
+                        self.suffixTree[n][prefix][suffix] += 1
+                        songTree[prefix+suffix] = songID
+                    else:
+                        self.suffixTree[n][prefix][suffix] = 1
+                        songTree[prefix+suffix] = songID
+                    self.suffixTree[n][prefix]['total'] += 1
+            
+                    self.suffixTree[n]['total'] += 1
+        
+                    # tally modal distribution of lick
+                    
+                    self.keyDistribution[ngram][theSong.begTonic] += 1 #adds ngram to dictionary of tonics
 
     def traverseSuffixTree ( self, lick, chainLength, outputList ):
         #traverse through suffix tree (built above)
 
-        def suffixProb ( lick ): #probability that, given a lick, the suffix follows the prefix
-            n = len(lick)
+        def suffixProb ( lick ): #probability that, given the first n-1 elements of lick, the last element will follow (when n is the number of elements of lick)
+            n = len(lick) 
             branch = self.suffixTree[n][lick[0:-1]]
 #             print lick, lick[-1], branch
             return branch[(lick[-1],)] * 1. / branch['total']
         
-        def suffixEntropy ( lick ): #treats the lick as a prefix and calculates entropy of the distribution of suffixes
+        def suffixEntropy ( lick ): #treats lick as a prefix; calculates the entropy of the distribution of all possible suffixes (after lick, suffix is NOT part of lick)
             n = len(lick) + 1
             H = 9.99 #set ceiling on H (entropy)
             if n > 1 and n <= self.treeDepth and lick[-1] != '>E':
@@ -519,33 +655,41 @@ class mcgillCorpus:
             return H
 
         n = len(lick) 
-        theSuffixEntropy = suffixEntropy(lick)
+        theSuffixEntropy = suffixEntropy(lick) #again: suffix used to calculate entropy is the event AFTER lick (not part of lick)
         
         sortString = '' 
         for i in reversed(lick):
             sortString += i
+        
+        lickSongs = ''
+        for s in (songTree[lick]['songs']):
+            sortString += i + ' '     
             
         hashes = ''
-        
+        #OUTPUT TABLE OF CHORD PROGRESSIONS  
         #output = row of ngram (lick) + parameters
         output = list() 
         output.append(self.suffixTree[n][lick[0:-1]][lick[-1:]]) #how many times does a lick happen?
-        output.append(len(lick))
-        for i in range(n,self.treeDepth-1): output.append('') #empty cells
-        for c in lick: output.append(c) #chords in lick 
+        output.append(len(lick)) #how many chords are in a lick?
+        for c in lick: output.append(c) #output the chords in lick 
+        for i in range(n,self.treeDepth-1): output.append('') #empty cells for alignment
         output.append(theSuffixEntropy) #resulting entropy at end of lick (treats lick as prefix)
-        if suffixProb(lick) < .5: chainLength = 0 #If probability of last chord in ngram is less than 0.5 for the rest of the ngram, set chainLength to 0
-        if theSuffixEntropy < self.entropyThreshold - .3: #if entropy after last chord is less than set threshold, add 1 to chainLength 1
-            chainLength += 1
-        if chainLength != 0 and theSuffixEntropy >= self.entropyThreshold: #if entropy below threshold 
+        if suffixProb(lick) < .5: chainLength = 0
+            #If probability of last event in lick is less than 0.5 given the first n-1 elements of the lick, set chainLength to 0 (THUS: WITHIN LICK, no elements after included)
+        if theSuffixEntropy < self.entropyThreshold - .3: 
+            #If the entropy after last element of the lick is less than set threshold (minus .3), chainLength will increase by 1 (THUS: refers to entropy AFTER LICK)
+            chainLength += 1 #thus: if we have low entropy following lick (AKA high certainty of what event will follow), then add 1 (which will turn into a hash)
+        if chainLength != 0 and theSuffixEntropy >= self.entropyThreshold: 
+            #if chainlength has other value than zero AND entropy after the lick is larger than the set threshold 
             if theSuffixEntropy >= self.entropyThreshold: 
-                for i in range(chainLength):
+                for i in range(chainLength): #number of hashes is telling me what the chainLength is for a particular lick
                     hashes += '#' 
             chainLength = 0 #starts at zero
-        output.append(hashes)
+        output.append(hashes) 
             
         if hashes != '': 
             output.append('_'+sortString)
+            output.append(lickSongs)
             
             # calculate entropy of this lick's distribution over selected modes
 
@@ -561,11 +705,12 @@ class mcgillCorpus:
 #             output.append(tonicEntropy)
 #             output.append(str(self.keyDistribution[lick]))
             
-            outputList.append(output)
-        if lick[-1] == '>E' or n+1 == self.treeDepth: return
-        for suffix in sorted(self.suffixTree[n+1][lick]):
-            if suffix == 'total': continue
-            if self.suffixTree[n+1][lick][suffix] >= self.countThreshold:
+            outputList.append(output) #row is only appended to the table if the row has hashes (otherwise, the row is thrown out)
+        if lick[-1] == '>E' or n+1 == self.treeDepth: return 
+        #only time we stop running this function is if A) we reach an end token or B) the tree is filled up (determined by treeDepth variable and length of lick (n))
+        for suffix in sorted(self.suffixTree[n+1][lick]): #goes through the sorted suffixes for a given lick
+            if suffix == 'total': continue 
+            if self.suffixTree[n+1][lick][suffix] >= self.countThreshold:  #If the count of licks given a specific suffix is greater than the threshold, then the function will continue running
                     self.traverseSuffixTree ( lick + suffix, chainLength, outputList )  #calls itself until it can't anymore
                     
     def listLicks (self): #creates your output list and starts the suffix tree traversal

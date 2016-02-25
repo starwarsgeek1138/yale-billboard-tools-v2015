@@ -267,7 +267,7 @@ class mcgillCorpus:
                 theFile = open(theFileName, 'r') #theFile is each song: read-only
                 #Establish variables for tonic, meter and potential changes
                 currentTonic = '' 
-                songID = 'theFolder'
+                theSong.songID = theFolder
                 prevTonic = ''
                 currentMeter = ''
                 prevMeter = ''
@@ -550,7 +550,6 @@ class mcgillCorpus:
 ###CODE FOR FINDING LICKS NAIVE TO TONIC/RN (BASED ON CHORD QUALITY AND INTERVAL MOTION ONLY)                   
     def findLicksNoKey(self, treeDepth = 20, countThreshold = 10, entropyThreshold = .9):
         def transToC(ngram):
-            #print 'I AM TRANSTOC SEE ME TRANSPOSE'
             transposedNgram = list()
             def chordSplit(chord):
                 n = chord.rfind('-')
@@ -585,12 +584,14 @@ class mcgillCorpus:
             #countThreshold - delimits the size of the count for each case
         
         self.suffixTree = dict()
+        self.songIDLicks = dict()
         self.treeDepth = treeDepth
         self.countThreshold = countThreshold
         self.entropyThreshold = entropyThreshold
         for n in range(1,self.treeDepth+1): #sets up suffix tree - a dict of dict for progressions of various lengths (n)
             self.suffixTree[n] = dict()
             self.suffixTree[n]['total'] = 0
+            self.songIDLicks[n] = dict() #create dictionary of songIDs for specific licks
 
         self.keyDistribution = collections.defaultdict(collections.Counter)
             #are certain progressions confined to specific keys?
@@ -601,10 +602,8 @@ class mcgillCorpus:
             mList = theSong.chordsFlat
             # Build suffix tree
             songID = str(theSong.songID)
-            songTree = dict()
-
+            
             for n in range(1, self.treeDepth+1):
-    
                 # suffix tree
     
                 for loc in range(len(mList)):
@@ -616,12 +615,14 @@ class mcgillCorpus:
                     if prefix not in self.suffixTree[n]: #create prefix entry if not in dictionary
                         self.suffixTree[n][prefix] = dict() #tallies number of times that the suffix follows this prefix
                         self.suffixTree[n][prefix]['total'] = 0 
+                        self.songIDLicks[n][prefix] = dict()
                     if suffix in self.suffixTree[n][prefix]:
-                        self.suffixTree[n][prefix][suffix] += 1
-                        songTree[prefix+suffix] = songID
+                        self.suffixTree[n][prefix][suffix] += 1 #adds one to number of times suffix follows the prefix
+                        self.songIDLicks[n][prefix][suffix].append(songID)
                     else:
-                        self.suffixTree[n][prefix][suffix] = 1
-                        songTree[prefix+suffix] = songID
+                        self.suffixTree[n][prefix][suffix] = 1 
+                        self.songIDLicks[n][prefix][suffix] = list()
+                        self.songIDLicks[n][prefix][suffix].append(songID) #adds song to songID dictionary based on progression
                     self.suffixTree[n][prefix]['total'] += 1
             
                     self.suffixTree[n]['total'] += 1
@@ -634,12 +635,12 @@ class mcgillCorpus:
         #traverse through suffix tree (built above)
 
         def suffixProb ( lick ): #probability that, given the first n-1 elements of lick, the last element will follow (when n is the number of elements of lick)
-            n = len(lick) 
-            branch = self.suffixTree[n][lick[0:-1]]
+            n = len(lick) #determines number of chords in the lick
+            branch = self.suffixTree[n][lick[0:-1]] #identifies the lick elements from first to last (the last then becomes the "suffix")
 #             print lick, lick[-1], branch
-            return branch[(lick[-1],)] * 1. / branch['total']
-        
-        def suffixEntropy ( lick ): #treats lick as a prefix; calculates the entropy of the distribution of all possible suffixes (after lick, suffix is NOT part of lick)
+            return branch[(lick[-1],)] * 1. / branch['total'] #finds total number of times last element of lick appears,  multiplies by 1/total branches
+            
+        def suffixEntropy ( lick ): #treats whole lick as prefix; calculates the entropy of the distribution of all possible suffixes (after lick, suffix is NOT part of lick)
             n = len(lick) + 1
             H = 9.99 #set ceiling on H (entropy)
             if n > 1 and n <= self.treeDepth and lick[-1] != '>E':
@@ -660,11 +661,7 @@ class mcgillCorpus:
         sortString = '' 
         for i in reversed(lick):
             sortString += i
-        
-        lickSongs = ''
-        for s in (songTree[lick]['songs']):
-            sortString += i + ' '     
-            
+    
         hashes = ''
         #OUTPUT TABLE OF CHORD PROGRESSIONS  
         #output = row of ngram (lick) + parameters
@@ -686,9 +683,19 @@ class mcgillCorpus:
                     hashes += '#' 
             chainLength = 0 #starts at zero
         output.append(hashes) 
-            
+        
+           
         if hashes != '': 
             output.append('_'+sortString)
+        #Song IDs (of those containing licks) added to spreadsheet
+            lickSongs = ''
+            songDupRemove = list()
+            for s in sorted(self.songIDLicks[n][lick[0:-1]][lick[-1:]]):
+                if s in songDupRemove:
+                    pass
+                else:
+                    songDupRemove.append(s)
+            lickSongs = "; ".join(songDupRemove)
             output.append(lickSongs)
             
             # calculate entropy of this lick's distribution over selected modes

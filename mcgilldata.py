@@ -315,12 +315,12 @@ class mcgillCorpus:
 
 		pickleFilename = 'mcgillCorpusData.pickle'
 		if os.path.isfile(pickleFilename):
-			sys.stderr.write("getting data from pickle... ")
+			sys.stderr.write("getting data from Song Corpus pickle... ")
 			start = time.clock()
 			self.songs = cPickle.load(open(pickleFilename, 'r'))
 			sys.stderr.write(str(time.clock()-start) + ' secs\n')
 		else:
-			sys.stderr.write("data pickle not found, recalculating... ")
+			sys.stderr.write("Song Corpus data pickle not found, recalculating... ")
 			start = time.clock()
 			self.songs = dict() #songs is a dictionary of songs instances
 			for j,theFolder in enumerate(os.listdir(mcgillPath)): # establish folder as mcgillPath to parse files
@@ -619,6 +619,19 @@ class mcgillCorpus:
 					
 ###CODE FOR FINDING LICKS NAIVE TO TONIC/RN (BASED ON CHORD QUALITY AND INTERVAL MOTION ONLY)
 	def findLicksNoKey(self, treeDepth = 20, countThreshold = 10, entropyThreshold = .9):
+		########################################
+		#########PICKLE #2 #####################
+		########################################
+		pickleFilename = 'mcgillCorpusDataEntropyProgs.pickle'
+		if os.path.isfile(pickleFilename):
+			sys.stderr.write("getting data from Entropy pickle... ")
+			start = time.clock()
+			self.songs = cPickle.load(open(pickleFilename, 'r'))
+			sys.stderr.write(str(time.clock()-start) + ' secs\n')
+		else:
+			sys.stderr.write("Entropy data pickle not found, recalculating... ")
+			start = time.clock()
+			
 		def transToC(ngram):
 			transposedNgram = list()
 			def chordSplit(chord):
@@ -657,7 +670,7 @@ class mcgillCorpus:
 					newChord = chordParts[2] + newChordRoot + chordParts[1] + chordParts[3] #new chord = chord beat + transposed root + chord quality + chord Form --> get rid of chordParts[2] if no beat info included
 				transposedNgram.append(newChord)
 			return tuple(transposedNgram)
-	
+			
 		#Parameters for findLicksNoKey:
 			#treeDepth - delimits the number of levels created for suffix tree
 			#countThreshold - delimits the size of the count for each case
@@ -725,9 +738,14 @@ class mcgillCorpus:
 					# tally modal distribution of lick
 					
 					#self.keyDistribution[ngram][theSong.begTonic] += 1 #adds ngram to dictionary of tonics
+		
+		#write pickle
+		cPickle.dump(self.songs, open(pickleFilename,'w'), protocol=cPickle.HIGHEST_PROTOCOL)
+		sys.stderr.write(str(time.clock()-start) + ' secs\n')
 
 	def traverseSuffixTree ( self, lick, chainLength, outputList ):
 		#traverse through suffix tree (built above)
+		
 
 		def suffixProb ( lick ): #probability that, given the first n-1 elements of lick, the last element will follow (when n is the number of elements of lick)
 			n = len(lick) #determines number of chords in the lick
@@ -817,40 +835,40 @@ class mcgillCorpus:
 			output.append(loop)	 
 			output.append(repeats)
 			#####ABSTRACTION OF LOOP CHORDS #####
-			print loop 
 			prevRoot = str() #dummy variable to keep track of previous chord root
-			for i in loop: #iterate through chords in loop
-				chord = str(loop[i]) #turn chord tuple into string for finding info
+			for i in range (0, len(loop)): #iterate through chords in loop
+				testChord = str(loop[i]) #turn chord tuple into string for finding info
 				#find accidentals in chord root
-				accIndex1 = loop.rfind(chord, '-') 
-				accIndex2 = loop.rfind(chord, '#')
+				accIndex1 = testChord.rfind('-') 
+				accIndex2 = testChord.rfind('#')
 				if accIndex1 > -1: #if chord root contains flats, find quality after
-					chordBeat = chord[0]
-					chordRoot = chord[1:accIndex1+1]
-					chordQual = chord[accIndex1:]
+					chordBeat = testChord[0]
+					chordRoot = testChord[1:accIndex1+1]
+					chordQual = testChord[accIndex1+1:]
 					prevRoot = chordRoot
-				elif accIndex2 > -2: #if chord root contains sharp, find quality after
-					chordBeat = chord[0]
-					chordRoot = chord[1:accIndex2+1]
-					chordQual = chord[accIndex2:]
+				elif accIndex2 > -1: #if chord root contains sharp, find quality after
+					chordBeat = testChord[0]
+					chordRoot = testChord[1:accIndex2+1]
+					chordQual = testChord[accIndex2+1:]
 					prevRoot = chordRoot
 				else: #if chord root contains neither, find quality after root name
-					chordBeat = chord[0]
-					chordRoot = chord[1]
-					chordQual = chord[2:]
+					chordBeat = testChord[0]
+					chordRoot = testChord[1]
+					chordQual = testChord[2:]
 					prevRoot = chordRoot
 				#find distance interval from previous chord 
 				if prevRoot == '': #if no previous chord, distance = 0
-					chorDist = ''
+					chordDist = ''
 				else:	
-					y = int(rootTransform(chordRoot)) #turn chordRoot into integer, mod12
-					x = int(rootTransform(prevRoot)) #turn prevRoot into integer, mod12
-					chordDist = (y - x) % 12
+					y = int(pitchClassTranslate[chordRoot]) 
+					x = int(pitchClassTranslate[prevRoot]) 
+					chordDist = (y - x) % 12 #find interval distance mod 12
 				chordAbst = chordQual + '_' + chordBeat
 				output.append(chordDist) #append chord distance from previous chord 
 				output.append(chordAbst) #append chord abstraction	 
 			#####empty cells for alignment#######
-			for i in range(len(loop),maxloopLength): output.append('')	  
+			for i in range(len(loop),self.treeDepth-1): 
+			    output.append('')	  
 			
 			####Song IDs (of those containing licks) added to spreadsheet
 			lickSongs = set()
@@ -901,7 +919,7 @@ class mcgillCorpus:
 			if suffix == 'total': continue 
 			if self.suffixTree[n+1][lick][suffix] >= self.countThreshold:  #If the count of licks given a specific suffix is greater than the threshold, then the function will continue running
 					self.traverseSuffixTree ( lick + suffix, chainLength, outputList )	#calls itself until it can't anymore
-					
+		
 	def listLicks (self): #creates your output list and starts the suffix tree traversal
 		outputList = list()
 		self.suffixTreeCounter = 0 ###Set counter for CASE IDs of progressions
@@ -909,3 +927,4 @@ class mcgillCorpus:
 			if note == 'total': continue
 			self.traverseSuffixTree(note, 0, outputList)
 		return outputList 
+		

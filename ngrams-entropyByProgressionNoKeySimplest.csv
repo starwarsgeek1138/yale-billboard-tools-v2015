@@ -1,0 +1,900 @@
+22,8,>S,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Fmaj,,,,,,,,,,,,1.1191194231256716,##,_FmajAminCmajGmajFmajAminCmaj>S,0054; 0067; 0112; 0119; 0145; 0247; 0253; 0263; 0267; 0355; 0362; 0402; 0404; 0571; 0596; 0620; 0749; 1063; 1091; 1152; 1210; 1228
+10,6,>S,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,,,,,,,,,,,,,,1.5709505944546687,#,_CmajFmajB-majFmajCmaj>S,0071; 0515; 0562; 0635; 0689; 0773; 0792; 0802; 0915; 1041
+23,14,>S,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,1.6818990675226109,####,_CmajFmajCmajFmajCmajFmajCmajFmajCmajFmajCmajFmajCmaj>S,0023; 0050; 0203; 0234; 0330; 0347; 0391; 0403; 0452; 0559; 0619; 0668; 0674; 0830; 0870; 0969; 0987; 1100; 1113; 1117; 1123; 1135; 1139
+18,6,>S,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,,,,,,,,,,,,,,0.9444885341662053,#,_FmajCmajGmajFmajCmaj>S,0220; 0224; 0235; 0280; 0294; 0324; 0432; 0443; 0446; 0500; 0615; 0729; 0783; 0807; 0839; 0873; 0902; 1094
+11,5,>S,Cmin,B-maj,Cmin,B-maj,,,,,,,,,,,,,,,1.0957952550009338,#,_B-majCminB-majCmin>S,0092; 0100; 0141; 0150; 0210; 0260; 0382; 0812; 0889; 0945; 1300
+10,4,>S,Cmin,Gmaj,Cmin,,,,,,,,,,,,,,,,1.8464393446710154,#,_CminGmajCmin>S,0396; 0683; 0692; 0768; 0814; 0845; 1013; 1120; 1147; 1182
+20,4,C,E-maj,B-maj,Cmin,,,,,,,,,,,,,,,,1.1567796494470395,#,_CminB-majE-majC,1169; 1260
+14,10,C,E-maj,B-maj,Cmin,B-maj,Cmaj,C,E-maj,B-maj,Cmin,,,,,,,,,,1.3787834934861758,#####,_CminB-majE-majCCmajB-majCminB-majE-majC,1169; 1260
+11,4,Cdim,A-no3,B-maj,E-maj,,,,,,,,,,,,,,,,1.3092966682370037,##,_E-majB-majA-no3Cdim,0205
+12,4,Cdim,B-no3,E-maj,B-maj,,,,,,,,,,,,,,,,1.4591479170272446,##,_B-majE-majB-no3Cdim,0240; 0295
+20,9,Cdim,E-dim,B-maj,Dmin,Cmin,E-min,B-maj,Gmaj,Cmin,,,,,,,,,,,1.1567796494470395,######,_CminGmajB-majE-minCminDminB-majE-dimCdim,0517; 0680
+14,6,Cdim,Emaj,Amaj,Bmaj,Emaj,Amaj,,,,,,,,,,,,,,2.2359263506290326,####,_AmajEmajBmajAmajEmajCdim,0516; 1132
+20,8,Cdim,Gmaj,Bmin,Amin,Cmin,Gmaj,Emaj,Amin,,,,,,,,,,,,1.1567796494470395,#####,_AminEmajGmajCminAminBminGmajCdim,0517; 0680
+10,19,Cdim,Gmaj,Bmin,Amin,Cmin,Gmaj,Emaj,Amin,Gmaj,Amin,Adim,Cdim,Gmaj,Bmin,Amin,Cmin,Gmaj,Emaj,Amin,1.5219280948873621,#########,_AminEmajGmajCminAminBminGmajCdimAdimAminGmajAminEmajGmajCminAminBminGmajCdim,0517; 0680
+18,4,Cmaj,Adim,Gmaj,Gno3,,,,,,,,,,,,,,,,1.0,#,_Gno3GmajAdimCmaj,0705; 0888; 1250
+32,6,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,,,,,,,,,,,,,,1.5980505277442498,#,_AmajCmajAmajCmajAmajCmaj,0284; 0533; 0743; 0828
+21,8,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,,,,,,,,,,,,1.3752580686696534,#,_AmajCmajAmajCmajAmajCmajAmajCmaj,0533; 0743; 0828
+14,10,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,Cmaj,Amaj,,,,,,,,,,1.4299111709758698,#,_AmajCmajAmajCmajAmajCmajAmajCmajAmajCmaj,0533; 0743; 0828
+24,7,Cmaj,Amaj,Dmaj,Cmaj,Amaj,Dmaj,Cmaj,,,,,,,,,,,,,1.0238995733215066,##,_CmajDmajAmajCmajDmajAmajCmaj,1220
+19,10,Cmaj,Amaj,Dmaj,Cmaj,Amaj,Dmaj,Cmaj,Amaj,Dmaj,Cmaj,,,,,,,,,,1.192250860234642,##,_CmajDmajAmajCmajDmajAmajCmajDmajAmajCmaj,1220
+44,7,Cmaj,Amaj,Dmaj,Gmaj,Cmaj,Amaj,Dmaj,,,,,,,,,,,,,0.9187596163744738,#,_DmajAmajCmajGmajDmajAmajCmaj,0041; 0307; 0322; 0554; 0733; 0761; 1133; 1162
+14,13,Cmaj,Amaj,Dmaj,Gmaj,Cmaj,Amaj,Dmaj,Gmaj,Cmaj,Amaj,Dmaj,Gmaj,Cmaj,,,,,,,1.4315602842833155,#,_CmajGmajDmajAmajCmajGmajDmajAmajCmajGmajDmajAmajCmaj,0041; 0307; 0322; 0554; 0733; 0761; 1133; 1162
+25,6,Cmaj,Amaj,Dmaj,Gmin,B-maj,Cmaj,,,,,,,,,,,,,,0.904381457724494,##,_CmajB-majGminDmajAmajCmaj,0381; 0837; 0999
+12,15,Cmaj,Amaj,Dmaj,Gno3,Dmaj,E-maj,B-maj,A-maj,Gmin,Gno3,Dmaj,E-maj,Cmaj,Amaj,Dmaj,,,,,0.9182958340544896,###########,_DmajAmajCmajE-majDmajGno3GminA-majB-majE-majDmajGno3DmajAmajCmaj,0381; 0999
+12,14,Cmaj,Amaj,Dmin,Cmaj,Dmin,Ddim,Fdim,Cmaj,Emin,Dmin,Fmin,Cmaj,Amaj,Dmin,,,,,,1.4591479170272448,#########,_DminAmajCmajFminDminEminCmajFdimDdimDminCmajDminAmajCmaj,0517; 0680
+10,16,Cmaj,Amaj,Dmin,Gmaj,Cmaj,Amaj,Dmin,Gmaj,Cmaj,Amaj,Dmin,Gmaj,Cmaj,Amaj,Dmin,Gmaj,,,,0.9219280948873623,#######,_GmajDminAmajCmajGmajDminAmajCmajGmajDminAmajCmajGmajDminAmajCmaj,0789
+20,4,Cmaj,Amaj,F#maj,Bmaj,,,,,,,,,,,,,,,,0.9709505944546686,#,_BmajF#majAmajCmaj,0381; 0999
+12,16,Cmaj,Amaj,F#maj,Bmaj,Eno3,Bmaj,Cmaj,Gmaj,Fmaj,Emin,Eno3,Bmaj,Cmaj,Amaj,F#maj,Bmaj,,,,0.9182958340544896,###########,_BmajF#majAmajCmajBmajEno3EminFmajGmajCmajBmajEno3BmajF#majAmajCmaj,0381; 0999
+12,6,Cmaj,Amaj,Fmaj,Gmaj,Fmaj,Gmaj,,,,,,,,,,,,,,1.0,#,_GmajFmajGmajFmajAmajCmaj,0568; 0846
+14,17,Cmaj,Amin,B-maj,Dmin,Cmaj,Amin,B-maj,Dmin,Cmaj,Amin,B-maj,Dmin,Cmaj,Amin,B-maj,Dmin,Cmaj,,,0.946372935985442,##########,_CmajDminB-majAminCmajDminB-majAminCmajDminB-majAminCmajDminB-majAminCmaj,0741
+12,9,Cmaj,Amin,B-maj,Gmin,Cmaj,Amin,B-maj,Gmin,Cmaj,,,,,,,,,,,0.9182958340544896,####,_CmajGminB-majAminCmajGminB-majAminCmaj,0158; 1237
+96,10,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,,,,,,,,,,1.181641354831407,#,_AminCmajAminCmajAminCmajAminCmajAminCmaj,0112; 0250; 0310; 0400; 0404; 0543; 0549; 0596; 0617; 0730; 0818; 0920; 1020; 1091; 1270
+72,12,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,,,,,,,,1.2955890242712345,#,_AminCmajAminCmajAminCmajAminCmajAminCmajAminCmaj,0112; 0310; 0400; 0404; 0549; 0596; 0617; 0730; 0920; 1020; 1091; 1270
+52,14,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,,,,,,1.1784822892567672,#,_AminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmaj,0112; 0310; 0400; 0404; 0596; 0617; 0730; 0920; 1091; 1270
+40,16,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,,,,1.2040157730728,#,_AminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmaj,0112; 0310; 0400; 0404; 0596; 0920; 1091; 1270
+30,18,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,,0.9218339291539107,#,_AminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmajAminCmaj,0112; 0400; 0404; 0596; 0920; 1091; 1270
+14,11,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Cmaj,Gmaj,Emin,Cmaj,Gmaj,,,,,,,,,1.4488156357251847,###,_GmajCmajEminGmajCmajAminCmajAminCmajAminCmaj,0390; 0522
+13,9,Cmaj,Amin,Cmaj,Amin,Cmaj,Amin,Fmaj,Gmaj,Cmaj,,,,,,,,,,,1.1401156785146092,#,_CmajGmajFmajAminCmajAminCmajAminCmaj,0250; 0549; 0598; 0617; 0730; 0902
+14,9,Cmaj,Amin,Cmaj,Amin,Cmaj,Gmaj,Emin,Cmaj,Gmaj,,,,,,,,,,,1.4488156357251847,##,_GmajCmajEminGmajCmajAminCmajAminCmaj,0390; 0522
+24,7,Cmaj,Amin,Cmaj,Amin,Fmaj,Gmaj,Cmaj,,,,,,,,,,,,,1.1760651037159442,#,_CmajGmajFmajAminCmajAminCmaj,0217; 0250; 0401; 0450; 0549; 0598; 0616; 0617; 0730; 0902
+11,10,Cmaj,Amin,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Cmaj,Amin,,,,,,,,,,1.823067982273661,#,_AminCmajAminCmajGmajFmajAminCmajAminCmaj,0598; 0616; 0617; 0730
+10,7,Cmaj,Amin,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,,0.9219280948873623,#,_CmajFmajCmajFmajCmajAminCmaj,0112; 0390; 0522; 0596; 1020; 1066
+14,7,Cmaj,Amin,Cmaj,Gmaj,Emin,Cmaj,Gmaj,,,,,,,,,,,,,1.4488156357251847,##,_GmajCmajEminGmajCmajAminCmaj,0390; 0522
+12,7,Cmaj,Amin,Dmaj,Bmin,Cmaj,Amin,Dmaj,,,,,,,,,,,,,0.9182958340544896,##,_DmajAminCmajBminDmajAminCmaj,0158; 1237
+81,9,Cmaj,Amin,Dmin,Gmaj,Cmaj,Amin,Dmin,Gmaj,Cmaj,,,,,,,,,,,1.2601721282321614,##,_CmajGmajDminAminCmajGmajDminAminCmaj,0218; 0315; 0484; 0728; 0831; 0834; 0926; 0986; 1046; 1161
+60,12,Cmaj,Amin,Dmin,Gmaj,Cmaj,Amin,Dmin,Gmaj,Cmaj,Amin,Dmin,Gmaj,,,,,,,,0.9394142632300228,##,_GmajDminAminCmajGmajDminAminCmajGmajDminAminCmaj,0315; 0484; 0728; 0926; 0986
+11,6,Cmaj,Amin,Dmin,Gmaj,Fmaj,Cmaj,,,,,,,,,,,,,,1.4949188482339508,#,_CmajFmajGmajDminAminCmaj,0371; 0434; 0484; 0779; 0816
+19,6,Cmaj,Amin,Dmin,Gno3,Cmaj,Amin,,,,,,,,,,,,,,0.9819407868640977,#,_AminCmajGno3DminAminCmaj,0698; 0819; 0967
+27,10,Cmaj,Amin,Dno3,Gmaj,Emin,Cmaj,Amin,Dno3,Gmaj,Emin,,,,,,,,,,1.3516441151533924,####,_EminGmajDno3AminCmajEminGmajDno3AminCmaj,0309; 0769; 1084
+15,15,Cmaj,Amin,Dno3,Gmaj,Emin,Cmaj,Amin,Dno3,Gmaj,Emin,Cmaj,Amin,Dno3,Gmaj,Emin,,,,,1.3709505944546687,####,_EminGmajDno3AminCmajEminGmajDno3AminCmajEminGmajDno3AminCmaj,0309; 0769; 1084
+14,7,Cmaj,Amin,Emaj,Amin,Cmaj,Gmaj,Cmaj,,,,,,,,,,,,,1.4299111709758698,##,_CmajGmajCmajAminEmajAminCmaj,0845
+12,7,Cmaj,Amin,Emin,Gno3,Gmaj,Cmaj,Amin,,,,,,,,,,,,,0.9182958340544896,##,_AminCmajGmajGno3EminAminCmaj,0419
+12,4,Cmaj,Amin,F#dim,Bmaj,,,,,,,,,,,,,,,,1.0408520829727552,#,_BmajF#dimAminCmaj,0856
+16,14,Cmaj,Amin,Fmaj,Amin,Cmaj,Fmaj,Fmin,Cmaj,Gmin,Cmaj,Fmaj,Fmin,Cmaj,Amin,,,,,,1.0,########,_AminCmajFminFmajCmajGminCmajFminFmajCmajAminFmajAminCmaj,0240; 0295
+18,7,Cmaj,Amin,Fmaj,Cmaj,Amin,Cmaj,Amin,,,,,,,,,,,,,0.9864267287308424,#,_AminCmajAminCmajFmajAminCmaj,0228; 0310; 0814; 1120
+26,8,Cmaj,Amin,Fmaj,Cmaj,Amin,Fmaj,Cmaj,Amin,,,,,,,,,,,,1.586806896479181,#,_AminCmajFmajAminCmajFmajAminCmaj,0188; 0698; 0814; 1120
+10,6,Cmaj,Amin,Fmaj,Cno3,Cmaj,Amin,,,,,,,,,,,,,,1.0,##,_AminCmajCno3FmajAminCmaj,0698
+39,7,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,,,,,,,,,,,,,1.1401156785146092,##,_AminCmajGno3DminFmajAminCmaj,0309; 0769; 1084
+27,12,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,,,,,,,,1.3516441151533922,####,_AminCmajGno3DminFmajAminCmajGno3DminFmajAminCmaj,0309; 0769; 1084
+15,17,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,Fmaj,Dmin,Gno3,Cmaj,Amin,,,1.3709505944546687,####,_AminCmajGno3DminFmajAminCmajGno3DminFmajAminCmajGno3DminFmajAminCmaj,0309; 0769; 1084
+10,8,Cmaj,Amin,Fmaj,Emin,Cmaj,Amin,Fmaj,Emin,,,,,,,,,,,,0.9709505944546686,###,_EminFmajAminCmajEminFmajAminCmaj,0091
+14,8,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Cmaj,Amin,,,,,,,,,,,,1.8352377453121176,#,_AminCmajAminCmajGmajFmajAminCmaj,0404; 0598; 0616; 0617; 0730; 1091
+208,8,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Fmaj,Gmaj,,,,,,,,,,,,1.0064915961758079,#,_GmajFmajAminCmajGmajFmajAminCmaj,0054; 0067; 0119; 0120; 0145; 0169; 0247; 0253; 0263; 0355; 0362; 0402; 0549; 0568; 0571; 0598; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1063; 1094; 1152; 1210; 1211; 1228
+145,12,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Fmaj,Gmaj,,,,,,,,0.9687635162753905,##,_GmajFmajAminCmajGmajFmajAminCmajGmajFmajAminCmaj,0054; 0119; 0120; 0145; 0247; 0253; 0263; 0362; 0402; 0568; 0571; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1094; 1152; 1210; 1211
+12,8,Cmaj,Amin,Fmaj,Gmaj,Cmaj,Amin,Gmaj,Cmaj,,,,,,,,,,,,0.9182958340544896,#,_CmajGmajAminCmajGmajFmajAminCmaj,0217; 0450; 0587; 1007
+11,6,Cmaj,Amin,Fmaj,Gmaj,Emin,Gmaj,,,,,,,,,,,,,,1.2406705316766886,#,_GmajEminGmajFmajAminCmaj,1232
+24,15,Cmaj,Amin,Fmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Amin,Fmaj,Gmaj,Fmaj,Cmaj,Gmaj,,,,,1.4056390622295662,#######,_GmajCmajFmajGmajFmajAminCmajFmajGmajCmajFmajGmajFmajAminCmaj,0705; 0888; 1250
+26,5,Cmaj,Amin,Fmin,Gmaj,Cmaj,,,,,,,,,,,,,,,1.1401156785146092,##,_CmajGmajFminAminCmaj,0157; 0267; 0386; 0444; 0603
+12,9,Cmaj,Amin,Fmin,Gmaj,Cmaj,Amin,Fmin,Gmaj,Cmaj,,,,,,,,,,,1.2516291673878228,##,_CmajGmajFminAminCmajGmajFminAminCmaj,0157; 0603
+19,8,Cmaj,Amin,Gmaj,Fmaj,Cmaj,Amin,Gmaj,Fmaj,,,,,,,,,,,,1.457424881409171,#,_FmajGmajAminCmajFmajGmajAminCmaj,0555; 1011; 1022
+10,7,Cmaj,Amin,Gno3,Dno3,Emin,Gmaj,Cmaj,,,,,,,,,,,,,1.1567796494470395,##,_CmajGmajEminDno3Gno3AminCmaj,1167
+27,6,Cmaj,Amin,Gno3,Gmaj,B-maj,Bdim,,,,,,,,,,,,,,0.9182958340544896,#,_BdimB-majGmajGno3AminCmaj,0524; 1098; 1183
+10,9,Cmaj,B-maj,Amaj,Dmin,Cmaj,Fmaj,B-maj,Amaj,Dmaj,,,,,,,,,,,0.9709505944546686,##,_DmajAmajB-majFmajCmajDminAmajB-majCmaj,0242; 0782
+20,9,Cmaj,B-maj,Amin,Ano3,Emaj,Fmaj,Dmaj,Bmaj,Emaj,,,,,,,,,,,0.9709505944546686,#####,_EmajBmajDmajFmajEmajAno3AminB-majCmaj,0381; 0999
+25,6,Cmaj,B-maj,Amin,Cmaj,B-maj,Amin,,,,,,,,,,,,,,0.9161182137782962,#,_AminB-majCmajAminB-majCmaj,0025; 0124; 0445; 0916
+10,9,Cmaj,B-maj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,,,,,,,,,,,1.5709505944546684,#,_CmajB-majCmajFmajCmajB-majCmajB-majCmaj,0150; 0794; 0834; 1031
+40,9,Cmaj,B-maj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,,,,,,,1.1411535278793057,##,_FmajB-majFmajB-majFmajB-majCmajB-majCmaj,0053; 0139; 0561; 0695; 0885; 1018; 1025
+10,15,Cmaj,B-maj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,0.9709505944546686,####,_FmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majCmajB-majCmaj,0053; 0139; 0885; 1025
+12,7,Cmaj,B-maj,Cmaj,B-maj,Fmaj,Gmaj,Cmaj,,,,,,,,,,,,,0.9182958340544896,#,_CmajGmajFmajB-majCmajB-majCmaj,0072; 0088; 1136
+10,8,Cmaj,B-maj,Cmaj,B-no3,B-maj,Cmaj,B-maj,Cmaj,,,,,,,,,,,,1.0,####,_CmajB-majCmajB-majB-no3CmajB-majCmaj,0223
+21,6,Cmaj,B-maj,Cmaj,Dmin,Amin,B-maj,,,,,,,,,,,,,,0.9182958340544896,#,_B-majAminDminCmajB-majCmaj,0227; 0258; 0275; 0349; 0385; 0524; 0628; 0911; 1098; 1173; 1183
+60,10,Cmaj,B-maj,Cmaj,Dmin,Cmaj,B-maj,Cmaj,Dmin,Cmaj,B-maj,,,,,,,,,,0.9504665144729252,##,_B-majCmajDminCmajB-majCmajDminCmajB-majCmaj,0134; 0524; 0608; 0633; 0659; 1098; 1171; 1183
+21,7,Cmaj,B-maj,Cmaj,Dmin,Cmaj,Dmin,Cmaj,,,,,,,,,,,,,1.2285763800288914,#,_CmajDminCmajDminCmajB-majCmaj,0062; 0134; 0150; 0608; 0629; 0659; 0889; 1067
+10,9,Cmaj,B-maj,Cmaj,Dmin,Cmaj,Dmin,Cmaj,B-maj,Cmaj,,,,,,,,,,,0.9709505944546686,#,_CmajB-majCmajDminCmajDminCmajB-majCmaj,0150; 0608; 0659; 0889
+10,9,Cmaj,B-maj,Cmaj,Dmin,Cmaj,Dmin,Cmaj,Dmin,Cmaj,,,,,,,,,,,1.5709505944546684,#,_CmajDminCmajDminCmajDminCmajB-majCmaj,0062; 0629; 1067
+15,12,Cmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,B-maj,,,,,,,,0.9182958340544896,##,_B-majCmajB-majFmajCmajB-majCmajB-majFmajCmajB-majCmaj,0300; 1190
+15,9,Cmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,,,,,,,,,,,1.0529815751302694,#,_CmajB-majFmajCmajB-majFmajCmajB-majCmaj,0217; 0387; 0450; 0597; 0780; 0915; 1143; 1190
+108,10,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,,,,,,,,,,0.9453686306042011,#,_B-majCmajFmajCmajB-majCmajFmajCmajB-majCmaj,0006; 0081; 0150; 0198; 0258; 0300; 0349; 0385; 0574; 0628; 0776; 0794; 0821; 0833; 0911; 1271; 1289
+24,19,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,1.1386865525783179,###,_CmajB-majCmajFmajCmajB-majCmajFmajCmajB-majCmajFmajCmajB-majCmajFmajCmajB-majCmaj,0081; 0150; 0794; 0821; 0833; 1289
+10,9,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,B-maj,Cmaj,,,,,,,,,,,1.1567796494470395,#,_CmajB-majCmajDminCmajFmajCmajB-majCmaj,0184
+15,8,Cmaj,B-maj,Cmaj,Fmaj,Dmin,B-maj,Cmaj,Fmaj,,,,,,,,,,,,1.5546097612655667,##,_FmajCmajB-majDminFmajCmajB-majCmaj,0198; 0574; 0749; 0776; 0914; 0992
+10,15,Cmaj,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,B-maj,Cmaj,,,,,0.9219280948873623,#######,_CmajB-majCmajB-majGminFmajCmajB-majCmajB-majGminFmajCmajB-majCmaj,1104
+10,11,Cmaj,B-maj,Fmaj,B-maj,Cmaj,B-maj,Cmaj,B-maj,Cmaj,Fmaj,B-maj,,,,,,,,,1.4854752972273344,###,_B-majFmajCmajB-majCmajB-majCmajB-majFmajB-majCmaj,0083; 0238
+12,9,Cmaj,B-maj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,,,,,,,,1.0,#,_FmajCmajB-majFmajCmajB-majFmajB-majCmaj,0372; 0443; 0555; 0589; 1022; 1104
+10,6,Cmaj,B-maj,Fmaj,B-maj,E-maj,Cmaj,,,,,,,,,,,,,,0.9709505944546686,#,_CmajE-majB-majFmajB-majCmaj,0322; 0733
+25,13,Cmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,,,1.3397218324096136,###,_FmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majCmaj,0053; 0139; 0246; 0518; 0662; 0664; 0668; 0885; 0900; 0995; 1025; 1134; 1177
+14,15,Cmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,1.3787834934861756,#,_FmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majCmaj,0053; 0139; 0662; 0664; 0885; 0900; 1025; 1134; 1177
+112,8,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,,,,,,,,,,,1.3193201501728824,#,_FmajB-majCmajFmajB-majFmajB-majCmaj,0012; 0067; 0115; 0179; 0187; 0214; 0289; 0314; 0322; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0733; 0773; 0792; 0852; 0874; 0948; 0952; 1103; 1125; 1155; 1193; 1247; 1276
+66,13,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,,,,,,1.4113592607900538,####,_FmajB-majCmajFmajB-majFmajB-majCmajFmajB-majFmajB-majCmaj,0115; 0187; 0214; 0289; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1193
+38,18,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,1.3367240987765086,####,_FmajB-majCmajFmajB-majFmajB-majCmajFmajB-majFmajB-majCmajFmajB-majFmajB-majCmaj,0115; 0187; 0214; 0289; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0948; 1103; 1125
+13,11,Cmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,,,,,,,,1.2389012566026307,##,_FmajB-majCmajFmajB-majCmajFmajB-majFmajB-majCmaj,0067; 0314; 0358; 0383; 0455; 0577; 0852; 0874
+12,7,Cmaj,B-maj,Fmaj,B-no3,Cmaj,B-maj,Fmaj,,,,,,,,,,,,,1.2516291673878228,##,_FmajB-majCmajB-no3FmajB-majCmaj,0107
+13,11,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Cmaj,,,,,,,,,0.9912642605354289,##,_CmajB-majCmajFmajB-majCmajB-majCmajFmajB-majCmaj,0053; 0512; 0901; 1025
+595,9,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,,,,,,,,,,0.9566817990811178,##,_FmajB-majCmajFmajB-majCmajFmajB-majCmaj,0015; 0074; 0075; 0095; 0107; 0130; 0209; 0210; 0260; 0268; 0271; 0300; 0314; 0317; 0323; 0358; 0366; 0389; 0406; 0407; 0430; 0455; 0458; 0545; 0577; 0589; 0621; 0640; 0645; 0675; 0684; 0690; 0706; 0762; 0810; 0852; 0874; 0886; 0889; 0901; 0910; 0929; 0946; 0991; 1002; 1086; 1249; 1265; 1282
+24,12,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,Dmin,B-maj,Cmaj,B-maj,Fmaj,Cmaj,,,,,,,,1.4056390622295662,####,_CmajFmajB-majCmajB-majDminFmajB-majCmajFmajB-majCmaj,0705; 0888; 1250
+16,6,Cmaj,B-maj,Fmaj,Cmaj,Dmin,Cmaj,,,,,,,,,,,,,,1.2475562489182657,#,_CmajDminCmajFmajB-majCmaj,0561; 0627; 0695; 1121; 1188; 1282
+10,11,Cmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,,,,,,0.9709505944546686,####,_FmajCmajB-majFmajCmajB-majFmajCmajFmajB-majCmaj,0030; 0537; 0690
+15,7,Cmaj,B-maj,Fmaj,Cmaj,Gmaj,B-maj,Fmaj,,,,,,,,,,,,,1.53012496531497,#,_FmajB-majGmajCmajFmajB-majCmaj,0053; 0206; 0366; 0451; 0655; 0684; 1025; 1034
+16,7,Cmaj,B-maj,Fmaj,Cno3,Cmaj,B-maj,Fmaj,,,,,,,,,,,,,1.0,##,_FmajB-majCmajCno3FmajB-majCmaj,0074; 0268; 0910; 1085
+44,6,Cmaj,B-maj,Fmaj,Dmin,B-maj,Cmaj,,,,,,,,,,,,,,0.9187596163744738,#,_CmajB-majDminFmajB-majCmaj,0371; 0705; 0888; 0968; 0992; 1155; 1250; 1256
+34,9,Cmaj,B-maj,Fmaj,Dmin,B-maj,Cmaj,B-maj,Fmaj,Cmaj,,,,,,,,,,,1.3956134767356851,##,_CmajFmajB-majCmajB-majDminFmajB-majCmaj,0705; 0888; 0992; 1250
+21,17,Cmaj,B-maj,Fmaj,Dmin,B-maj,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,Dmin,B-maj,Cmaj,B-maj,Fmaj,Cmaj,,,1.3787834934861758,#######,_CmajFmajB-majCmajB-majDminFmajB-majCmajFmajB-majCmajB-majDminFmajB-majCmaj,0705; 0888; 1250
+19,6,Cmaj,B-maj,Fmaj,Dmin,Cmaj,B-maj,,,,,,,,,,,,,,1.457424881409171,#,_B-majCmajDminFmajB-majCmaj,0555; 1011; 1022
+11,6,Cmaj,B-maj,Fmaj,Dmin,Fmaj,Dmin,,,,,,,,,,,,,,0.9940302114769565,#,_DminFmajDminFmajB-majCmaj,0228; 0310; 0545; 0617; 0730; 0920
+15,7,Cmaj,B-maj,Fmaj,Gmaj,Cmaj,B-maj,Fmaj,,,,,,,,,,,,,1.7464657985040721,#,_FmajB-majCmajGmajFmajB-majCmaj,0075; 0088; 0095; 0310; 0354; 0810
+24,8,Cmaj,B-maj,Gmaj,Cmaj,B-maj,Gmaj,Cmaj,B-maj,,,,,,,,,,,,1.0238995733215066,##,_B-majCmajGmajB-majCmajGmajB-majCmaj,1220
+19,11,Cmaj,B-maj,Gmaj,Cmaj,B-maj,Gmaj,Cmaj,B-maj,Gmaj,Cmaj,B-maj,,,,,,,,,1.192250860234642,##,_B-majCmajGmajB-majCmajGmajB-majCmajGmajB-majCmaj,1220
+14,6,Cmaj,B-maj,Gmin,Cmaj,B-maj,Gmin,,,,,,,,,,,,,,1.8423709931771088,#,_GminB-majCmajGminB-majCmaj,0701; 1020; 1296
+12,5,Cmaj,B-maj,Gmin,Edim,Amaj,,,,,,,,,,,,,,,1.040852082972755,#,_AmajEdimGminB-majCmaj,0856
+10,6,Cmaj,B-no3,B-maj,Cmaj,B-maj,Cmaj,,,,,,,,,,,,,,1.0,#,_CmajB-majCmajB-majB-no3Cmaj,0223
+18,5,Cmaj,Bmaj,Emin,Bmaj,Emin,,,,,,,,,,,,,,,1.9182958340544893,#,_EminBmajEminBmajCmaj,0097; 0583; 0692; 0824; 1290
+10,12,Cmaj,Bmaj,Emin,Dmaj,Cmaj,Bmaj,Emin,Dmaj,Gmaj,Cmaj,Bmaj,Emaj,,,,,,,,0.9709505944546686,####,_EmajBmajCmajGmajDmajEminBmajCmajDmajEminBmajCmaj,0242; 0782
+20,7,Cmaj,Bmaj,Emin,Dmaj,Gmaj,Cmaj,Bmaj,,,,,,,,,,,,,1.0,##,_BmajCmajGmajDmajEminBmajCmaj,0242; 0782
+10,17,Cmaj,Bmaj,Emin,Dmaj,Gmaj,Cmaj,Bmaj,Emin,Dmaj,Cmaj,Bmaj,Emin,Dmaj,Gmaj,Cmaj,Bmaj,Emaj,,,0.9709505944546686,#########,_EmajBmajCmajGmajDmajEminBmajCmajDmajEminBmajCmajGmajDmajEminBmajCmaj,0242; 0782
+16,5,Cmaj,Bmin,Amin,Bmaj,Emin,,,,,,,,,,,,,,,1.8050365325772657,#,_EminBmajAminBminCmaj,0716; 0804; 0895; 0958
+10,8,Cmaj,Bmin,Amin,Bmin,Emin,Cmaj,Bmin,Amin,,,,,,,,,,,,1.0,##,_AminBminCmajEminBminAminBminCmaj,0804
+13,16,Cmaj,Bmin,Amin,Gmaj,Cmaj,Bmin,Amin,Gmaj,Cmaj,Bmin,Amin,Gmaj,Cmaj,Bmin,Amin,Gmaj,,,,0.9912642605354288,########,_GmajAminBminCmajGmajAminBminCmajGmajAminBminCmajGmajAminBminCmaj,1257
+20,8,Cmaj,Bmin,Bno3,F#maj,Gmaj,Emaj,D-maj,F#maj,,,,,,,,,,,,0.9709505944546686,#####,_F#majD-majEmajGmajF#majBno3BminCmaj,0381; 0999
+15,6,Cmaj,Bmin,Dmaj,Bmin,Amaj,Gmaj,,,,,,,,,,,,,,0.9709505944546686,##,_GmajAmajBminDmajBminCmaj,0259; 0279; 0552
+12,6,Cmaj,Bmin,Emin,Bmin,Emin,Amin,,,,,,,,,,,,,,1.4591479170272446,#,_AminEminBminEminBminCmaj,0433; 0619; 0813; 0896; 1100; 1117
+21,12,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,,,,,,,,0.988180837004676,####,_EminBminCmajEminBminCmajEminBminCmajEminBminCmaj,0526; 0648
+10,18,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,Cmaj,Bmin,Emin,,0.9219280948873623,####,_EminBminCmajEminBminCmajEminBminCmajEminBminCmajEminBminCmajEminBminCmaj,0526; 0648
+13,6,Cmaj,Bmin,Gmaj,Emin,Cmaj,Bmin,,,,,,,,,,,,,,1.5262349099495227,#,_BminCmajEminGmajBminCmaj,0091; 1126
+20,5,Cmaj,C,E-maj,B-maj,Cmin,,,,,,,,,,,,,,,1.1567796494470395,##,_CminB-majE-majCCmaj,1169; 1260
+14,11,Cmaj,C,E-maj,B-maj,Cmin,B-maj,Cmaj,C,E-maj,B-maj,Cmin,,,,,,,,,1.3787834934861758,#####,_CminB-majE-majCCmajB-majCminB-majE-majCCmaj,1169; 1260
+20,6,Cmaj,Cmin,Dmin,Cmaj,Cmin,Dmin,,,,,,,,,,,,,,1.6477309221191607,##,_DminCminCmajDminCminCmaj,0550
+10,9,Cmaj,Cmin,Dmin,Cmaj,Cmin,Dmin,Cmaj,Cmin,Dmin,,,,,,,,,,,1.1567796494470395,##,_DminCminCmajDminCminCmajDminCminCmaj,0550
+10,5,Cmaj,Cmin,Fmaj,Cmin,Fmaj,,,,,,,,,,,,,,,1.3609640474436813,#,_FmajCminFmajCminCmaj,0085; 0728; 0981; 1127; 1174
+16,9,Cmaj,Cmin,Gmaj,Dmin,Gmaj,Cmaj,Cmin,Gmaj,Emin,,,,,,,,,,,1.0,#####,_EminGmajCminCmajGmajDminGmajCminCmaj,0240; 0295
+23,9,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,,,,,,,,,0.9123163027543337,###,_CmajFmajGminCminCmajFmajGminCminCmaj,0848
+18,13,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,,,,,1.0529407605626349,###,_CmajFmajGminCminCmajFmajGminCminCmajFmajGminCminCmaj,0848
+13,17,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,1.2389012566026307,###,_CmajFmajGminCminCmajFmajGminCminCmajFmajGminCminCmajFmajGminCminCmaj,0848
+237,5,Cmaj,Cno3,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,,,1.6139406599431374,#,_CmajCno3CmajCno3Cmaj,0182; 0207; 0234; 0236; 0348; 0421; 0461; 0469; 0507; 0512; 0590; 0651; 0657; 0706; 0711; 0770; 0775; 0781; 0864; 0913; 0973; 1066; 1168; 1234
+161,7,Cmaj,Cno3,Cmaj,Cno3,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,1.114271656958163,#,_CmajCno3CmajCno3CmajCno3Cmaj,0182; 0236; 0348; 0421; 0461; 0469; 0512; 0590; 0657; 0706; 0770; 0775; 0781; 1234
+14,9,Cmaj,Cno3,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,,,1.8773870642966133,###,_CmajGmajCmajGmajCmajFmajCmajCno3Cmaj,0822; 0954; 1107; 1166
+16,5,Cmaj,Cno3,Cmaj,Fno3,Fmaj,,,,,,,,,,,,,,,2.021782221599798,#,_FmajFno3CmajCno3Cmaj,0236; 0469; 0507; 0657
+14,7,Cmaj,Cno3,Cmaj,Gmaj,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,2.217021885879718,#,_CmajCno3CmajGmajCmajCno3Cmaj,0068; 0348; 0354
+20,11,Cmaj,D-maj,A-maj,F#maj,Fmin,Fno3,Cmaj,D-maj,B-maj,Gmaj,Cmaj,,,,,,,,,0.9709505944546686,#######,_CmajGmajB-majD-majCmajFno3FminF#majA-majD-majCmaj,0381; 0999
+20,5,Cmaj,D-maj,B-maj,Gmaj,Cmaj,,,,,,,,,,,,,,,0.9709505944546686,#,_CmajGmajB-majD-majCmaj,0381; 0999
+12,17,Cmaj,D-maj,B-maj,Gmaj,Cmaj,Fno3,Cmaj,D-maj,A-maj,F#maj,Fmin,Fno3,Cmaj,D-maj,B-maj,Gmaj,Cmaj,,,0.9182958340544896,###########,_CmajGmajB-majD-majCmajFno3FminF#majA-majD-majCmajFno3CmajGmajB-majD-majCmaj,0381; 0999
+11,5,Cmaj,D-maj,Ddim,A-maj,Fmin,,,,,,,,,,,,,,,1.3221793455166668,##,_FminA-majDdimD-majCmaj,0112; 0127; 0386; 0444; 0596
+93,8,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,,,,,,,,,,,,0.9573614613424086,##,_DmajCmajAmajDmajCmajAmajDmajCmaj,0291; 0414; 0476; 0625; 0688; 0699; 0824; 0841; 0932; 1062; 1089; 1280
+56,12,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,,,,,,,,1.0423774670435675,##,_AmajDmajCmajAmajDmajCmajAmajDmajCmajAmajDmajCmaj,0291; 0476; 0625; 0688; 0824; 0841; 0932; 1062; 1089; 1280
+26,18,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,Cmaj,Dmaj,Amaj,,1.0681873374585058,###,_AmajDmajCmajAmajDmajCmajAmajDmajCmajAmajDmajCmajAmajDmajCmajAmajDmajCmaj,0476; 0625; 0688; 1062; 1089
+14,6,Cmaj,Dmaj,Amin,Bmin,Cmaj,Dmaj,,,,,,,,,,,,,,1.8322488896002307,#,_DmajCmajBminAminDmajCmaj,0012; 0281; 0293; 0660; 0807
+22,8,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,,,,,,,,,,,,1.3342094594480487,#,_DmajCmajAminDmajCmajAminDmajCmaj,0525; 0663
+16,11,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,,,,,,,,,0.9933927290103626,##,_DmajCmajAminDmajCmajAminDmajCmajAminDmajCmaj,0663
+13,14,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,,,,,,1.1451104143815827,##,_DmajCmajAminDmajCmajAminDmajCmajAminDmajCmajAminDmajCmaj,0663
+10,17,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,Amin,Cmaj,Dmaj,,,1.3567796494470397,##,_DmajCmajAminDmajCmajAminDmajCmajAminDmajCmajAminDmajCmajAminDmajCmaj,0663
+13,6,Cmaj,Dmaj,Amin,Dmaj,Amin,Dmaj,,,,,,,,,,,,,,1.4195562985716133,#,_DmajAminDmajAminDmajCmaj,0078; 0088; 0445; 0691; 0925; 1292
+16,5,Cmaj,Dmaj,B-maj,Fmaj,Cmaj,,,,,,,,,,,,,,,1.3244602933016414,#,_CmajFmajB-majDmajCmaj,0071; 0412; 1267
+10,10,Cmaj,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,,,,,,,,,,1.5709505944546684,#,_DmajCmajDmajGmajDmajCmajDmajCmajDmajCmaj,0150; 0794; 0834; 1031
+10,9,Cmaj,Dmaj,Cmaj,Dmaj,Cno3,Cmaj,Dmaj,Cmaj,Dmaj,,,,,,,,,,,1.0,####,_DmajCmajDmajCmajCno3DmajCmajDmajCmaj,0223
+11,8,Cmaj,Dmaj,Cmaj,Dmaj,Emin,Dmaj,Emin,Dmaj,,,,,,,,,,,,0.9456603046006402,#,_DmajEminDmajEminDmajCmajDmajCmaj,0062; 0608; 0659; 0889; 1067
+10,16,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Amin,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Amin,Cmaj,Dmaj,Cmaj,Dmaj,,,,0.9219280948873623,#######,_DmajCmajDmajCmajAminGmajDmajCmajDmajCmajAminGmajDmajCmajDmajCmaj,1104
+15,12,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,,,,,,,,0.9182958340544896,##,_DmajCmajGmajDmajCmajDmajCmajGmajDmajCmajDmajCmaj,0300; 1104; 1190
+19,8,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,,,,,,,,,,,,1.312430802347936,#,_DmajCmajDmajGmajDmajCmajDmajCmaj,0150; 0198; 0574; 0776; 0794; 0821; 0834; 1031
+12,13,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,,,,,,,1.0,####,_GmajDmajCmajDmajGmajDmajCmajDmajGmajDmajCmajDmajCmaj,0150; 0198; 0574; 0776; 0794; 0821
+15,6,Cmaj,Dmaj,Cmaj,Gmaj,Amaj,Dmaj,,,,,,,,,,,,,,0.9182958340544896,#,_DmajAmajGmajCmajDmajCmaj,0072; 0088; 0310; 1136; 1210
+10,12,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,,,,,,,,1.4854752972273344,####,_CmajGmajDmajCmajDmajCmajDmajCmajGmajCmajDmajCmaj,0083; 0238
+65,8,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,,1.3135805060264616,#,_GmajCmajGmajCmajGmajCmajDmajCmaj,0029; 0053; 0139; 0215; 0246; 0504; 0561; 0623; 0695; 0800; 0807; 0885; 0995; 1018; 1025; 1119; 1134
+12,14,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,1.0,####,_GmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajDmajCmaj,0053; 0139; 0246; 0885; 1025; 1134
+12,10,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,1.040852082972755,##,_GmajCmajDmajGmajCmajDmajGmajCmajDmajCmaj,0075; 0095; 0107; 0268; 0706; 0762; 0810; 0901; 0910; 1265
+24,13,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Emin,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,,,,,,,1.4056390622295662,#####,_DmajGmajCmajDmajCmajEminGmajCmajDmajGmajCmajDmajCmaj,0705; 0888; 1250
+10,7,Cmaj,Dmaj,Cno3,Cmaj,Dmaj,Cmaj,Dmaj,,,,,,,,,,,,,1.0,##,_DmajCmajDmajCmajCno3DmajCmaj,0223
+20,6,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,,,,,,,,,,,,,,1.1567796494470395,###,_DminCmajFmajDDmajCmaj,1169; 1260
+14,12,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,,,,,,,,1.3787834934861758,#####,_DminCmajFmajDDmajCmajDminCmajFmajDDmajCmaj,1169; 1260
+10,6,Cmaj,Dmaj,Dno3,Dmaj,Dno3,Dmaj,,,,,,,,,,,,,,1.0,#,_DmajDno3DmajDno3DmajCmaj,0512; 0706; 0973; 1168
+10,5,Cmaj,Dmaj,E-maj,Dmaj,Gmin,,,,,,,,,,,,,,,0.9709505944546686,#,_GminDmajE-majDmajCmaj,1053; 1204
+10,6,Cmaj,Dmaj,Emaj,Fmaj,Emaj,Amin,,,,,,,,,,,,,,0.9709505944546686,#,_AminEmajFmajEmajDmajCmaj,1053; 1204
+18,7,Cmaj,Dmaj,Emin,Bmin,Amin,Cmaj,Dmaj,,,,,,,,,,,,,1.275162982784857,##,_DmajCmajAminBminEminDmajCmaj,0099; 0122
+13,12,Cmaj,Dmaj,Emin,Bmin,Amin,Cmaj,Dmaj,Emin,Bmin,Amin,Cmaj,Dmaj,,,,,,,,1.198183947911799,####,_DmajCmajAminBminEminDmajCmajAminBminEminDmajCmaj,0099; 0122
+20,18,Cmaj,Dmaj,Emin,Bmin,Cmaj,Dmaj,Emin,Bmin,Cmaj,Dmaj,Emin,Bmin,Cmaj,Dmaj,Emin,Bmin,Cmaj,Dmaj,,0.9219280948873623,########,_DmajCmajBminEminDmajCmajBminEminDmajCmajBminEminDmajCmajBminEminDmajCmaj,0281; 0660
+14,9,Cmaj,Dmaj,Emin,Cmaj,Dmaj,Emin,Dmaj,Cmaj,Emin,,,,,,,,,,,1.950212064914747,##,_EminCmajDmajEminDmajCmajEminDmajCmaj,0033; 0073
+62,9,Cmaj,Dmaj,Emin,Dmaj,Cmaj,Dmaj,Emin,Dmaj,Cmaj,,,,,,,,,,,0.9290615531766061,##,_CmajDmajEminDmajCmajDmajEminDmajCmaj,0134; 0478; 0524; 0608; 0633; 0659; 1098; 1171; 1183
+10,8,Cmaj,Dmaj,Emin,Dmaj,Emin,Dmaj,Cmaj,Dmaj,,,,,,,,,,,,0.9709505944546686,#,_DmajCmajDmajEminDmajEminDmajCmaj,0150; 0608; 0659; 0889
+27,7,Cmaj,Dmaj,Fmaj,Cmaj,Dmaj,Fmaj,Cmaj,,,,,,,,,,,,,2.3565583354166733,#,_CmajFmajDmajCmajFmajDmajCmaj,0114; 0168; 0370; 0727; 0909; 1246
+12,7,Cmaj,Dmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,,,,,,,,,,,,,1.2516291673878228,##,_GmajCmajFmajCmajFmajDmajCmaj,0370; 0699; 0909
+63,6,Cmaj,Dmaj,Gmaj,Amin,Cmaj,Dmaj,,,,,,,,,,,,,,0.9954515828457715,#,_DmajCmajAminGmajDmajCmaj,0010; 0064; 0258; 0349; 0747; 0758; 0785; 0842; 1104; 1151; 1218
+16,11,Cmaj,Dmaj,Gmaj,Amin,Cmaj,Dmaj,Gmaj,Amin,Cmaj,Dmaj,Gmaj,,,,,,,,,1.014097655573916,##,_GmajDmajCmajAminGmajDmajCmajAminGmajDmajCmaj,0010; 0258; 0349
+16,11,Cmaj,Dmaj,Gmaj,Amin,Dmaj,Gmaj,Amin,Cmaj,Dmaj,Gmaj,Amin,,,,,,,,,1.1994602933016414,###,_AminGmajDmajCmajAminGmajDmajAminGmajDmajCmaj,0258; 0349; 1285
+10,6,Cmaj,Dmaj,Gmaj,Cmaj,Cmin,Gmaj,,,,,,,,,,,,,,0.9219280948873623,#,_GmajCminCmajGmajDmajCmaj,0199; 0484; 0793; 1190
+11,15,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,,,,,0.9456603046006402,#####,_DmajCmajGmajDmajCmajDmajCmajGmajDmajCmajDmajCmajGmajDmajCmaj,0300; 1104; 1190
+517,9,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,,,,,,,,,1.073191854265395,#,_GmajDmajCmajGmajDmajCmajGmajDmajCmaj,0030; 0043; 0066; 0071; 0072; 0148; 0217; 0222; 0224; 0231; 0235; 0280; 0290; 0293; 0324; 0335; 0385; 0387; 0421; 0443; 0446; 0448; 0450; 0463; 0465; 0467; 0472; 0477; 0500; 0508; 0516; 0537; 0589; 0597; 0615; 0620; 0628; 0690; 0720; 0729; 0780; 0783; 0788; 0791; 0798; 0838; 0839; 0843; 0845; 0849; 0850; 0873; 0911; 0915; 0973; 1040; 1043; 1045; 1072; 1104; 1132; 1136; 1143; 1154; 1190; 1203; 1208; 1218; 1235; 1239
+12,17,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,1.0,#######,_GmajDmajCmajGmajDmajCmajGmajDmajCmajGmajDmajGmajDmajCmajGmajDmajCmaj,0066; 0335; 0849
+14,10,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,,,,,,,0.9852281360342516,#,_GmajDmajGmajDmajGmajDmajCmajGmajDmajCmaj,0071; 0293; 0308; 0500; 0669; 0873; 1154
+14,9,Cmaj,Dmaj,Gmaj,Cmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,,,,,,,,,,,0.9402859586706309,#,_CmajGmajDmajCmajGmajCmajGmajDmajCmaj,0010; 0372; 0615; 0758; 0783; 0785; 1040; 1151
+15,14,Cmaj,Dmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,1.0529815751302694,#,_CmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajDmajCmaj,0212; 0246; 0403; 0468; 0477; 0615; 0752; 0783; 0968; 1018
+11,16,Cmaj,Dmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,1.2406705316766886,#,_CmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajDmajCmaj,0212; 0403; 0468; 0477; 0615; 0752; 0783; 1018
+98,11,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,,,,,,,,,1.6515335679570844,#,_GmajDmajCmajDmajGmajDmajCmajDmajGmajDmajCmaj,0006; 0081; 0150; 0198; 0300; 0574; 0656; 0776; 0794; 0821; 0833; 1271; 1289
+59,13,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,,,,,,,0.9891318547304483,#,_CmajDmajGmajDmajCmajDmajGmajDmajCmajDmajGmajDmajCmaj,0006; 0081; 0150; 0300; 0794; 0821; 0833; 1271; 1289
+24,18,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,Gmaj,Dmaj,Cmaj,Dmaj,,1.1386865525783179,##,_DmajCmajDmajGmajDmajCmajDmajGmajDmajCmajDmajGmajDmajCmajDmajGmajDmajCmaj,0081; 0150; 0794; 0821; 0833; 1289
+22,8,Cmaj,Dmaj,Gmaj,Dmaj,Emin,Cmaj,Dmaj,Gmaj,,,,,,,,,,,,1.4911148500551858,#,_GmajDmajCmajEminDmajGmajDmajCmaj,0572; 0600; 1258
+13,13,Cmaj,Dmaj,Gmaj,Dmaj,Emin,Cmaj,Dmaj,Gmaj,Dmaj,Emin,Cmaj,Dmaj,Gmaj,,,,,,,1.7272486062639207,####,_GmajDmajCmajEminDmajGmajDmajCmajEminDmajGmajDmajCmaj,0572; 0600; 1258
+18,11,Cmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,,,,,,,0.9182958340544896,#,_GmajDmajCmajGmajDmajCmajGmajDmajGmajDmajCmaj,0066; 0249; 0335; 0849; 1225
+12,14,Cmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,,,,1.0,##,_GmajDmajCmajGmajDmajCmajGmajDmajCmajGmajDmajGmajDmajCmaj,0066; 0335; 0849
+13,10,Cmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,,,,,,,,,,1.198183947911799,#,_DmajGmajDmajGmajDmajGmajDmajGmajDmajCmaj,0234; 0293; 0308; 0500; 0669; 0847; 0873; 0891; 0968
+10,6,Cmaj,Dmaj,Gmaj,Emaj,Cmaj,Dmaj,,,,,,,,,,,,,,0.9709505944546686,#,_DmajCmajEmajGmajDmajCmaj,0568; 0846; 1203
+255,6,Cmaj,Dmaj,Gmaj,Emin,Cmaj,Dmaj,,,,,,,,,,,,,,1.035353096413659,#,_DmajCmajEminGmajDmajCmaj,0019; 0054; 0067; 0119; 0120; 0145; 0169; 0198; 0247; 0250; 0253; 0263; 0355; 0362; 0401; 0402; 0511; 0549; 0568; 0571; 0572; 0574; 0587; 0598; 0600; 0617; 0620; 0730; 0749; 0776; 0846; 0903; 0914; 0992; 1007; 1046; 1063; 1094; 1152; 1210; 1211; 1228; 1248; 1270
+153,10,Cmaj,Dmaj,Gmaj,Emin,Cmaj,Dmaj,Gmaj,Emin,Cmaj,Dmaj,,,,,,,,,,0.9800448595133887,##,_DmajCmajEminGmajDmajCmajEminGmajDmajCmaj,0054; 0119; 0120; 0145; 0169; 0247; 0253; 0263; 0362; 0402; 0568; 0571; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1094; 1152; 1210; 1211
+17,6,Cmaj,Dmaj,Gmaj,Emin,Gmaj,Emin,,,,,,,,,,,,,,1.8092830792973653,#,_EminGmajEminGmajDmajCmaj,0310; 0404; 0545; 0598; 0616; 0617; 0730; 1091
+10,8,Cmaj,Dmaj,Gmaj,Fmaj,Gmaj,Fmaj,Gmaj,Fmaj,,,,,,,,,,,,0.9709505944546686,##,_FmajGmajFmajGmajFmajGmajDmajCmaj,0072; 0448; 0850; 1136
+15,8,Cmaj,Dmaj,Gmin,Cmaj,Dmaj,Gmin,Cmaj,Dmaj,,,,,,,,,,,,0.9055872616982603,##,_DmajCmajGminDmajCmajGminDmajCmaj,0643
+12,11,Cmaj,Dmaj,Gmin,Cmaj,Dmaj,Gmin,Cmaj,Dmaj,Gmin,Cmaj,Dmaj,,,,,,,,,1.040852082972755,##,_DmajCmajGminDmajCmajGminDmajCmajGminDmajCmaj,0643
+14,7,Cmaj,Dmaj,Gno3,Gmaj,Cmaj,Dno3,Dmaj,,,,,,,,,,,,,1.4299111709758698,#,_DmajDno3CmajGmajGno3DmajCmaj,1126
+20,17,Cmaj,Dmin,Amin,B-maj,Cmaj,Dmin,Amin,B-maj,Cmaj,Dmin,Amin,B-maj,Cmaj,Dmin,Amin,B-maj,Cmaj,,,0.9219280948873623,########,_CmajB-majAminDminCmajB-majAminDminCmajB-majAminDminCmajB-majAminDminCmaj,0281; 0660
+18,6,Cmaj,Dmin,Amin,Gmin,B-maj,Cmaj,,,,,,,,,,,,,,1.275162982784857,#,_CmajB-majGminAminDminCmaj,0099; 0122
+13,11,Cmaj,Dmin,Amin,Gmin,B-maj,Cmaj,Dmin,Amin,Gmin,B-maj,Cmaj,,,,,,,,,1.198183947911799,####,_CmajB-majGminAminDminCmajB-majGminAminDminCmaj,0099; 0122
+12,6,Cmaj,Dmin,B-maj,Cmaj,B-maj,Cmaj,,,,,,,,,,,,,,1.3250112108241772,#,_CmajB-majCmajB-majDminCmaj,0089; 0561; 0608; 0648; 0659; 0695; 1073
+14,8,Cmaj,Dmin,B-maj,Cmaj,Dmin,Cmaj,B-maj,Dmin,,,,,,,,,,,,1.950212064914747,#,_DminB-majCmajDminCmajB-majDminCmaj,0033; 0073
+21,10,Cmaj,Dmin,B-maj,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,,,,,,,,,,1.5301404544057031,####,_FmajCmajB-majDminCmajFmajCmajB-majDminCmaj,0572; 0600; 1258
+12,15,Cmaj,Dmin,B-maj,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,,,,,1.7924812503605778,####,_FmajCmajB-majDminCmajFmajCmajB-majDminCmajFmajCmajB-majDminCmaj,0572; 0600
+15,6,Cmaj,Dmin,B-maj,Fmaj,B-maj,Fmaj,,,,,,,,,,,,,,1.3995812306460644,#,_FmajB-majFmajB-majDminCmaj,0312; 0475; 0561; 0695; 1153
+10,7,Cmaj,Dmin,Cmaj,B-maj,Cmaj,B-maj,Cmaj,,,,,,,,,,,,,1.5709505944546684,#,_CmajB-majCmajB-majCmajDminCmaj,0150; 0184; 0889; 1051
+18,8,Cmaj,Dmin,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,,,,,,,,,,,,1.224394445405986,###,_DminCmajFmajDDmajCmajDminCmaj,1169; 1260
+12,14,Cmaj,Dmin,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,Cmaj,Dmaj,D,Fmaj,Cmaj,Dmin,,,,,,0.9182958340544896,#####,_DminCmajFmajDDmajCmajDminCmajFmajDDmajCmajDminCmaj,1169; 1260
+29,7,Cmaj,Dmin,Cmaj,Dmin,Cmaj,B-maj,Cmaj,,,,,,,,,,,,,1.820393189881004,#,_CmajB-majCmajDminCmajDminCmaj,0051; 0150; 0608; 0629; 0659; 0749; 0889; 1222
+10,9,Cmaj,Dmin,Cmaj,Dmin,Cmaj,B-maj,Cmaj,Dmin,Cmaj,,,,,,,,,,,0.9709505944546686,#,_CmajDminCmajB-majCmajDminCmajDminCmaj,0608; 0629; 0659
+11,9,Cmaj,Dmin,Cmaj,Dmin,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,,,,,,,,,,,1.3221793455166668,#,_CmajDminCmajFmajCmajDminCmajDminCmaj,0479; 0947
+31,7,Cmaj,Dmin,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,,,,,,,,,,,,,1.8608659794893763,#,_CmajDminCmajFmajCmajDminCmaj,0124; 0479; 0627; 0916; 0947; 1188; 1228
+20,11,Cmaj,Dmin,Ddim,Fdim,Cmaj,Emin,Dmin,Fmin,Cmaj,Amaj,Dmin,,,,,,,,,1.1567796494470395,#######,_DminAmajCmajFminDminEminCmajFdimDdimDminCmaj,0517; 0680
+11,7,Cmaj,Dmin,Fmaj,B-maj,Amin,Gmin,Cmaj,,,,,,,,,,,,,1.0957952550009338,#,_CmajGminAminB-majFmajDminCmaj,0412; 1221
+46,6,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,,,1.4906401825684292,#,_CmajFmajCmajFmajDminCmaj,0160; 0172; 0492; 0881; 1051; 1064
+16,13,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,1.2987949406953985,#####,_CmajFmajCmajFmajDminCmajFmajCmajFmajCmajFmajDminCmaj,0492; 0881
+26,9,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,,,,,,,,,,,1.1160762796829877,##,_CmajGmajFmajDminCmajGmajFmajDminCmaj,0010; 0258; 0349; 0747
+12,14,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,,,,,,0.9182958340544896,###,_DminCmajGmajFmajDminCmajGmajFmajDminCmajGmajFmajDminCmaj,0258; 0349
+16,13,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,,,,,,,1.1994602933016414,#####,_DminCmajGmajFmajDminCmajGmajDminCmajGmajFmajDminCmaj,0258; 0349; 1285
+10,18,Cmaj,Dmin,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Fmaj,Gmaj,,0.9219280948873623,#########,_GmajFmajGmajFmajDminCmajGmajFmajGmajFmajDminCmajGmajFmajGmajFmajDminCmaj,1104
+16,9,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Dmin,,,,,,,,,,,1.1994602933016414,###,_DminCmajGmajFmajDminCmajGmajDminCmaj,0258; 0349; 1285
+45,9,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Gmaj,,,,,,,,,,,0.9055872616982603,#,_GmajDminCmajGmajDminCmajGmajDminCmaj,0296; 0410; 0729; 0767; 0834; 1027; 1138; 1192; 1283
+28,12,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Gmaj,Cmaj,Dmin,Gmaj,,,,,,,,1.2010947341319425,#,_GmajDminCmajGmajDminCmajGmajDminCmajGmajDminCmaj,0410; 0729; 0767; 1027; 1192; 1283
+13,7,Cmaj,Dmin,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,,,,,,,,,1.8262452584026092,#,_CmajGmajFmajCmajGmajDminCmaj,0102; 0184; 0222; 0410; 0465; 0508; 0725; 0914; 1235; 1245
+10,10,Cmaj,Dmin,Gmin,Cmaj,Dmin,Gmin,Cmaj,Dmin,Gmin,Cmaj,,,,,,,,,,1.3567796494470394,#,_CmajGminDminCmajGminDminCmajGminDminCmaj,0978; 1234; 1258
+10,5,Cmaj,Dmin,Gno3,Gmaj,Cmaj,,,,,,,,,,,,,,,1.3609640474436813,#,_CmajGmajGno3DminCmaj,0102; 0380; 0472; 0725; 1019
+25,9,Cmaj,Dno3,Dmaj,Gmaj,Cmaj,Dno3,Dmaj,Gmaj,Cmaj,,,,,,,,,,,0.9161182137782962,###,_CmajGmajDmajDno3CmajGmajDmajDno3Cmaj,0083; 0791; 1188; 1277
+15,15,Cmaj,Dno3,Dmaj,Gmaj,Cmaj,Dno3,Dmaj,Gmaj,Cmaj,Dno3,Dmaj,Gmaj,Cmaj,Dno3,Dmaj,,,,,0.9055872616982603,###,_DmajDno3CmajGmajDmajDno3CmajGmajDmajDno3CmajGmajDmajDno3Cmaj,0083; 0791; 1277
+14,5,Cmaj,Dno3,Fmaj,Cmaj,Dno3,,,,,,,,,,,,,,,1.2638091738835462,#,_Dno3CmajFmajDno3Cmaj,0215; 0567; 0800
+19,18,Cmaj,Dno3,Gmaj,Amin,Cmaj,Dno3,Gmaj,Amin,Cmaj,Dno3,Gmaj,Amin,Cmaj,Dno3,Gmaj,Amin,Cmaj,Dno3,,0.9132829641650989,##########,_Dno3CmajAminGmajDno3CmajAminGmajDno3CmajAminGmajDno3CmajAminGmajDno3Cmaj,0720
+56,8,Cmaj,Dno3,Gmaj,Cmaj,Dno3,Gmaj,Cmaj,Dno3,,,,,,,,,,,,1.02402499929967,##,_Dno3CmajGmajDno3CmajGmajDno3Cmaj,0046; 0736; 1188; 1200
+42,11,Cmaj,Dno3,Gmaj,Cmaj,Dno3,Gmaj,Cmaj,Dno3,Gmaj,Cmaj,Dno3,,,,,,,,,1.0119654955607627,##,_Dno3CmajGmajDno3CmajGmajDno3CmajGmajDno3Cmaj,0046; 0736; 1200
+45,6,Cmaj,E-maj,B-maj,Cmaj,E-maj,B-maj,,,,,,,,,,,,,,1.9341552131214943,#,_B-majE-majCmajB-majE-majCmaj,0114; 0168; 0370; 0727; 0909; 1246
+19,9,Cmaj,E-maj,B-maj,Cmaj,E-maj,B-maj,Cmaj,E-maj,B-maj,,,,,,,,,,,1.9579393553211155,#,_B-majE-majCmajB-majE-majCmajB-majE-majCmaj,0114; 0168; 0370; 0727; 0909
+19,8,Cmaj,E-maj,B-maj,Fmaj,Cmaj,E-maj,B-maj,Fmaj,,,,,,,,,,,,1.1050139971135324,##,_FmajB-majE-majCmajFmajB-majE-majCmaj,0053; 0206; 0655; 1025
+11,7,Cmaj,E-maj,B-maj,Fmaj,E-maj,B-maj,Fmaj,,,,,,,,,,,,,1.5394847569315018,#,_FmajB-majE-majFmajB-majE-majCmaj,0206; 0290; 0655; 0675; 1240
+39,5,Cmaj,E-maj,Cmaj,E-maj,Cmaj,,,,,,,,,,,,,,,1.558201569637213,#,_CmajE-majCmajE-majCmaj,0284; 0533; 0743; 0828
+27,7,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,,,,,,,,,,,,,1.7829706205553486,#,_CmajE-majCmajE-majCmajE-majCmaj,0284; 0533; 0743; 0828
+16,9,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,,,,,,,,,,,1.3244602933016414,#,_CmajE-majCmajE-majCmajE-majCmajE-majCmaj,0533; 0743; 0828
+10,11,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,E-maj,Cmaj,,,,,,,,,0.9219280948873623,#,_CmajE-majCmajE-majCmajE-majCmajE-majCmajE-majCmaj,0533; 0743; 0828
+53,13,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,,,,,,,1.0068828843737447,###,_CmajFmajE-majCmajFmajE-majCmajFmajE-majCmajFmajE-majCmaj,0291; 0476; 0625; 0688; 0824; 0841; 0932; 1062; 1089; 1280
+24,19,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,E-maj,Fmaj,Cmaj,1.1241854163060885,###,_CmajFmajE-majCmajFmajE-majCmajFmajE-majCmajFmajE-majCmajFmajE-majCmajFmajE-majCmaj,0476; 0625; 0688; 1062; 1089
+15,4,Cmaj,Emaj,Bmaj,Emaj,,,,,,,,,,,,,,,,1.2419460322060458,#,_EmajBmajEmajCmaj,0288; 0471; 0502; 0689; 0853; 1245
+11,6,Cmaj,Emaj,Fmaj,F#dim,Cmaj,Amin,,,,,,,,,,,,,,1.3221793455166668,##,_AminCmajF#dimFmajEmajCmaj,0112; 0127; 0386; 0444; 0596
+17,6,Cmaj,Emin,Amin,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,,,0.9774178175281716,#,_CmajFmajCmajAminEminCmaj,0128; 0485; 0682
+10,12,Cmaj,Emin,Amin,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Emin,Amin,Cmaj,Gmaj,,,,,,,,0.9709505944546686,#####,_GmajCmajAminEminCmajGmajCmajFmajCmajAminEminCmaj,0128; 0682
+14,6,Cmaj,Emin,Amin,Fmaj,Gmaj,Cmaj,,,,,,,,,,,,,,1.6105772433316423,#,_CmajGmajFmajAminEminCmaj,0006; 0181; 0265; 1042; 1044; 1271
+12,5,Cmaj,Emin,Bmaj,Gmaj,Dmaj,,,,,,,,,,,,,,,1.0,#,_DmajGmajBmajEminCmaj,0317; 0323
+27,12,Cmaj,Emin,Bmin,Amin,Dno3,Emin,Bmin,Cmaj,Emin,Bmin,Amin,Dno3,,,,,,,,0.9182958340544896,#######,_Dno3AminBminEminCmajBminEminDno3AminBminEminCmaj,0524; 1098; 1183
+18,19,Cmaj,Emin,Bmin,Amin,Dno3,Emin,Bmin,Cmaj,Emin,Bmin,Amin,Dno3,Emin,Bmin,Cmaj,Emin,Bmin,Amin,Dno3,1.0,######,_Dno3AminBminEminCmajBminEminDno3AminBminEminCmajBminEminDno3AminBminEminCmaj,0524; 1098; 1183
+53,7,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,,,,,,,,,,,,,1.2300544394722288,##,_CmajBminEminCmajBminEminCmaj,0227; 0275; 0481; 0978; 1186
+15,19,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,Emin,Bmin,Cmaj,0.9055872616982603,#####,_CmajBminEminCmajBminEminCmajBminEminCmajBminEminCmajBminEminCmajBminEminCmaj,0227; 0275; 0978
+10,8,Cmaj,Emin,Cmaj,Dmaj,Emin,Cmaj,Dmaj,Emin,,,,,,,,,,,,0.9709505944546686,#,_EminDmajCmajEminDmajCmajEminCmaj,0033; 0073; 0334; 0882
+19,8,Cmaj,Emin,Cmaj,Emin,Cmaj,Emin,Cmaj,Emin,,,,,,,,,,,,1.4832261969709113,#,_EminCmajEminCmajEminCmajEminCmaj,0478; 0492; 0770; 0881
+15,6,Cmaj,Emin,Cmaj,Gmaj,Dmaj,Cmaj,,,,,,,,,,,,,,0.9182958340544896,#,_CmajDmajGmajCmajEminCmaj,0128; 0682; 1124
+10,9,Cmaj,Emin,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Amin,Dno3,,,,,,,,,,,0.9709505944546686,##,_Dno3AminGmajCmajDmajGmajCmajEminCmaj,0128; 0682
+14,15,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,,,,,0.946372935985442,#########,_DmajEminCmajBminDmajEminCmajBminDmajEminCmajBminDmajEminCmaj,0741
+11,19,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,Bmin,Cmaj,Emin,Dmaj,1.0957952550009338,###,_DmajEminCmajBminDmajEminCmajBminDmajEminCmajBminDmajEminCmajBminDmajEminCmaj,0741
+12,8,Cmaj,Emin,Dmaj,Gmaj,Cmaj,Emin,Dmaj,Gmaj,,,,,,,,,,,,1.5,##,_GmajDmajEminCmajGmajDmajEminCmaj,0451; 0803
+26,7,Cmaj,Emin,Dmin,Fmin,Cmaj,Amaj,Dmin,,,,,,,,,,,,,1.1401156785146092,###,_DminAmajCmajFminDminEminCmaj,0517; 0680
+12,18,Cmaj,Emin,Dmin,Fmin,Cmaj,Amaj,Dmin,Cmaj,Dmin,Ddim,Fdim,Cmaj,Emin,Dmin,Fmin,Cmaj,Amaj,Dmin,,1.4591479170272448,#########,_DminAmajCmajFminDminEminCmajFdimDdimDminCmajDminAmajCmajFminDminEminCmaj,0517; 0680
+21,4,Cmaj,Emin,E-min,Dmin,,,,,,,,,,,,,,,,1.0230370655328809,#,_DminE-minEminCmaj,0302; 0618; 1240
+28,6,Cmaj,Emin,Fmaj,Cmaj,Emin,Fmaj,,,,,,,,,,,,,,1.644196885261584,#,_FmajEminCmajFmajEminCmaj,0154; 0177; 0203
+18,9,Cmaj,Emin,Fmaj,Cmaj,Emin,Fmaj,Cmaj,Emin,Fmaj,,,,,,,,,,,1.1221136771091087,##,_FmajEminCmajFmajEminCmajFmajEminCmaj,0154; 0177
+11,6,Cmaj,Emin,Fmaj,Dmin,Gmaj,Cmaj,,,,,,,,,,,,,,2.004886164091843,#,_CmajGmajDminFmajEminCmaj,0012; 0655; 0772; 1221
+14,6,Cmaj,Emin,Fmaj,Gmaj,Fmaj,Gmaj,,,,,,,,,,,,,,1.4299111709758698,#,_GmajFmajGmajFmajEminCmaj,0758; 0785; 1011; 1031; 1151
+16,12,Cmaj,Emin,Gmaj,Cmaj,Cmin,Gmaj,Dmin,Gmaj,Cmaj,Cmin,Gmaj,Emin,,,,,,,,1.0,#######,_EminGmajCminCmajGmajDminGmajCminCmajGmajEminCmaj,0240; 0295
+10,8,Cmaj,Emin,Gmaj,Cmaj,Emin,Gmaj,Cmaj,Emin,,,,,,,,,,,,0.9219280948873623,##,_EminCmajGmajEminCmajGmajEminCmaj,0345
+13,10,Cmaj,Fmaj,A-maj,B-maj,Fmaj,A-maj,B-maj,Fmaj,A-maj,B-maj,,,,,,,,,,0.961236604722876,####,_B-majA-majFmajB-majA-majFmajB-majA-majFmajCmaj,0476; 0625; 0699
+21,5,Cmaj,Fmaj,Amin,A-min,Gmin,,,,,,,,,,,,,,,1.0230370655328809,#,_GminA-minAminFmajCmaj,0302; 0618; 1240
+25,5,Cmaj,Fmaj,Amin,Cmaj,Fmaj,,,,,,,,,,,,,,,1.3108562983864118,#,_FmajCmajAminFmajCmaj,0345; 0456; 0956; 1167; 1178
+10,9,Cmaj,Fmaj,Amin,Cmaj,Fmaj,Amin,Cmaj,Fmaj,Amin,,,,,,,,,,,0.9219280948873623,##,_AminFmajCmajAminFmajCmajAminFmajCmaj,0345
+16,7,Cmaj,Fmaj,Amin,Dmin,Fmaj,B-maj,Fmaj,,,,,,,,,,,,,0.9544340029249649,#,_FmajB-majFmajDminAminFmajCmaj,0128; 0485; 0682
+10,13,Cmaj,Fmaj,Amin,Dmin,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Amin,Dmin,Fmaj,Cmaj,,,,,,,0.9709505944546686,#####,_CmajFmajDminAminFmajCmajFmajB-majFmajDminAminFmajCmaj,0128; 0682
+13,7,Cmaj,Fmaj,Amin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,,1.198183947911799,#,_CmajFmajCmajFmajAminFmajCmaj,0585; 0591; 0681; 0765; 0803
+10,14,Cmaj,Fmaj,B-maj,Amaj,Dmin,Cmaj,B-maj,Amaj,Dmin,Cmaj,Fmaj,B-maj,Amaj,Dmaj,,,,,,0.9709505944546686,########,_DmajAmajB-majFmajCmajDminAmajB-majCmajDminAmajB-majFmajCmaj,0242; 0782
+12,6,Cmaj,Fmaj,B-maj,B-no3,B-maj,Fmaj,,,,,,,,,,,,,,1.4591479170272448,##,_FmajB-majB-no3B-majFmajCmaj,0068; 0229; 1266
+10,15,Cmaj,Fmaj,B-maj,Cmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,B-maj,,,,,1.0,###,_B-majCmajB-majFmajCmajB-majCmajB-majFmajCmajB-majCmajB-majFmajCmaj,0300; 1190
+12,19,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,1.0,#######,_FmajCmajB-majFmajCmajB-majFmajCmajB-majFmajCmajFmajCmajB-majFmajCmajB-majFmajCmaj,0066; 0335; 0849
+13,12,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,0.961236604722876,#,_FmajCmajFmajCmajFmajCmajB-majFmajCmajB-majFmajCmaj,0293; 0308; 0500; 0669; 0873; 1154
+13,11,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,,,,,1.1401156785146092,#,_FmajB-majFmajB-majFmajB-majFmajCmajB-majFmajCmaj,0477; 0615; 0783; 0845; 0973; 1203; 1225
+29,10,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,,,,,,,1.1242592373746325,##,_FmajCmajB-majFmajCmajFmajCmajB-majFmajCmaj,0066; 0184; 0249; 0335; 0565; 0726; 0849; 0923; 1225
+12,16,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,1.0,####,_FmajCmajB-majFmajCmajB-majFmajCmajB-majFmajCmajFmajCmajB-majFmajCmaj,0066; 0335; 0849
+36,7,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,,,,,,,,,,,,,1.2250335169881905,#,_B-majFmajCmajCno3B-majFmajCmaj,0083; 0268; 0472; 0748; 0791; 0910; 1188; 1277
+11,17,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,,,1.0957952550009338,######,_CmajCno3B-majFmajCmajCno3B-majFmajCmajCno3B-majFmajCmajCno3B-majFmajCmaj,0083; 1277
+16,6,Cmaj,Fmaj,B-maj,Dmin,Cmaj,Fmaj,,,,,,,,,,,,,,1.3294340029249652,#,_FmajCmajDminB-majFmajCmaj,0451; 0803; 0807
+15,12,Cmaj,Fmaj,B-maj,E-maj,Cmaj,Fmaj,B-maj,E-maj,Cmaj,Fmaj,B-maj,E-maj,,,,,,,,1.4294732983598406,#,_E-majB-majFmajCmajE-majB-majFmajCmajE-majB-majFmajCmaj,0041; 0307; 0322; 0554; 0733; 0761; 1133; 1162
+10,11,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Fmaj,,,,,,,,,0.9219280948873623,###,_FmajB-majFmajCmajB-majFmajB-majFmajB-majFmajCmaj,0203; 0212; 0356; 0403; 1018; 1063
+38,15,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,,,,,1.0233766367829848,###,_B-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajCmaj,0041; 0050; 0203; 0212; 0244; 0330; 0403; 0417; 0425; 0468; 0477; 0585; 0615; 0619; 0674; 0752; 0765; 0783; 0943; 1018; 1100; 1113; 1117; 1123
+27,17,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,B-maj,,,1.548649538078707,#,_B-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajB-majFmajCmaj,0041; 0203; 0244; 0330; 0403; 0468; 0585; 0615; 0619; 0674; 0752; 0765; 0783; 0943; 1018; 1100; 1113; 1117; 1123
+20,10,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,,,1.5954618442383217,#,_FmajCmajFmajCmajFmajB-majFmajB-majFmajCmaj,0123; 0130; 0245; 0457; 0787; 0889; 1116; 1194; 1297
+10,10,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,Cmaj,B-maj,Fmaj,,,,,,,,,,0.9709505944546686,#,_FmajB-majCmajFmajB-majCmajFmajB-majFmajCmaj,0067; 0268; 0545; 0886; 0910
+150,10,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,,,,,0.9605367311754206,#,_FmajCmajFmajB-majFmajCmajFmajB-majFmajCmaj,0023; 0071; 0191; 0457; 0472; 0474; 0559; 0638; 0671; 0787; 0788; 0798; 0802; 0809; 0870; 0875; 0905; 0915; 0987; 0993; 1006; 1034; 1041; 1054; 1059; 1072; 1281
+95,14,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,0.959874478251509,##,_FmajCmajFmajB-majFmajCmajFmajB-majFmajCmajFmajB-majFmajCmaj,0023; 0071; 0191; 0559; 0798; 0802; 0870; 0875; 0905; 0987; 1054; 1059; 1072; 1281
+12,18,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,1.3250112108241772,###,_FmajCmajFmajCmajFmajCmajFmajB-majFmajCmajFmajB-majFmajCmajFmajB-majFmajCmaj,0023; 0191; 0559; 0870; 0987
+21,12,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,0.9182958340544896,#,_FmajCmajFmajCmajFmajB-majFmajCmajFmajB-majFmajCmaj,0023; 0191; 0457; 0559; 0802; 0870; 0875; 0987; 0993; 1006; 1034; 1054
+14,14,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,1.2958363892911637,#,_FmajCmajFmajCmajFmajCmajFmajB-majFmajCmajFmajB-majFmajCmaj,0023; 0191; 0559; 0870; 0875; 0987; 1006
+37,12,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,,,1.0403338447636488,#,_FmajCmajFmajB-majFmajCmajFmajCmajFmajB-majFmajCmaj,0149; 0452; 0457; 0678; 0787; 0802; 0941; 1024; 1110; 1116; 1263; 1297
+21,16,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,,,,1.0230370655328809,#,_FmajB-majFmajCmajFmajCmajFmajB-majFmajCmajFmajCmajFmajB-majFmajCmaj,0149; 0678; 0941; 1024; 1110; 1116; 1263; 1297
+28,10,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,,,1.4731864679927211,#,_FmajCmajFmajCmajFmajCmajFmajB-majFmajCmaj,0023; 0126; 0167; 0191; 0452; 0559; 0570; 0870; 0875; 0941; 0987; 1006; 1009; 1281
+11,14,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,1.0957952550009338,###,_FmajCmajFmajB-majFmajCmajFmajCmajFmajCmajFmajB-majFmajCmaj,0559; 0941; 0987; 1006; 1281
+35,9,Cmaj,Fmaj,B-maj,Gmaj,Cmaj,Fmaj,B-maj,Gmaj,Cmaj,,,,,,,,,,,1.0585374404261436,#,_CmajGmajB-majFmajCmajGmajB-majFmajCmaj,0041; 0307; 0322; 0554; 0733; 0761; 1133; 1162
+10,7,Cmaj,Fmaj,B-maj,Gmin,E-maj,Fmaj,B-maj,,,,,,,,,,,,,0.9709505944546686,#,_B-majFmajE-majGminB-majFmajCmaj,0120; 0253; 0903; 1152; 1210
+25,5,Cmaj,Fmaj,B-min,D-maj,E-maj,,,,,,,,,,,,,,,0.904381457724494,#,_E-majD-majB-minFmajCmaj,0381; 0837; 0999
+12,14,Cmaj,Fmaj,B-no3,Fmaj,F#maj,D-maj,Bmaj,B-min,B-no3,Fmaj,F#maj,E-maj,Cmaj,Fmaj,,,,,,0.9182958340544896,##########,_FmajCmajE-majF#majFmajB-no3B-minBmajD-majF#majFmajB-no3FmajCmaj,0381; 0999
+10,6,Cmaj,Fmaj,Cmaj,A-maj,B-maj,Cmaj,,,,,,,,,,,,,,1.3567796494470397,#,_CmajB-majA-majCmajFmajCmaj,0351; 1272
+21,7,Cmaj,Fmaj,Cmaj,Amin,Dmaj,Gmaj,Cmaj,,,,,,,,,,,,,1.9533040442609688,#,_CmajGmajDmajAminCmajFmajCmaj,0112; 0312; 0475; 0596; 0711; 0950; 0995
+13,9,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Dmin,Amin,B-maj,Cmaj,,,,,,,,,,,1.4195562985716133,##,_CmajB-majAminDminCmajB-majCmajFmajCmaj,0258; 0349; 0385; 0628; 0911
+59,12,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,,,,,,,,0.9891318547304483,#,_B-majCmajFmajCmajB-majCmajFmajCmajB-majCmajFmajCmaj,0006; 0081; 0150; 0300; 0794; 0821; 0833; 1271; 1289
+24,17,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,Fmaj,Cmaj,B-maj,Cmaj,,,1.1386865525783179,##,_CmajB-majCmajFmajCmajB-majCmajFmajCmajB-majCmajFmajCmajB-majCmajFmajCmaj,0081; 0150; 0794; 0821; 0833; 1289
+24,7,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,,,,,,,,,,,,,1.4182958340544896,#,_FmajCmajB-majDminCmajFmajCmaj,0572; 0600; 1258
+15,12,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,Cmaj,Dmin,B-maj,Cmaj,Fmaj,,,,,,,,1.6049355947431312,####,_FmajCmajB-majDminCmajFmajCmajB-majDminCmajFmajCmaj,0572; 0600; 1258
+13,9,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,,,,,,,,,,,1.1401156785146092,#,_CmajDminCmajFmajCmajDminCmajFmajCmaj,0124; 0627; 0916; 1228
+34,8,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,1.6087001655198914,##,_CmajFmajCmajFmajDminCmajFmajCmaj,0492; 0881; 1064
+16,15,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,1.2987949406953985,######,_CmajFmajCmajFmajDminCmajFmajCmajFmajCmajFmajDminCmajFmajCmaj,0492; 0881
+10,9,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,0.9219280948873623,###,_CmajFmajCmajGmajFmajDminCmajFmajCmaj,0433; 1069
+28,6,Cmaj,Fmaj,Cmaj,Dmin,Gmaj,Cmaj,,,,,,,,,,,,,,1.6253367514971548,#,_CmajGmajDminCmajFmajCmaj,0064; 0149; 0220; 0485; 1149; 1178; 1245; 1248
+12,7,Cmaj,Fmaj,Cmaj,Fmaj,Amin,Gmaj,Fmaj,,,,,,,,,,,,,0.9182958340544896,#,_FmajGmajAminFmajCmajFmajCmaj,0830; 0965
+14,8,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,B-maj,Cmaj,,,,,,,,,,,,1.4137995646056802,#,_CmajB-majCmajB-majFmajCmajFmajCmaj,0199; 0847; 0891; 0979
+31,10,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,,,,,,,0.9992492479956565,#,_FmajCmajB-majFmajCmajB-majFmajCmajFmajCmaj,0066; 0249; 0308; 0335; 0500; 0669; 0845; 0849; 0873; 0973; 1154; 1225
+16,13,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,,,,,,,0.9544340029249649,##,_FmajCmajB-majFmajCmajB-majFmajCmajB-majFmajCmajFmajCmaj,0066; 0335; 0845; 0849; 0973; 1154
+15,12,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,B-maj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,0.9967916319816366,#,_FmajCmajFmajCmajB-majFmajCmajB-majFmajCmajFmajCmaj,0249; 0308; 0500; 0669; 0873; 1225
+13,12,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,1.669180336866731,#,_FmajCmajFmajCmajFmajB-majFmajB-majFmajCmajFmajCmaj,0123; 0130; 0457; 0889; 1116; 1194; 1297
+17,12,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,,,1.086312840741288,#,_FmajCmajFmajB-majFmajCmajFmajB-majFmajCmajFmajCmaj,0457; 0559; 0787; 0798; 0802; 0809; 0987; 1006; 1034; 1281
+11,16,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,1.9362600275315274,###,_FmajCmajFmajB-majFmajCmajFmajB-majFmajCmajFmajB-majFmajCmajFmajCmaj,0559; 0798; 0802; 0987; 1281
+10,12,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,0.9709505944546686,#,_FmajCmajFmajCmajFmajCmajFmajB-majFmajCmajFmajCmaj,0126; 0452; 0941; 1006; 1281
+20,9,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,,,,,,,1.919973094021975,#,_FmajB-majFmajB-majCmajFmajCmajFmajCmaj,0518; 0610; 0995; 1039
+10,7,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmaj,Gmaj,,,,,,,,,,,,,1.3709505944546687,#,_GmajDmajCmajFmajCmajFmajCmaj,0010; 0094; 0625; 0707; 0968; 0969
+16,10,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmin,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,1.2987949406953985,##,_CmajFmajCmajFmajDminCmajFmajCmajFmajCmaj,0492; 0881
+20,10,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,,,,,,,,,,1.219240704636849,#,_FmajCmajFmajB-majFmajCmajFmajCmajFmajCmaj,0130; 0452; 0457; 0559; 0941; 0987; 1006; 1119; 1281
+10,12,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,0.9709505944546686,#,_FmajCmajFmajCmajFmajB-majFmajCmajFmajCmajFmajCmaj,0130; 0452; 0457; 0941; 1006
+14,10,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,Fmaj,,,,,,,,,,1.1488348542809168,#,_FmajCmajDminCmajFmajCmajFmajCmajFmajCmaj,0234; 0925; 1212
+10,12,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Dmin,Cmaj,Fmaj,,,,,,,,1.1567796494470395,#,_FmajCmajDminCmajFmajCmajFmajCmajFmajCmajFmajCmaj,0234; 1212
+15,11,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,0.9709505944546686,#,_CmajFmajCmajGmajCmajFmajCmajFmajCmajFmajCmaj,0347; 0356; 0455; 0468; 0559; 0788; 0987; 1135
+10,11,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.0,#,_CmajGmajCmajGmajCmajFmajCmajFmajCmajFmajCmaj,0244; 0559; 0864; 0889; 0968; 0987; 0995
+39,9,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,,,1.3663759416191268,#,_CmajGmajCmajGmajCmajFmajCmajFmajCmaj,0123; 0130; 0244; 0245; 0457; 0559; 0560; 0787; 0864; 0889; 0968; 0987; 0995; 1116; 1194; 1297
+14,11,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,0.9402859586706309,#,_CmajFmajCmajGmajCmajGmajCmajFmajCmajFmajCmaj,0559; 0560; 0787; 0864; 0889; 0987; 1116; 1194; 1297
+28,12,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,0.9591963191047147,##,_CmajFmajCmajFmajCmajFmajGmajCmajFmajCmajFmajCmaj,0162; 0187; 0425; 0560; 0707; 0721; 0900
+28,14,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,1.1981174211304033,#####,_CmajFmajCmajFmajCmajFmajGmajFmajGmajCmajFmajCmajFmajCmaj,0139; 0561; 0695; 0885
+18,19,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,0.9182958340544896,####,_CmajFmajGmajFmajGmajCmajFmajCmajFmajCmajFmajGmajFmajGmajCmajFmajCmajFmajCmaj,0561; 0695
+12,12,Cmaj,Fmaj,Cmaj,Fmaj,Fno3,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,1.5,#######,_FmajCmajFmajCmajFmajB-majFmajFno3FmajCmajFmajCmaj,0822; 0954; 1166
+12,7,Cmaj,Fmaj,Cmaj,Gmaj,B-maj,Fmaj,Gmaj,,,,,,,,,,,,,0.9182958340544896,#,_GmajFmajB-majGmajCmajFmajCmaj,0114; 0601; 1093
+14,9,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Emin,Amin,Cmaj,Gmaj,,,,,,,,,,,0.9852281360342516,##,_GmajCmajAminEminCmajGmajCmajFmajCmaj,0128; 0682; 1107
+21,11,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,1.800970956987782,#,_CmajFmajCmajFmajCmajFmajCmajGmajCmajFmajCmaj,0356; 0425; 0468; 0559; 0591; 0619; 0987; 1063; 1100; 1116; 1117; 1135; 1193; 1248; 1297
+167,9,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,,,1.0437597845712336,#,_CmajGmajCmajFmajCmajGmajCmajFmajCmaj,0023; 0071; 0191; 0457; 0472; 0474; 0555; 0559; 0591; 0638; 0671; 0787; 0788; 0798; 0802; 0809; 0870; 0875; 0905; 0915; 0987; 0993; 1006; 1022; 1034; 1041; 1054; 1059; 1066; 1072; 1116; 1281; 1297
+103,13,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,0.9501546086194731,##,_CmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajFmajCmaj,0023; 0071; 0191; 0559; 0788; 0798; 0802; 0870; 0875; 0905; 0987; 1054; 1059; 1072; 1281
+12,17,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,1.3250112108241772,###,_CmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajFmajCmaj,0023; 0191; 0559; 0870; 0987
+24,11,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,0.9798687566511527,#,_CmajGmajCmajGmajCmajFmajCmajGmajCmajFmajCmaj,0023; 0191; 0457; 0559; 0788; 0802; 0870; 0875; 0987; 0993; 1006; 1034; 1054; 1116; 1297
+14,13,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,1.2958363892911637,#,_CmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmajFmajCmaj,0023; 0191; 0559; 0870; 0875; 0987; 1006
+50,11,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.3124417442814613,#,_CmajGmajCmajFmajCmajGmajCmajGmajCmajFmajCmaj,0149; 0452; 0457; 0559; 0678; 0787; 0802; 0864; 0941; 0987; 1024; 1107; 1110; 1116; 1263; 1297
+13,13,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,1.4604846813131116,#,_CmajFmajCmajGmajCmajFmajCmajGmajCmajGmajCmajFmajCmaj,0149; 0457; 0559; 0787; 0802; 0864; 0987; 1116; 1297
+25,15,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,0.9161182137782959,##,_CmajFmajCmajGmajCmajGmajCmajFmajCmajGmajCmajGmajCmajFmajCmaj,0149; 0678; 0941; 1024; 1110; 1116; 1263; 1297
+21,11,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,1.1657840518150733,#,_CmajFmajCmajGmajCmajGmajCmajGmajCmajFmajCmaj,0123; 0133; 0457; 0559; 0560; 0889; 0941; 0987; 1006; 1281
+13,13,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,1.2389012566026307,#,_CmajGmajCmajFmajCmajGmajCmajGmajCmajGmajCmajFmajCmaj,0457; 0559; 0941; 0987; 1006; 1281
+10,15,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,0.9219280948873623,###,_CmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajFmajCmaj,0023; 0191; 0245; 0452; 0870; 0968; 1009
+12,12,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,1.6140054628542202,##,_CmajFmajCmajFmajGmajCmajGmajCmajGmajCmajFmajCmaj,0610; 0995
+10,9,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,B-maj,Gmaj,,,,,,,,,,,0.9709505944546686,#,_GmajB-majFmajCmajFmajGmajCmajFmajCmaj,0322; 0733
+144,8,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,1.0773058388772867,#,_CmajFmajCmajFmajGmajCmajFmajCmaj,0012; 0115; 0162; 0179; 0187; 0214; 0289; 0314; 0358; 0383; 0425; 0439; 0455; 0560; 0577; 0672; 0707; 0721; 0773; 0792; 0852; 0874; 0889; 0900; 0948; 1034; 1103; 1119; 1125; 1134; 1135; 1193; 1208; 1247
+34,10,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,1.0119209285947934,#,_CmajFmajCmajFmajCmajFmajGmajCmajFmajCmaj,0115; 0162; 0187; 0289; 0425; 0560; 0707; 0721; 0900; 1119; 1134; 1135
+84,11,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,1.2624574961819044,#,_CmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmaj,0115; 0179; 0187; 0214; 0289; 0314; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1193; 1247
+52,16,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,1.2595563458507657,####,_CmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmaj,0115; 0187; 0214; 0289; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0948; 1103; 1125; 1193
+30,9,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,,,1.2555367253996506,#,_CmajFmajGmajCmajFmajGmajCmajFmajCmaj,0050; 0067; 0130; 0162; 0268; 0314; 0358; 0383; 0455; 0545; 0577; 0852; 0874; 0886; 0910; 0946
+16,12,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,1.4056390622295662,##,_CmajFmajGmajCmajFmajGmajCmajFmajGmajCmajFmajCmaj,0130; 0314; 0358; 0455; 0545; 0577; 0852; 0874; 0886; 0946
+36,12,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,1.0529407605626349,####,_CmajFmajCmajFmajCmajFmajGmajFmajGmajCmajFmajCmaj,0139; 0561; 0695; 0885
+35,8,Cmaj,Fmaj,Dmaj,Gmaj,Cmaj,Fmaj,Dmaj,Gmaj,,,,,,,,,,,,1.0585374404261438,#,_GmajDmajFmajCmajGmajDmajFmajCmaj,0041; 0307; 0322; 0554; 0733; 0761; 1133; 1162
+37,5,Cmaj,Fmaj,Dmaj,Gmin,Cmaj,,,,,,,,,,,,,,,1.7080560685035922,#,_CmajGminDmajFmajCmaj,0192; 0691; 0789; 1138; 1188
+11,8,Cmaj,Fmaj,Dmin,Amaj,Dmin,Fmaj,Cmaj,Fmaj,,,,,,,,,,,,1.6171895725927152,##,_FmajCmajFmajDminAmajDminFmajCmaj,0845
+171,9,Cmaj,Fmaj,Dmin,B-maj,Cmaj,Fmaj,Dmin,B-maj,Cmaj,,,,,,,,,,,1.0614470323090608,##,_CmajB-majDminFmajCmajB-majDminFmajCmaj,0054; 0119; 0120; 0145; 0169; 0247; 0253; 0263; 0355; 0362; 0402; 0549; 0568; 0571; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1094; 1152; 1210; 1211
+120,13,Cmaj,Fmaj,Dmin,B-maj,Cmaj,Fmaj,Dmin,B-maj,Cmaj,Fmaj,Dmin,B-maj,Cmaj,,,,,,,0.9351243992283935,##,_CmajB-majDminFmajCmajB-majDminFmajCmajB-majDminFmajCmaj,0054; 0119; 0120; 0145; 0247; 0253; 0263; 0362; 0402; 0568; 0571; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1094; 1152; 1210; 1211
+10,8,Cmaj,Fmaj,Dmin,B-maj,Cmaj,Fmaj,Gmin,Cmaj,,,,,,,,,,,,1.5219280948873621,#,_CmajGminFmajCmajB-majDminFmajCmaj,0120; 0903; 0914; 1270
+18,6,Cmaj,Fmaj,Dmin,B-min,Cmaj,Fmaj,,,,,,,,,,,,,,0.9864267287308425,##,_FmajCmajB-minDminFmajCmaj,0157; 0603
+12,10,Cmaj,Fmaj,Dmin,B-min,Cmaj,Fmaj,Dmin,B-min,Cmaj,Fmaj,,,,,,,,,,1.2516291673878228,###,_FmajCmajB-minDminFmajCmajB-minDminFmajCmaj,0157; 0603
+69,8,Cmaj,Fmaj,Dmin,Gmaj,Cmaj,Fmaj,Dmin,Gmaj,,,,,,,,,,,,1.2302732379302932,#,_GmajDminFmajCmajGmajDminFmajCmaj,0109; 0224; 0258; 0296; 0349; 0380; 0546; 0777; 0827; 0843; 1016; 1220
+65,10,Cmaj,Fmaj,Dmin,Gmin,Cmaj,Fmaj,Dmin,Gmin,Cmaj,Fmaj,,,,,,,,,,1.1249113269667155,##,_FmajCmajGminDminFmajCmajGminDminFmajCmaj,0315; 0484; 0728; 0926; 0986; 1046; 1161
+27,7,Cmaj,Fmaj,E-maj,B-maj,Fmaj,E-maj,B-maj,,,,,,,,,,,,,1.049398525415911,#,_B-majE-majFmajB-majE-majFmajCmaj,0074; 0075; 0095; 0406; 0589; 0675; 0707; 0810; 1002
+16,13,Cmaj,Fmaj,E-maj,B-maj,Fmaj,E-maj,B-maj,Fmaj,E-maj,B-maj,Fmaj,E-maj,B-maj,,,,,,,1.3663146570363986,####,_B-majE-majFmajB-majE-majFmajB-majE-majFmajB-majE-majFmajCmaj,0074; 0075; 0095; 0406; 0589; 0810; 1002
+24,9,Cmaj,Fmaj,E-maj,Cmaj,Fmaj,E-maj,Cmaj,Fmaj,E-maj,,,,,,,,,,,1.0238995733215066,####,_E-majFmajCmajE-majFmajCmajE-majFmajCmaj,1220
+19,12,Cmaj,Fmaj,E-maj,Cmaj,Fmaj,E-maj,Cmaj,Fmaj,E-maj,Cmaj,Fmaj,E-maj,,,,,,,,1.1922508602346422,##,_E-majFmajCmajE-majFmajCmajE-majFmajCmajE-majFmajCmaj,1220
+10,13,Cmaj,Fmaj,Emaj,Amin,Gmaj,Fmaj,Emaj,Amin,Gmaj,Cmaj,Fmaj,Emaj,Amaj,,,,,,,0.9709505944546686,########,_AmajEmajFmajCmajGmajAminEmajFmajGmajAminEmajFmajCmaj,0242; 0782
+12,7,Cmaj,Fmaj,Emin,Amin,Emin,Amin,Dmin,,,,,,,,,,,,,1.4591479170272446,##,_DminAminEminAminEminFmajCmaj,0433; 0619; 0813; 0896; 1100; 1117
+13,13,Cmaj,Fmaj,Emin,Dmin,Cmaj,Fmaj,Emin,Dmin,Cmaj,Fmaj,Emin,Dmin,Cmaj,,,,,,,0.9912642605354289,######,_CmajDminEminFmajCmajDminEminFmajCmajDminEminFmajCmaj,1257
+10,17,Cmaj,Fmaj,Emin,Dmin,Cmaj,Fmaj,Emin,Dmin,Cmaj,Fmaj,Emin,Dmin,Cmaj,Fmaj,Emin,Dmin,Cmaj,,,1.1567796494470395,###,_CmajDminEminFmajCmajDminEminFmajCmajDminEminFmajCmajDminEminFmajCmaj,1257
+16,10,Cmaj,Fmaj,Fmin,Cmaj,Gmin,Cmaj,Fmaj,Fmin,Cmaj,Amin,,,,,,,,,,1.0,#####,_AminCmajFminFmajCmajGminCmajFminFmajCmaj,0240; 0295
+12,10,Cmaj,Fmaj,Fno3,Fmaj,B-maj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,,,,,,,,1.5,####,_FmajCmajFmajCmajFmajB-majFmajFno3FmajCmaj,0822; 0954; 1166
+13,8,Cmaj,Fmaj,Fno3,Fmaj,Cmaj,Fmaj,Fno3,Fmaj,,,,,,,,,,,,1.9877733714879842,#,_FmajFno3FmajCmajFmajFno3FmajCmaj,0068; 0354
+21,6,Cmaj,Fmaj,Fno3,Fmaj,Fno3,Fmaj,,,,,,,,,,,,,,1.6644977792004614,#,_FmajFno3FmajFno3FmajCmaj,0182; 0234; 0348; 0461; 0711; 0781; 0864
+10,9,Cmaj,Fmaj,Gmaj,Cmaj,B-maj,Cmaj,B-maj,Cmaj,B-maj,,,,,,,,,,,0.9709505944546686,##,_B-majCmajB-majCmajB-majCmajGmajFmajCmaj,0072; 0448; 0850; 1136
+14,8,Cmaj,Fmaj,Gmaj,Cmaj,Dmin,Fmaj,Gmaj,Fmaj,,,,,,,,,,,,0.9402859586706309,##,_FmajGmajFmajDminCmajGmajFmajCmaj,0758; 0785; 1104; 1151
+15,7,Cmaj,Fmaj,Gmaj,Cmaj,Emin,Fmaj,Gmaj,,,,,,,,,,,,,0.9709505944546686,#,_GmajFmajEminCmajGmajFmajCmaj,0231; 0758; 0785; 1151
+11,17,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,,,1.2406705316766886,###,_FmajCmajFmajCmajFmajCmajFmajCmajFmajCmajFmajCmajFmajCmajGmajFmajCmaj,0212; 0403; 0468; 0477; 0615; 0752; 0783; 1018
+12,18,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,1.0,#######,_CmajGmajFmajCmajGmajFmajCmajGmajFmajCmajGmajCmajGmajFmajCmajGmajFmajCmaj,0066; 0335; 0849
+13,11,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,0.961236604722876,#,_CmajGmajCmajGmajCmajGmajFmajCmajGmajFmajCmaj,0293; 0308; 0500; 0669; 0873; 1154
+30,9,Cmaj,Fmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,,,,,,,1.1092271387984602,##,_CmajGmajFmajCmajGmajCmajGmajFmajCmaj,0066; 0184; 0249; 0335; 0565; 0726; 0849; 0923; 1225
+18,12,Cmaj,Fmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,,,,0.9182958340544896,##,_CmajGmajFmajCmajGmajFmajCmajGmajCmajGmajFmajCmaj,0066; 0249; 0335; 0849; 1225
+12,15,Cmaj,Fmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,1.0,##,_CmajGmajFmajCmajGmajFmajCmajGmajFmajCmajGmajCmajGmajFmajCmaj,0066; 0335; 0849
+14,8,Cmaj,Fmaj,Gmaj,Cno3,Cmaj,Fmaj,Gno3,Gmaj,,,,,,,,,,,,1.4299111709758698,##,_GmajGno3FmajCmajCno3GmajFmajCmaj,1126
+17,5,Cmaj,Fmaj,Gmaj,Emaj,Amin,,,,,,,,,,,,,,,1.6457113704075788,#,_AminEmajGmajFmajCmaj,0016; 0086; 0355; 0770; 1274
+22,9,Cmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,0.9373012413074896,#,_CmajFmajCmajFmajCmajFmajGmajFmajCmaj,0029; 0246; 0504; 0623; 0807; 0995; 1119; 1134
+10,13,Cmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Gmaj,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Fmaj,,,,,,,1.4854752972273344,####,_FmajCmajGmajFmajGmajFmajGmajFmajCmajFmajGmajFmajCmaj,0083; 0238
+10,14,Cmaj,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Fmaj,,,,,,1.0,###,_FmajGmajFmajCmajGmajFmajGmajFmajCmajGmajFmajGmajFmajCmaj,0300; 1190
+10,9,Cmaj,Fmaj,Gmaj,Fmaj,Gmaj,Fmaj,Gmaj,Cmaj,Fmaj,,,,,,,,,,,1.4854752972273344,#,_FmajCmajGmajFmajGmajFmajGmajFmajCmaj,0083; 0238
+10,19,Cmaj,Fmaj,Gmin,B-maj,Cmaj,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,B-maj,Cmaj,0.9219280948873623,#########,_CmajB-majCmajB-majGminFmajCmajB-majCmajB-majGminFmajCmajB-majCmajB-majGminFmajCmaj,1104
+65,6,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,,,,,,,,,,,,,,1.0298605301143022,#,_FmajCmajB-majGminFmajCmaj,0010; 0064; 0258; 0349; 0747; 0842; 1218; 1285
+25,10,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,,,,,,,,,,0.996118213778296,##,_FmajCmajB-majGminFmajCmajB-majGminFmajCmaj,0010; 0258; 0349; 0747
+12,15,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,,,,,0.9182958340544896,###,_GminFmajCmajB-majGminFmajCmajB-majGminFmajCmajB-majGminFmajCmaj,0258; 0349
+16,14,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,,,,,,1.1994602933016414,#####,_GminFmajCmajB-majGminFmajCmajGminFmajCmajB-majGminFmajCmaj,0258; 0349; 1285
+16,10,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,B-maj,Cmaj,Fmaj,Gmin,,,,,,,,,,1.1994602933016414,###,_GminFmajCmajB-majGminFmajCmajGminFmajCmaj,0258; 0349; 1285
+36,10,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,,,,,,,,,,1.0408520829727552,#,_CmajGminFmajCmajGminFmajCmajGminFmajCmaj,0296; 0410; 0729; 0767; 0834; 1027; 1138; 1192; 1283
+17,14,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,Fmaj,,,,,,0.9519940819087831,##,_FmajCmajGminFmajCmajGminFmajCmajGminFmajCmajGminFmajCmaj,0410; 0767; 1027
+16,8,Cmaj,Fmaj,Gmin,Fmaj,Gmin,Fmaj,Gmin,Fmaj,,,,,,,,,,,,1.6697367178034823,##,_FmajGminFmajGminFmajGminFmajCmaj,0246; 0294; 0307; 0542; 0797; 1133; 1162
+53,9,Cmaj,Fmaj,Gno3,Cmaj,Fmaj,Gno3,Cmaj,Fmaj,Gno3,,,,,,,,,,,1.011182591147447,##,_Gno3FmajCmajGno3FmajCmajGno3FmajCmaj,0046; 0736; 1188; 1200
+41,12,Cmaj,Fmaj,Gno3,Cmaj,Fmaj,Gno3,Cmaj,Fmaj,Gno3,Cmaj,Fmaj,Gno3,,,,,,,,0.9654874579530647,##,_Gno3FmajCmajGno3FmajCmajGno3FmajCmajGno3FmajCmaj,0046; 0736; 1200
+24,10,Cmaj,Fmaj,Gno3,Gmaj,Cmaj,Fmaj,Gno3,Gmaj,Cmaj,Fmaj,,,,,,,,,,0.9405662399881731,###,_FmajCmajGmajGno3FmajCmajGmajGno3FmajCmaj,0083; 0791; 1188; 1277
+14,16,Cmaj,Fmaj,Gno3,Gmaj,Cmaj,Fmaj,Gno3,Gmaj,Cmaj,Fmaj,Gno3,Gmaj,Cmaj,Fmaj,Gno3,Gmaj,,,,0.946372935985442,###,_GmajGno3FmajCmajGmajGno3FmajCmajGmajGno3FmajCmajGmajGno3FmajCmaj,0083; 0791; 1277
+11,11,Cmaj,Fmin,A-maj,E-maj,A-maj,Fmin,Cmaj,Fmin,A-maj,E-maj,A-maj,,,,,,,,,1.6171895725927152,#####,_A-majE-majA-majFminCmajFminA-majE-majA-majFminCmaj,0845
+15,7,Cmaj,Fmin,B-maj,Cmaj,Fmin,B-maj,Cmaj,,,,,,,,,,,,,0.9055872616982603,##,_CmajB-majFminCmajB-majFminCmaj,0643
+12,10,Cmaj,Fmin,B-maj,Cmaj,Fmin,B-maj,Cmaj,Fmin,B-maj,Cmaj,,,,,,,,,,1.040852082972755,##,_CmajB-majFminCmajB-majFminCmajB-majFminCmaj,0643
+22,7,Cmaj,Fmin,B-maj,E-maj,Cmaj,Fmin,B-maj,,,,,,,,,,,,,1.1867043459100246,##,_B-majFminCmajE-majB-majFminCmaj,0789; 1138
+10,15,Cmaj,Fmin,B-maj,E-maj,Cmaj,Fmin,B-maj,E-maj,Cmaj,Fmin,B-maj,E-maj,Cmaj,Fmin,B-maj,,,,,0.9219280948873623,#####,_B-majFminCmajE-majB-majFminCmajE-majB-majFminCmajE-majB-majFminCmaj,0789
+20,5,Cmaj,Fmin,B-min,E-maj,A-maj,,,,,,,,,,,,,,,2.2037016960573483,#,_A-majE-majB-minFminCmaj,0004; 0193; 0326; 0434; 0627; 0737; 0816; 1045; 1229
+76,8,Cmaj,Fmin,Cmaj,Fmin,Cmaj,Fmin,Cmaj,Fmin,,,,,,,,,,,,1.414498534248335,#,_FminCmajFminCmajFminCmajFminCmaj,0004; 0104; 0343; 0396; 0456; 0798; 1013; 1070; 1087; 1229
+54,10,Cmaj,Fmin,Cmaj,Fmin,Cmaj,Fmin,Cmaj,Fmin,Cmaj,Fmin,,,,,,,,,,1.0162157088857124,#,_FminCmajFminCmajFminCmajFminCmajFminCmaj,0104; 0396; 0798; 1013; 1070
+13,8,Cmaj,Fmin,D-maj,E-maj,Fmin,D-maj,E-maj,Fmin,,,,,,,,,,,,0.9912642605354289,#,_FminE-majD-majFminE-majD-majFminCmaj,0016; 0033; 0073; 1073; 1274
+10,11,Cmaj,Fmin,D-maj,E-maj,Fmin,D-maj,E-maj,Fmin,E-maj,D-maj,Fmin,,,,,,,,,1.9219280948873623,##,_FminD-majE-majFminE-majD-majFminE-majD-majFminCmaj,0033; 0073
+11,6,Cmaj,Fmin,Ddim,B-no3,Cmaj,Fmaj,,,,,,,,,,,,,,1.3092966682370037,##,_FmajCmajB-no3DdimFminCmaj,0205
+20,6,Cmaj,Fmin,E-maj,A-maj,D-maj,Cmaj,,,,,,,,,,,,,,1.0,#,_CmajD-majA-majE-majFminCmaj,0242; 0782
+10,16,Cmaj,Fmin,E-maj,A-maj,D-maj,Cmaj,Fmin,E-maj,D-maj,Cmaj,Fmin,E-maj,A-maj,D-maj,Cmaj,Fmaj,,,,0.9709505944546686,#########,_FmajCmajD-majA-majE-majFminCmajD-majE-majFminCmajD-majA-majE-majFminCmaj,0242; 0782
+13,7,Cmaj,Fmin,E-maj,D-maj,Cmaj,Fmin,E-maj,,,,,,,,,,,,,0.9912642605354289,#,_E-majFminCmajD-majE-majFminCmaj,0242; 0633; 0782; 1121
+10,11,Cmaj,Fmin,E-maj,D-maj,Cmaj,Fmin,E-maj,A-maj,D-maj,Cmaj,Fmaj,,,,,,,,,0.9709505944546686,###,_FmajCmajD-majA-majE-majFminCmajD-majE-majFminCmaj,0242; 0782
+12,13,Cmaj,Fmin,E-maj,Fmin,Fdim,A-dim,E-maj,Gmin,Fmin,A-min,E-maj,Cmaj,Fmin,,,,,,,1.4591479170272448,#########,_FminCmajE-majA-minFminGminE-majA-dimFdimFminE-majFminCmaj,0517; 0680
+19,5,Cmaj,Fmin,E-min,A-maj,D-maj,,,,,,,,,,,,,,,1.8924071185928768,##,_D-majA-majE-minFminCmaj,0338; 0655; 0806; 0832; 0895
+10,5,Cmaj,Fmin,F#maj,Emaj,Cmaj,,,,,,,,,,,,,,,1.9219280948873623,##,_CmajEmajF#majFminCmaj,0813; 0896
+10,9,Cmaj,Fmin,Gmin,A-maj,B-maj,Cmaj,D-maj,Cmaj,Fmin,,,,,,,,,,,0.9709505944546686,###,_FminCmajD-majCmajB-majA-majGminFminCmaj,1053; 1204
+10,7,Cmaj,Fno3,B-maj,B-min,Fmaj,B-min,Cmaj,,,,,,,,,,,,,0.9709505944546686,##,_CmajB-minFmajB-minB-majFno3Cmaj,0106; 0988
+12,13,Cmaj,Fno3,Cmaj,D-maj,A-maj,F#maj,Fmin,Fno3,Cmaj,D-maj,B-maj,Gmaj,Cmaj,,,,,,,0.9182958340544896,#########,_CmajGmajB-majD-majCmajFno3FminF#majA-majD-majCmajFno3Cmaj,0381; 0999
+11,6,Cmaj,Fno3,Cmaj,Fmaj,Dmin,Cmaj,,,,,,,,,,,,,,1.2406705316766886,#,_CmajDminFmajCmajFno3Cmaj,0865
+11,10,Cmaj,Fno3,Fmaj,B-maj,Cmaj,Fno3,Fmaj,B-maj,Cno3,Cmaj,,,,,,,,,,1.6171895725927152,#####,_CmajCno3B-majFmajFno3CmajB-majFmajFno3Cmaj,1126
+14,6,Cmaj,Fno3,Fmaj,B-maj,Cno3,Cmaj,,,,,,,,,,,,,,1.4299111709758698,#,_CmajCno3B-majFmajFno3Cmaj,1126
+30,5,Cmaj,Fno3,Fmaj,Fno3,Fmaj,,,,,,,,,,,,,,,2.2797991318374056,#,_FmajFno3FmajFno3Cmaj,0236; 0421; 0469; 0507; 0518; 0657; 0813; 0894; 0896
+10,8,Cmaj,Fno3,Fmaj,Gmaj,Emin,Amin,Dmin,Gno3,,,,,,,,,,,,1.295461844238322,###,_Gno3DminAminEminGmajFmajFno3Cmaj,1112
+12,5,Cmaj,Fno3,Gmaj,Fmaj,Cmaj,,,,,,,,,,,,,,,1.2516291673878228,#,_CmajFmajGmajFno3Cmaj,0107
+23,8,Cmaj,Gmaj,Amaj,Cmaj,Gmaj,Amaj,Cmaj,Gmaj,,,,,,,,,,,,2.3381418470791693,#,_GmajCmajAmajGmajCmajAmajGmajCmaj,0114; 0168; 0370; 0727; 0909; 1246
+12,7,Cmaj,Gmaj,Amaj,Dmaj,Gmaj,Amaj,Dmaj,,,,,,,,,,,,,0.9182958340544896,#,_DmajAmajGmajDmajAmajGmajCmaj,0072; 0601; 0973; 1093; 1136
+10,8,Cmaj,Gmaj,Amaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,,,,,,,,,,,,1.6854752972273344,#,_DmajGmajCmajGmajDmajAmajGmajCmaj,0133; 0671; 0875; 1054; 1247
+10,8,Cmaj,Gmaj,Amin,Cmaj,Dmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,,0.9219280948873623,#,_GmajCmajGmajDmajCmajAminGmajCmaj,0433; 1069
+45,7,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,,,1.4848053406073949,#,_GmajCmajGmajCmajAminGmajCmaj,0160; 0172; 0492; 0881; 1064
+16,14,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,1.2987949406953985,#####,_GmajCmajGmajCmajAminGmajCmajGmajCmajGmajCmajAminGmajCmaj,0492; 0881
+21,11,Cmaj,Gmaj,Amin,Fmaj,Gmaj,Cmaj,Gmaj,Amin,Fmaj,Gmaj,Cmaj,,,,,,,,,1.5301404544057031,####,_CmajGmajFmajAminGmajCmajGmajFmajAminGmajCmaj,0572; 0600; 1258
+12,16,Cmaj,Gmaj,Amin,Fmaj,Gmaj,Cmaj,Gmaj,Amin,Fmaj,Gmaj,Cmaj,Gmaj,Amin,Fmaj,Gmaj,Cmaj,,,,1.7924812503605778,####,_CmajGmajFmajAminGmajCmajGmajFmajAminGmajCmajGmajFmajAminGmajCmaj,0572; 0600
+18,9,Cmaj,Gmaj,Amin,Gmaj,Amaj,A,Cmaj,Gmaj,Amin,,,,,,,,,,,1.224394445405986,####,_AminGmajCmajAAmajGmajAminGmajCmaj,1169; 1260
+12,15,Cmaj,Gmaj,Amin,Gmaj,Amaj,A,Cmaj,Gmaj,Amin,Gmaj,Amaj,A,Cmaj,Gmaj,Amin,,,,,0.9182958340544896,#####,_AminGmajCmajAAmajGmajAminGmajCmajAAmajGmajAminGmajCmaj,1169; 1260
+10,10,Cmaj,Gmaj,Amin,Gmaj,Amin,Gmaj,Cmaj,Gmaj,Amin,Gmaj,,,,,,,,,,1.295461844238322,###,_GmajAminGmajCmajGmajAminGmajAminGmajCmaj,0947
+10,4,Cmaj,Gmaj,B-dim,Amin,,,,,,,,,,,,,,,,1.295461844238322,#,_AminB-dimGmajCmaj,0367; 0806
+57,11,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,,,,,,,,,1.0290204785329449,##,_GmajCmajB-majGmajCmajB-majGmajCmajB-majGmajCmaj,0291; 0476; 0625; 0688; 0824; 0841; 0932; 1062; 1089; 1280
+27,17,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,B-maj,Cmaj,Gmaj,,,1.042344321483692,###,_GmajCmajB-majGmajCmajB-majGmajCmajB-majGmajCmajB-majGmajCmajB-majGmajCmaj,0291; 0476; 0625; 0688; 1062; 1089
+11,6,Cmaj,Gmaj,B-maj,Fmaj,B-maj,Fmaj,,,,,,,,,,,,,,1.4353713907745331,#,_FmajB-majFmajB-majGmajCmaj,0184; 0366; 0684; 1126
+10,13,Cmaj,Gmaj,B-maj,Fmaj,Cmaj,Gmaj,B-maj,Fmaj,Cmaj,Gmaj,B-maj,Fmaj,Cmaj,,,,,,,0.9219280948873623,###,_CmajFmajB-majGmajCmajFmajB-majGmajCmajFmajB-majGmajCmaj,0655
+10,10,Cmaj,Gmaj,B-maj,Fmaj,Gmaj,B-maj,Fmaj,Gmaj,B-maj,Fmaj,,,,,,,,,,0.9709505944546686,###,_FmajB-majGmajFmajB-majGmajFmajB-majGmajCmaj,0114; 0370; 0909
+11,7,Cmaj,Gmaj,Bmaj,Cmaj,D-dim,Gmaj,Emin,,,,,,,,,,,,,1.3221793455166668,##,_EminGmajD-dimCmajBmajGmajCmaj,0112; 0127; 0386; 0444; 0596
+21,7,Cmaj,Gmaj,Bmin,Cmaj,Gmaj,Bmin,Cmaj,,,,,,,,,,,,,1.437181403208764,#,_CmajBminGmajCmajBminGmajCmaj,0154; 0177
+12,6,Cmaj,Gmaj,Bmin,F#maj,Dmaj,Amaj,,,,,,,,,,,,,,1.0,##,_AmajDmajF#majBminGmajCmaj,0317; 0323
+37,7,Cmaj,Gmaj,Cmaj,Amin,Cmaj,Amin,Cmaj,,,,,,,,,,,,,0.9352691398683566,##,_CmajAminCmajAminCmajGmajCmaj,0037; 0250; 0390; 0522; 0549; 0759; 0920
+11,9,Cmaj,Gmaj,Cmaj,Amin,Emaj,Amin,Cmaj,Gmaj,Cmaj,,,,,,,,,,,1.6171895725927152,###,_CmajGmajCmajAminEmajAminCmajGmajCmaj,0845
+18,7,Cmaj,Gmaj,Cmaj,Amin,Fmaj,Gmaj,Cmaj,,,,,,,,,,,,,1.841250170281555,##,_CmajGmajFmajAminCmajGmajCmaj,0169; 0250; 0278; 0332; 0355; 0543; 0549; 1094
+12,8,Cmaj,Gmaj,Cmaj,Bmin,Emin,Bmin,Emin,Amin,,,,,,,,,,,,1.4591479170272446,##,_AminEminBminEminBminCmajGmajCmaj,0433; 0619; 0813; 0896; 1100; 1117
+35,5,Cmaj,Gmaj,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,,,2.563181944712821,#,_CmajCno3CmajGmajCmaj,0068; 0245; 0348; 0354; 0822; 0864; 0954; 1116; 1166; 1234; 1297
+12,11,Cmaj,Gmaj,Cmaj,Cno3,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.5,#####,_CmajGmajCmajGmajCmajFmajCmajCno3CmajGmajCmaj,0822; 0954; 1166
+10,10,Cmaj,Gmaj,Cmaj,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,Gmaj,Cmaj,,,,,,,,,,1.4854752972273344,##,_CmajGmajDmajCmajDmajCmajDmajCmajGmajCmaj,0083; 0238
+17,11,Cmaj,Gmaj,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.086312840741288,###,_CmajGmajCmajGmajCmajGmajCmajDmajCmajGmajCmaj,0029; 0246; 0504; 0807; 1119; 1134
+13,17,Cmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,0.9912642605354288,######,_GmajDmajCmajGmajDmajCmajGmajDmajCmajGmajDmajCmajGmajDmajCmajGmajCmaj,0290; 0443; 0463; 0477; 0589; 0798; 1040; 1104; 1208
+13,8,Cmaj,Gmaj,Cmaj,Emin,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,,1.198183947911799,#,_GmajCmajGmajCmajEminCmajGmajCmaj,0585; 0591; 0681; 0765; 0803
+12,6,Cmaj,Gmaj,Cmaj,Emin,Dmaj,Cmaj,,,,,,,,,,,,,,0.9182958340544896,#,_CmajDmajEminCmajGmajCmaj,0830; 0965
+37,9,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,1.6622318195500045,#,_CmajFmajCmajFmajCmajFmajCmajGmajCmaj,0021; 0050; 0130; 0244; 0356; 0425; 0455; 0468; 0477; 0559; 0591; 0619; 0678; 0788; 0845; 0889; 0987; 1063; 1100; 1116; 1117; 1135; 1193; 1248; 1297
+17,11,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.6087001655198914,#,_CmajGmajCmajGmajCmajFmajCmajFmajCmajGmajCmaj,0123; 0130; 0245; 0457; 0787; 0889; 1116; 1194; 1297
+163,9,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,0.975776462087486,#,_CmajFmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0059; 0071; 0149; 0169; 0185; 0191; 0457; 0472; 0474; 0559; 0591; 0671; 0787; 0788; 0798; 0802; 0805; 0809; 0864; 0870; 0875; 0905; 0987; 0993; 1006; 1034; 1054; 1059; 1066; 1072; 1116; 1141; 1281; 1297
+130,11,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,0.9690604894928657,#,_CmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0071; 0191; 0457; 0472; 0559; 0787; 0788; 0798; 0802; 0809; 0870; 0875; 0905; 0987; 0993; 1006; 1034; 1054; 1059; 1072; 1281
+85,15,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,1.0325000159789708,##,_CmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0071; 0191; 0559; 0798; 0802; 0870; 0875; 0905; 0987; 1054; 1059; 1072; 1281
+12,19,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,1.3250112108241772,###,_CmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0191; 0559; 0870; 0987
+13,15,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,1.2957378005380122,##,_CmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0191; 0559; 0870; 0987; 1006
+76,9,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,,,1.1537185347731518,#,_CmajGmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0126; 0130; 0149; 0191; 0452; 0457; 0559; 0678; 0787; 0788; 0802; 0809; 0870; 0875; 0941; 0987; 0993; 1006; 1024; 1034; 1054; 1102; 1110; 1116; 1141; 1150; 1263; 1281; 1297
+44,11,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,1.00222025382086,#,_CmajFmajCmajGmajCmajGmajCmajFmajCmajGmajCmaj,0149; 0452; 0457; 0678; 0787; 0788; 0802; 0809; 0941; 1024; 1034; 1054; 1110; 1116; 1263; 1297
+33,13,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,0.9892100846279928,#,_CmajGmajCmajFmajCmajGmajCmajGmajCmajFmajCmajGmajCmaj,0149; 0452; 0457; 0678; 0787; 0802; 0941; 1024; 1110; 1116; 1263; 1297
+20,17,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,1.0540157730728,##,_CmajFmajCmajGmajCmajGmajCmajFmajCmajGmajCmajGmajCmajFmajCmajGmajCmaj,0678; 0941; 1024; 1110; 1116; 1263; 1297
+24,11,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.206908425151817,#,_CmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmaj,0023; 0126; 0191; 0452; 0559; 0870; 0875; 0941; 0987; 1006; 1281
+11,15,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,1.0957952550009338,###,_CmajGmajCmajFmajCmajGmajCmajGmajCmajGmajCmajFmajCmajGmajCmaj,0559; 0941; 0987; 1006; 1281
+25,8,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,,,,2.1788300735571116,#,_CmajFmajGmajCmajFmajCmajGmajCmaj,0019; 0214; 0268; 0289; 0425; 0455; 0545; 0889; 0910; 1134; 1135; 1193; 1228; 1287
+18,7,Cmaj,Gmaj,Cmaj,Fmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,,,,1.224394445405986,#,_GmajCmajDmajFmajCmajGmajCmaj,0322; 0733; 1102; 1150
+11,6,Cmaj,Gmaj,Cmaj,Fmaj,Fmin,Cmaj,,,,,,,,,,,,,,1.3221793455166668,#,_CmajFminFmajCmajGmajCmaj,0734; 0853; 1048
+56,9,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,,,,,,,0.9402859586706309,#,_CmajGmajFmajCmajGmajFmajCmajGmajCmaj,0030; 0066; 0071; 0249; 0254; 0308; 0335; 0427; 0463; 0472; 0500; 0537; 0669; 0690; 0726; 0788; 0845; 0849; 0873; 0973; 1071; 1072; 1154; 1225
+29,12,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,Fmaj,Gmaj,Cmaj,,,,,,,,1.04975472279146,#,_CmajGmajFmajCmajGmajFmajCmajGmajFmajCmajGmajCmaj,0030; 0066; 0071; 0335; 0463; 0472; 0537; 0690; 0788; 0845; 0849; 0973; 1072; 1154
+34,9,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,1.608700165519891,##,_GmajCmajGmajCmajAminGmajCmajGmajCmaj,0492; 0881; 1064
+16,16,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,,,,1.2987949406953985,######,_GmajCmajGmajCmajAminGmajCmajGmajCmajGmajCmajAminGmajCmajGmajCmaj,0492; 0881
+13,13,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,1.669180336866731,##,_CmajGmajCmajGmajCmajFmajCmajFmajCmajGmajCmajGmajCmaj,0123; 0130; 0457; 0889; 1116; 1194; 1297
+25,11,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,1.2597218324096138,#,_CmajFmajCmajGmajCmajFmajCmajGmajCmajGmajCmaj,0149; 0457; 0559; 0787; 0802; 0809; 0864; 0987; 1006; 1116; 1281; 1297
+15,13,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,1.0529815751302694,#,_CmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajGmajCmaj,0457; 0559; 0787; 0802; 0809; 0987; 1006; 1281
+10,17,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,1.8464393446710154,###,_CmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajFmajCmajGmajCmajGmajCmaj,0559; 0802; 0987; 1281
+10,9,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Gmaj,Fmaj,Gmaj,,,,,,,,,,,1.5709505944546684,#,_GmajFmajGmajFmajCmajGmajCmajGmajCmaj,0199; 0847; 0891; 0979
+10,8,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amaj,Dmaj,,,,,,,,,,,,1.3709505944546687,#,_DmajAmajGmajCmajGmajCmajGmajCmaj,0010; 0094; 0625; 0707; 0968; 0969
+16,11,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,1.2987949406953985,###,_GmajCmajGmajCmajAminGmajCmajGmajCmajGmajCmaj,0492; 0881
+14,9,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Gmaj,Cmaj,,,,,,,,,,,1.1488348542809168,#,_CmajGmajAminGmajCmajGmajCmajGmajCmaj,0234; 0925; 1212
+19,11,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,1.2363864108712896,#,_CmajGmajCmajFmajCmajGmajCmajGmajCmajGmajCmaj,0452; 0457; 0559; 0941; 0987; 1006; 1119; 1281
+10,11,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Amin,Gmaj,Cmaj,,,,,,,,,1.1567796494470395,#,_CmajGmajAminGmajCmajGmajCmajGmajCmajGmajCmaj,0234; 1212
+28,15,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,1.1981174211304033,#####,_GmajCmajGmajCmajGmajCmajDmajCmajDmajGmajCmajGmajCmajGmajCmaj,0139; 0561; 0695; 0885
+23,13,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,0.9976267918964659,##,_GmajCmajGmajCmajGmajCmajDmajGmajCmajGmajCmajGmajCmaj,0162; 0187; 0425; 0560; 0707; 0721; 0900
+20,10,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,0.9709505944546686,#,_GmajCmajGmajDmajGmajCmajGmajCmajGmajCmaj,0268; 0347; 0356; 0455; 0468; 0559; 0560; 0788; 0910; 0987; 1135
+18,10,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,,,,,,,0.9182958340544896,#,_GmajDmajGmajDmajGmajCmajGmajCmajGmajCmaj,0244; 0559; 0560; 0864; 0889; 0968; 0987; 0995
+17,10,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,1.8942738697712644,#,_CmajFmajCmajFmajGmajCmajGmajCmajGmajCmaj,0518; 0610; 0995; 1039
+36,13,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,1.0529407605626349,#####,_GmajCmajGmajCmajGmajCmajDmajCmajDmajGmajCmajGmajCmaj,0139; 0561; 0695; 0885
+120,9,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,0.9680675214053484,#,_GmajCmajGmajCmajDmajGmajCmajGmajCmaj,0012; 0115; 0162; 0179; 0187; 0214; 0289; 0314; 0358; 0383; 0425; 0439; 0455; 0560; 0577; 0672; 0707; 0721; 0773; 0792; 0852; 0874; 0900; 0948; 1034; 1103; 1119; 1125; 1193; 1247
+30,11,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,0.9815912601277264,#,_GmajCmajGmajCmajGmajCmajDmajGmajCmajGmajCmaj,0115; 0162; 0187; 0425; 0560; 0707; 0721; 0900; 1119
+72,12,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,1.3451865438947852,#,_GmajCmajDmajGmajCmajGmajCmajDmajGmajCmajGmajCmaj,0115; 0187; 0214; 0289; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1193
+44,17,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,1.267931645520725,####,_GmajCmajDmajGmajCmajGmajCmajDmajGmajCmajGmajCmajDmajGmajCmajGmajCmaj,0115; 0187; 0214; 0289; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0948; 1103; 1125
+20,10,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,1.236160254373812,#,_GmajCmajDmajGmajCmajDmajGmajCmajGmajCmaj,0050; 0067; 0130; 0162; 0314; 0358; 0383; 0455; 0577; 0852; 0874; 0946
+12,13,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,1.4833557549816874,##,_GmajCmajDmajGmajCmajDmajGmajCmajDmajGmajCmajGmajCmaj,0130; 0314; 0358; 0455; 0577; 0852; 0874; 0946
+46,8,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,,,,,,,,,1.2978671178306294,#,_GmajDmajGmajDmajGmajCmajGmajCmaj,0123; 0130; 0244; 0245; 0429; 0457; 0518; 0559; 0560; 0610; 0787; 0864; 0889; 0968; 0987; 0995; 1116; 1194; 1297
+12,13,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,1.6140054628542204,###,_GmajCmajGmajCmajDmajGmajDmajGmajDmajGmajCmajGmajCmaj,0610; 0995
+12,6,Cmaj,Gmaj,Cno3,Dmaj,Cmaj,Gmaj,,,,,,,,,,,,,,1.2516291673878228,##,_GmajCmajDmajCno3GmajCmaj,0107
+10,8,Cmaj,Gmaj,Cno3,Fmaj,Fmin,Cmaj,Fmin,Gmaj,,,,,,,,,,,,0.9709505944546686,####,_GmajFminCmajFminFmajCno3GmajCmaj,0106; 0988
+44,6,Cmaj,Gmaj,Dmaj,Amaj,Cmaj,Gmaj,,,,,,,,,,,,,,1.5632790363522515,#,_GmajCmajAmajDmajGmajCmaj,0053; 0206; 0366; 0370; 0451; 0465; 0655; 0684; 0909; 1025; 1034
+10,15,Cmaj,Gmaj,Dmaj,Amaj,Cmaj,Gmaj,Dmaj,Amaj,Cmaj,Gmaj,Dmaj,Amaj,Cmaj,Gmaj,Dmaj,,,,,0.9219280948873623,###,_DmajGmajCmajAmajDmajGmajCmajAmajDmajGmajCmajAmajDmajGmajCmaj,0655
+13,10,Cmaj,Gmaj,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,Cmaj,,,,,,,,,,0.961236604722876,#,_CmajDmajCmajDmajCmajDmajCmajDmajGmajCmaj,0053; 0075; 0088; 0095; 1025
+38,11,Cmaj,Gmaj,Dmaj,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,1.1050139971135324,###,_GmajCmajGmajCmajGmajCmajDmajCmajDmajGmajCmaj,0053; 0139; 0561; 0695; 0885; 1025
+10,17,Cmaj,Gmaj,Dmaj,Cmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,0.9709505944546686,#####,_GmajCmajGmajCmajGmajCmajGmajCmajGmajCmajGmajCmajDmajCmajDmajGmajCmaj,0053; 0139; 0885; 1025
+10,8,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Fmaj,Dmaj,,,,,,,,,,,,0.9709505944546686,#,_DmajFmajCmajGmajCmajDmajGmajCmaj,0322; 0733
+11,11,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,0.9456603046006402,#,_GmajCmajGmajCmajGmajCmajGmajCmajDmajGmajCmaj,0050; 0162; 0425; 0518; 0900; 1119; 1134
+102,10,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,1.3033735248294647,#,_GmajCmajDmajGmajCmajGmajCmajDmajGmajCmaj,0067; 0115; 0179; 0187; 0214; 0289; 0314; 0322; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0733; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1155; 1193; 1247
+61,15,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,1.4708562976107944,####,_GmajCmajDmajGmajCmajGmajCmajDmajGmajCmajGmajCmajDmajGmajCmaj,0115; 0187; 0214; 0289; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1193
+13,13,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,1.2389012566026307,##,_GmajCmajDmajGmajCmajDmajGmajCmajGmajCmajDmajGmajCmaj,0067; 0314; 0358; 0383; 0455; 0577; 0852; 0874
+641,8,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,,,1.0723577285002652,#,_GmajCmajDmajGmajCmajDmajGmajCmaj,0015; 0050; 0067; 0074; 0075; 0095; 0100; 0107; 0130; 0162; 0209; 0210; 0260; 0268; 0271; 0300; 0314; 0317; 0323; 0358; 0366; 0383; 0389; 0406; 0407; 0430; 0455; 0458; 0518; 0545; 0577; 0589; 0621; 0640; 0645; 0675; 0684; 0690; 0706; 0762; 0810; 0852; 0874; 0886; 0889; 0901; 0910; 0929; 0946; 0991; 1002; 1082; 1086; 1240; 1249; 1265; 1282
+499,11,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,0.9557918109380369,##,_GmajCmajDmajGmajCmajDmajGmajCmajDmajGmajCmaj,0074; 0075; 0095; 0107; 0130; 0209; 0271; 0300; 0314; 0317; 0323; 0358; 0366; 0389; 0406; 0407; 0430; 0455; 0458; 0545; 0577; 0589; 0621; 0675; 0684; 0690; 0706; 0762; 0810; 0852; 0874; 0886; 0901; 0929; 0946; 0991; 1002; 1086; 1249; 1265; 1282
+24,11,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Emin,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,,,,,,,,,1.4056390622295662,####,_DmajGmajCmajDmajCmajEminGmajCmajDmajGmajCmaj,0705; 0888; 1250
+12,6,Cmaj,Gmaj,Dmaj,Emin,Bmin,Cmaj,,,,,,,,,,,,,,1.9182958340544896,#,_CmajBminEminDmajGmajCmaj,0191; 0752; 0952; 1070
+10,11,Cmaj,Gmaj,Dmaj,Fmaj,Cmaj,Dmaj,Fmaj,Cmaj,Dmaj,Fmaj,Cmaj,,,,,,,,,0.9709505944546686,####,_CmajFmajDmajCmajFmajDmajCmajFmajDmajGmajCmaj,0114; 0370; 0909
+10,14,Cmaj,Gmaj,Dmaj,Fmaj,Cmaj,Gmaj,Dmaj,Fmaj,Cmaj,Gmaj,Dmaj,Fmaj,Cmaj,Gmaj,,,,,,0.9219280948873623,###,_GmajCmajFmajDmajGmajCmajFmajDmajGmajCmajFmajDmajGmajCmaj,0655
+14,8,Cmaj,Gmaj,Dmaj,Gmaj,Bmin,Emin,Gmaj,Dmaj,,,,,,,,,,,,0.9852281360342516,##,_DmajGmajEminBminGmajDmajGmajCmaj,0128; 0682; 1107
+19,11,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,,,,,,,,,1.6282202760321465,##,_CmajGmajDmajCmajGmajDmajCmajGmajDmajGmajCmaj,0030; 0071; 0254; 0463; 0472; 0537; 0690; 0726; 0788; 0845; 1071; 1072
+12,13,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,Cmaj,Dmaj,Gmaj,,,,,,,1.0408520829727552,#,_GmajDmajCmajGmajDmajCmajGmajDmajCmajGmajDmajGmajCmaj,0030; 0071; 0463; 0472; 0537; 0690; 0788; 0845; 1072
+25,10,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,1.7433726580786888,#,_GmajCmajGmajCmajGmajCmajGmajDmajGmajCmaj,0050; 0244; 0356; 0425; 0468; 0559; 0591; 0619; 0788; 0889; 0987; 1063; 1100; 1116; 1117; 1135; 1193; 1248; 1297
+15,9,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,,,,,,,,,,,2.1492553971685,#,_GmajCmajDmajGmajCmajGmajDmajGmajCmaj,0019; 0268; 0289; 0425; 0545; 0910; 1135; 1193; 1228; 1287
+172,8,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,,,,,,,,,,,,1.0868112027574752,#,_GmajDmajGmajCmajGmajDmajGmajCmaj,0023; 0071; 0191; 0457; 0472; 0474; 0555; 0559; 0591; 0638; 0671; 0787; 0788; 0798; 0802; 0809; 0870; 0875; 0905; 0915; 0987; 0993; 1006; 1022; 1034; 1041; 1054; 1059; 1066; 1072; 1116; 1141; 1281; 1297
+105,12,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,,,,,,,,0.9379256473615927,##,_GmajDmajGmajCmajGmajDmajGmajCmajGmajDmajGmajCmaj,0023; 0071; 0191; 0559; 0788; 0798; 0802; 0870; 0875; 0905; 0987; 1054; 1059; 1072; 1281
+12,16,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,1.3250112108241772,###,_GmajDmajGmajDmajGmajDmajGmajCmajGmajDmajGmajCmajGmajDmajGmajCmaj,0023; 0191; 0559; 0870; 0987
+25,10,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,,,,,,,1.1829661954675215,#,_GmajDmajGmajDmajGmajCmajGmajDmajGmajCmaj,0023; 0191; 0457; 0559; 0788; 0802; 0870; 0875; 0987; 0993; 1006; 1034; 1054; 1116; 1141; 1297
+14,12,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,,,,,,,,1.2958363892911637,#,_GmajDmajGmajDmajGmajDmajGmajCmajGmajDmajGmajCmaj,0023; 0191; 0559; 0870; 0875; 0987; 1006
+80,8,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,,,,1.1473180129978624,#,_GmajCmajGmajDmajGmajDmajGmajCmaj,0039; 0126; 0149; 0153; 0452; 0457; 0559; 0560; 0678; 0787; 0788; 0802; 0809; 0864; 0889; 0941; 0987; 1024; 1034; 1054; 1107; 1110; 1116; 1194; 1263; 1287; 1297
+16,12,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,,,,,,,,1.4185644431995963,#,_GmajCmajGmajDmajGmajCmajGmajDmajGmajDmajGmajCmaj,0149; 0457; 0559; 0787; 0802; 0809; 0864; 0987; 1116; 1297
+12,11,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Cmaj,Gmaj,Cmaj,Gmaj,,,,,,,,,1.6140054628542204,#,_GmajCmajGmajCmajDmajGmajDmajGmajDmajGmajCmaj,0610; 0995
+13,12,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Cmaj,Gmaj,Dmaj,Gmaj,,,,,,,,1.2389012566026305,#,_GmajDmajGmajCmajGmajDmajGmajDmajGmajDmajGmajCmaj,0457; 0559; 0941; 0987; 1006; 1281
+16,13,Cmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,Gmaj,Dmaj,,,,,,,1.014097655573916,#,_DmajGmajDmajGmajDmajGmajDmajGmajDmajGmajDmajGmajCmaj,0023; 0053; 0191; 0245; 0452; 0870; 0894; 0968; 0995; 1009; 1025; 1246
+30,7,Cmaj,Gmaj,Dmin,Cmaj,Gmaj,Dmin,Cmaj,,,,,,,,,,,,,1.5337756156114948,#,_CmajDminGmajCmajDminGmajCmaj,0254; 0384; 0582; 0701; 0929; 1069; 1282; 1296
+14,10,Cmaj,Gmaj,Dmin,Cmaj,Gmaj,Dmin,Cmaj,Gmaj,Dmin,Cmaj,,,,,,,,,,1.9751060324573737,#,_CmajDminGmajCmajDminGmajCmajDminGmajCmaj,0254; 0384; 0701; 0929; 1069; 1282; 1296
+17,7,Cmaj,Gmaj,Dmin,Gno3,Cmaj,Gmaj,Dmin,,,,,,,,,,,,,1.022420703848328,###,_DminGmajCmajGno3DminGmajCmaj,0944; 1276
+10,11,Cmaj,Gmaj,Dmin,Gno3,Cmaj,Gmaj,Dmin,Gno3,Cmaj,Gmaj,Dmin,,,,,,,,,1.3709505944546687,##,_DminGmajCmajGno3DminGmajCmajGno3DminGmajCmaj,0944; 1276
+15,5,Cmaj,Gmaj,E-maj,Fmaj,Gmaj,,,,,,,,,,,,,,,1.2366407419411676,#,_GmajFmajE-majGmajCmaj,0027; 0351; 1272
+13,6,Cmaj,Gmaj,Emin,Amin,Dmaj,Gmaj,,,,,,,,,,,,,,1.7004397181410922,#,_GmajDmajAminEminGmajCmaj,0218; 0220; 0479; 0484; 0543; 0728; 0831; 0927; 1245
+38,8,Cmaj,Gmaj,Emin,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,,,,,,,,,,,,1.423629815221164,##,_DmajGmajCmajDmajCmajEminGmajCmaj,0705; 0888; 0992; 1250
+24,16,Cmaj,Gmaj,Emin,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,Cmaj,Gmaj,Emin,Cmaj,Dmaj,Cmaj,Gmaj,Dmaj,,,,1.4056390622295662,#######,_DmajGmajCmajDmajCmajEminGmajCmajDmajGmajCmajDmajCmajEminGmajCmaj,0705; 0888; 1250
+11,9,Cmaj,Gmaj,Emin,Dmaj,Cmaj,Gmaj,Emin,Dmaj,Cmaj,,,,,,,,,,,1.0957952550009338,##,_CmajDmajEminGmajCmajDmajEminGmajCmaj,0555; 1011; 1022
+24,10,Cmaj,Gmaj,Fmaj,Cmaj,Amin,Fmaj,Gmaj,Fmaj,Cmaj,Gmaj,,,,,,,,,,1.4056390622295662,###,_GmajCmajFmajGmajFmajAminCmajFmajGmajCmaj,0705; 0888; 1250
+10,7,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,B-maj,Gmaj,,,,,,,,,,,,,0.9709505944546686,#,_GmajB-majFmajCmajFmajGmajCmaj,0322; 0733
+51,8,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,,,1.4350583549943545,#,_CmajFmajCmajFmajCmajFmajGmajCmaj,0050; 0115; 0162; 0187; 0268; 0289; 0425; 0518; 0560; 0707; 0721; 0900; 0910; 0946; 0995; 1119; 1134; 1135
+105,9,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,,,1.3260215115596894,#,_CmajFmajGmajCmajFmajCmajFmajGmajCmaj,0067; 0115; 0179; 0187; 0214; 0289; 0314; 0322; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0733; 0773; 0792; 0852; 0874; 0948; 0952; 1103; 1125; 1155; 1193; 1247
+62,14,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,1.4586444649084445,####,_CmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmajFmajGmajCmaj,0115; 0187; 0214; 0289; 0358; 0383; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0852; 0874; 0948; 1103; 1125; 1193
+34,19,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,1.4178160503287285,####,_CmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmajFmajGmajCmajFmajCmajFmajGmajCmaj,0115; 0187; 0214; 0289; 0439; 0455; 0577; 0672; 0721; 0773; 0792; 0948; 1103; 1125
+13,12,Cmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,1.2389012566026307,##,_CmajFmajGmajCmajFmajGmajCmajFmajCmajFmajGmajCmaj,0067; 0314; 0358; 0383; 0455; 0577; 0852; 0874
+686,7,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,,,,,1.0958998291124158,#,_CmajFmajGmajCmajFmajGmajCmaj,0015; 0050; 0067; 0074; 0075; 0095; 0100; 0107; 0130; 0162; 0209; 0210; 0260; 0268; 0271; 0300; 0314; 0317; 0323; 0358; 0366; 0383; 0389; 0406; 0407; 0430; 0455; 0458; 0481; 0510; 0518; 0545; 0555; 0577; 0589; 0621; 0640; 0645; 0675; 0684; 0690; 0706; 0762; 0810; 0821; 0852; 0874; 0886; 0889; 0901; 0910; 0929; 0946; 0991; 1002; 1022; 1082; 1086; 1186; 1240; 1249; 1265; 1282
+528,10,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,Gmaj,Fmaj,Cmaj,,,,,,,,,,0.9530597443455728,##,_CmajFmajGmajCmajFmajGmajCmajFmajGmajCmaj,0015; 0074; 0075; 0095; 0107; 0130; 0209; 0210; 0260; 0271; 0300; 0314; 0317; 0323; 0358; 0366; 0389; 0406; 0407; 0430; 0455; 0458; 0545; 0577; 0589; 0621; 0640; 0645; 0675; 0684; 0690; 0706; 0762; 0810; 0852; 0874; 0886; 0889; 0901; 0929; 0946; 0991; 1002; 1086; 1249; 1265; 1282
+20,10,Cmaj,Gmaj,Fmaj,Emin,Eno3,Bmaj,Cmaj,Amaj,F#maj,Bmaj,,,,,,,,,,0.9709505944546686,#####,_BmajF#majAmajCmajBmajEno3EminFmajGmajCmaj,0381; 0999
+13,8,Cmaj,Gmaj,Fmaj,Gmaj,Amin,Emin,Fmaj,Gmaj,,,,,,,,,,,,1.4195562985716133,##,_GmajFmajEminAminGmajFmajGmajCmaj,0258; 0349; 0385; 0628; 0911
+92,11,Cmaj,Gmaj,Fmaj,Gmaj,Cmaj,Gmaj,Fmaj,Gmaj,Cmaj,Gmaj,Fmaj,,,,,,,,,1.0598575156736167,#,_FmajGmajCmajGmajFmajGmajCmajGmajFmajGmajCmaj,0006; 0081; 0150; 0258; 0300; 0349; 0385; 0628; 0794; 0821; 0833; 0911; 1271; 1289
+38,10,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,,,,,,,1.1050139971135324,###,_CmajFmajCmajFmajCmajFmajGmajFmajGmajCmaj,0053; 0139; 0561; 0695; 0885; 1025
+10,16,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,Fmaj,Cmaj,,,,0.9709505944546686,#####,_CmajFmajCmajFmajCmajFmajCmajFmajCmajFmajCmajFmajGmajFmajGmajCmaj,0053; 0139; 0885; 1025
+18,9,Cmaj,Gmaj,Fmaj,Gmaj,Fmaj,Gmaj,Fmaj,Gmaj,Fmaj,,,,,,,,,,,1.3921472236645345,#,_FmajGmajFmajGmajFmajGmajFmajGmajCmaj,0053; 0075; 0088; 0095; 0582; 0834; 1025; 1031
+22,10,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,,,,,,,,,,0.9373012413074895,#####,_GmajCmajDminGminGmajCmajDminGminGmajCmaj,0848
+17,14,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,,,,,,1.086312840741288,###,_GmajCmajDminGminGmajCmajDminGminGmajCmajDminGminGmajCmaj,0848
+12,18,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,Gmin,Dmin,Cmaj,Gmaj,,1.280672129520887,###,_GmajCmajDminGminGmajCmajDminGminGmajCmajDminGminGmajCmajDminGminGmajCmaj,0848
+19,7,Cmaj,Gmin,Amin,Dmin,Cmaj,Gmin,Amin,,,,,,,,,,,,,1.2674438038072338,##,_AminGminCmajDminAminGminCmaj,0716
+12,11,Cmaj,Gmin,Amin,Dmin,Cmaj,Gmin,Amin,Dmin,Cmaj,Gmin,Amin,,,,,,,,,1.4833557549816874,###,_AminGminCmajDminAminGminCmajDminAminGminCmaj,0716
+15,6,Cmaj,Gmin,Amin,Gmin,Dmin,Cmaj,,,,,,,,,,,,,,1.1589385323502772,#,_CmajDminGminAminGminCmaj,0393
+10,11,Cmaj,Gmin,Amin,Gmin,Dmin,Cmaj,Gmin,Amin,Gmin,Dmin,Cmaj,,,,,,,,,1.360964047443681,####,_CmajDminGminAminGminCmajDminGminAminGminCmaj,0393
+24,7,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,,,,,,,,,,,,,1.2593984370492777,#,_CmajB-majGminCmajB-majGminCmaj,0525; 0663
+18,10,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,,,,,,,,,,1.208648950953065,##,_CmajB-majGminCmajB-majGminCmajB-majGminCmaj,0525; 0663
+14,13,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,,,,,,,1.0892300788425848,##,_CmajB-majGminCmajB-majGminCmajB-majGminCmajB-majGminCmaj,0663
+11,16,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,Gmin,B-maj,Cmaj,,,,1.2776134368191157,##,_CmajB-majGminCmajB-majGminCmajB-majGminCmajB-majGminCmajB-majGminCmaj,0663
+16,7,Cmaj,Gmin,Cmaj,Fmaj,Fmin,Cmaj,Amin,,,,,,,,,,,,,1.0,##,_AminCmajFminFmajCmajGminCmaj,0240; 0295
+16,8,Cmaj,Gmin,Cmaj,Fmaj,Gmin,Cmaj,Gmin,Cmaj,,,,,,,,,,,,1.5016144718101816,#,_CmajGminCmajGminFmajCmajGminCmaj,0228; 0236; 0369; 0872; 0917; 1292
+17,6,Cmaj,Gmin,Cno3,Fmaj,Cmaj,Gmin,,,,,,,,,,,,,,1.022420703848328,#,_GminCmajFmajCno3GminCmaj,0944; 1276
+10,10,Cmaj,Gmin,Cno3,Fmaj,Cmaj,Gmin,Cno3,Fmaj,Cmaj,Gmin,,,,,,,,,,1.3709505944546687,##,_GminCmajFmajCno3GminCmajFmajCno3GminCmaj,0944; 1276
+12,7,Cmaj,Gmin,Dmin,Cmaj,Gmin,Dmin,Cmaj,,,,,,,,,,,,,1.6258145836939115,##,_CmajDminGminCmajDminGminCmaj,0898; 1180
+41,6,Cmaj,Gmin,Fmaj,Cmaj,Gmin,Fmaj,,,,,,,,,,,,,,1.5127633128897164,#,_FmajGminCmajFmajGminCmaj,0254; 0384; 0582; 0701; 0929; 1069; 1282; 1296
+22,9,Cmaj,Gmin,Fmaj,Cmaj,Gmin,Fmaj,Cmaj,Gmin,Fmaj,,,,,,,,,,,1.63861996359321,#,_FmajGminCmajFmajGminCmajFmajGminCmaj,0254; 0384; 0582; 0701; 0929; 1069; 1282; 1296
+12,7,Cmaj,Gno3,Cmaj,B-maj,Gmin,Edim,Amaj,,,,,,,,,,,,,1.040852082972755,###,_AmajEdimGminB-majCmajGno3Cmaj,0856
+23,8,Cmaj,Gno3,Cmaj,Fmaj,Cmaj,Gno3,Cmaj,Fmaj,,,,,,,,,,,,0.9656361333706098,##,_FmajCmajGno3CmajFmajCmajGno3Cmaj,0071; 0207; 0222; 0508; 1235
+12,6,Cmaj,Gno3,Cmaj,Fmaj,Gno3,Cmaj,,,,,,,,,,,,,,1.0,#,_CmajGno3FmajCmajGno3Cmaj,0222; 0508; 1235
+24,5,Cmaj,Gno3,Gmaj,Fmaj,Cmaj,,,,,,,,,,,,,,,1.8674924611847552,#,_CmajFmajGmajGno3Cmaj,0074; 0268; 0748; 0803; 0910; 1085; 1146; 1249
+24,14,Cmin,A-maj,B-maj,A-maj,E-maj,B-maj,A-maj,E-maj,Cmin,A-maj,B-maj,A-maj,E-maj,B-maj,,,,,,1.4056390622295662,#######,_B-majE-majA-majB-majA-majCminE-majA-majB-majE-majA-majB-majA-majCmin,0705; 0888; 1250
+14,10,Cmin,A-maj,B-maj,Cmin,A-maj,B-maj,Cmin,B-maj,A-maj,Cmin,,,,,,,,,,1.950212064914747,##,_CminA-majB-majCminB-majA-majCminB-majA-majCmin,0033; 0073
+12,8,Cmin,A-maj,B-maj,Cmin,A-maj,B-maj,Fmin,Gmin,,,,,,,,,,,,1.280672129520887,#,_GminFminB-majA-majCminB-majA-majCmin,0281; 0599; 0660
+25,6,Cmin,A-maj,B-maj,Cmin,B-maj,A-maj,,,,,,,,,,,,,,1.2732696895151085,#,_A-majB-majCminB-majA-majCmin,0033; 0073; 0227; 0275; 0478; 1051
+11,10,Cmin,A-maj,B-maj,E-maj,A-maj,B-maj,E-maj,A-maj,B-maj,E-maj,,,,,,,,,,2.2312702546075758,##,_E-majB-majA-majE-majB-majA-majE-majB-majA-majCmin,0224; 0231; 0465; 0620; 0791; 1239
+10,12,Cmin,A-maj,B-maj,E-maj,B-maj,A-maj,B-maj,E-maj,B-maj,A-maj,B-maj,E-maj,,,,,,,,1.295461844238322,#####,_E-majB-majA-majB-majE-majB-majA-majB-majE-majB-majA-majCmin,0198; 0574; 0776; 1289
+21,9,Cmin,A-maj,B-maj,E-maj,B-maj,Cmin,A-maj,B-maj,E-maj,,,,,,,,,,,1.5301404544057031,###,_E-majB-majA-majCminB-majE-majB-majA-majCmin,0572; 0600; 1258
+12,14,Cmin,A-maj,B-maj,E-maj,B-maj,Cmin,A-maj,B-maj,E-maj,B-maj,Cmin,A-maj,B-maj,E-maj,,,,,,1.7924812503605778,####,_E-majB-majA-majCminB-majE-majB-majA-majCminB-majE-majB-majA-majCmin,0572; 0600
+11,8,Cmin,A-maj,B-maj,E-maj,B-maj,E-maj,B-maj,E-maj,,,,,,,,,,,,1.3221793455166668,#,_E-majB-majE-majB-majE-majB-majA-majCmin,0278; 0332; 0968
+216,7,Cmin,A-maj,B-maj,E-maj,Cmin,A-maj,B-maj,,,,,,,,,,,,,1.0567263075945001,#,_B-majA-majCminE-majB-majA-majCmin,0054; 0067; 0119; 0120; 0145; 0169; 0247; 0253; 0263; 0355; 0362; 0402; 0549; 0568; 0571; 0572; 0598; 0600; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1063; 1094; 1152; 1210; 1211; 1228; 1270
+145,11,Cmin,A-maj,B-maj,E-maj,Cmin,A-maj,B-maj,E-maj,Cmin,A-maj,B-maj,,,,,,,,,0.9687635162753904,##,_B-majA-majCminE-majB-majA-majCminE-majB-majA-majCmin,0054; 0119; 0120; 0145; 0247; 0253; 0263; 0362; 0402; 0568; 0571; 0617; 0620; 0730; 0749; 0846; 0903; 0992; 1046; 1094; 1152; 1210; 1211
+14,7,Cmin,A-maj,B-maj,E-maj,Cmin,E-maj,Cmin,,,,,,,,,,,,,1.8352377453121176,#,_CminE-majCminE-majB-majA-majCmin,0404; 0598; 0616; 0617; 0730; 1091
+13,7,Cmin,A-maj,Cmin,A-maj,B-maj,Cmin,A-maj,,,,,,,,,,,,,1.4604846813131116,#,_A-majCminB-majA-majCminA-majCmin,0033; 0073; 0334; 0770; 0882; 0961
+11,9,Cmin,A-maj,Cmin,A-maj,Cmin,A-maj,Cmin,A-maj,Cmin,,,,,,,,,,,1.4911148500551858,#,_CminA-majCminA-majCminA-majCminA-majCmin,0478; 0492; 0770; 0881
+10,10,Cmin,A-maj,Cmin,A-maj,E-maj,B-maj,A-maj,E-maj,Fmin,B-no3,,,,,,,,,,0.9709505944546686,#####,_B-no3FminE-majA-majB-majE-majA-majCminA-majCmin,0128; 0682
+16,13,Cmin,A-maj,Cmin,E-maj,A-maj,A-min,E-maj,B-min,E-maj,A-maj,A-min,E-maj,Cmin,,,,,,,1.0,#######,_CminE-majA-minA-majE-majB-minE-majA-minA-majE-majCminA-majCmin,0240; 0295
+12,8,Cmin,A-maj,E-maj,B-maj,A-maj,E-maj,Fmin,B-no3,,,,,,,,,,,,1.0,#,_B-no3FminE-majA-majB-majE-majA-majCmin,0128; 0682
+18,6,Cmin,A-maj,E-maj,Cmin,E-maj,Cmin,,,,,,,,,,,,,,0.9864267287308425,#,_CminE-majCminE-majA-majCmin,0228; 0310; 0814; 1120
+10,5,Cmin,A-maj,E-no3,E-maj,Cmin,,,,,,,,,,,,,,,1.0,#,_CminE-majE-no3A-majCmin,0698
+40,6,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,,,,,,,,,,,,,,1.1630248196510937,#,_CminE-majB-no3FminA-majCmin,0265; 0309; 0769; 1084
+27,11,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,,,,,,,,,1.3516441151533924,####,_CminE-majB-no3FminA-majCminE-majB-no3FminA-majCmin,0309; 0769; 1084
+15,16,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,A-maj,Fmin,B-no3,E-maj,Cmin,,,,1.3709505944546687,####,_CminE-majB-no3FminA-majCminE-majB-no3FminA-majCminE-majB-no3FminA-majCmin,0309; 0769; 1084
+23,10,Cmin,A-maj,Gmin,Cmin,A-maj,Gmin,Cmin,A-maj,Gmin,Cmin,,,,,,,,,,0.9274479232123118,###,_CminGminA-majCminGminA-majCminGminA-majCmin,0526; 0648
+13,7,Cmin,A-maj,Gmin,E-maj,Cmin,A-maj,Gmin,,,,,,,,,,,,,1.5262349099495225,##,_GminA-majCminE-majGminA-majCmin,0091; 1126
+16,4,Cmin,A-maj,Gno3,Gmaj,,,,,,,,,,,,,,,,1.7947367178034825,#,_GmajGno3A-majCmin,0259; 0279; 0325; 0540; 0552; 0605
+26,4,Cmin,A-min,B-maj,E-maj,,,,,,,,,,,,,,,,1.1401156785146092,#,_E-majB-majA-minCmin,0157; 0267; 0386; 0444; 0603
+12,8,Cmin,A-min,B-maj,E-maj,Cmin,A-min,B-maj,E-maj,,,,,,,,,,,,1.2516291673878228,##,_E-majB-majA-minCminE-majB-majA-minCmin,0157; 0603
+11,5,Cmin,Adim,Fno3,Gmaj,Cmaj,,,,,,,,,,,,,,,1.3092966682370037,##,_CmajGmajFno3AdimCmin,0205
+60,11,Cmin,B-maj,A-maj,B-maj,Cmin,B-maj,A-maj,B-maj,Cmin,B-maj,A-maj,,,,,,,,,0.9504665144729252,##,_A-majB-majCminB-majA-majB-majCminB-majA-majB-majCmin,0134; 0524; 0608; 0633; 0659; 1098; 1171; 1183
+19,7,Cmin,B-maj,A-maj,E-maj,Cmin,B-maj,A-maj,,,,,,,,,,,,,1.457424881409171,#,_A-majB-majCminE-majA-majB-majCmin,0555; 1011; 1022
+10,10,Cmin,B-maj,A-maj,Gmaj,Cmin,B-maj,E-maj,A-maj,Gmaj,Cmaj,,,,,,,,,,0.9709505944546686,###,_CmajGmajA-majE-majB-majCminGmajA-majB-majCmin,0242; 0782
+10,7,Cmin,B-maj,B-min,Cmin,B-maj,B-min,Cmin,,,,,,,,,,,,,1.1567796494470395,##,_CminB-minB-majCminB-minB-majCmin,0550
+18,7,Cmin,B-maj,Cmaj,C,E-maj,B-maj,Cmin,,,,,,,,,,,,,1.224394445405986,###,_CminB-majE-majCCmajB-majCmin,1169; 1260
+12,13,Cmin,B-maj,Cmaj,C,E-maj,B-maj,Cmin,B-maj,Cmaj,C,E-maj,B-maj,Cmin,,,,,,,0.9182958340544896,#####,_CminB-majE-majCCmajB-majCminB-majE-majCCmajB-majCmin,1169; 1260
+19,8,Cmin,B-maj,Cmin,B-maj,Cmin,B-maj,A-maj,B-maj,,,,,,,,,,,,1.5779772001172403,#,_B-majA-majB-majCminB-majCminB-majCmin,0051; 0150; 0629; 0749; 1222
+12,10,Cmin,B-maj,Cmin,B-maj,Cmin,B-maj,Cmin,B-maj,A-maj,B-maj,,,,,,,,,,1.188721875540867,#,_B-majA-majB-majCminB-majCminB-majCminB-majCmin,0051; 0150; 0629; 1222
+12,8,Cmin,B-maj,Cmin,B-maj,E-maj,B-maj,Cmin,B-maj,,,,,,,,,,,,1.280672129520887,#,_B-majCminB-majE-majB-majCminB-majCmin,0479; 0947
+12,12,Cmin,B-maj,Cmin,Cdim,E-dim,B-maj,Dmin,Cmin,E-min,B-maj,Gmaj,Cmin,,,,,,,,1.4591479170272448,#######,_CminGmajB-majE-minCminDminB-majE-dimCdimCminB-majCmin,0517; 0680
+16,5,Cmin,B-maj,Dmaj,Gmin,Cmin,,,,,,,,,,,,,,,1.5,#,_CminGminDmajB-majCmin,0319; 0627; 0795
+16,7,Cmin,B-maj,E-maj,A-maj,Cmin,B-maj,E-maj,,,,,,,,,,,,,1.3294340029249652,##,_E-majB-majCminA-majE-majB-majCmin,0451; 0803; 0807
+10,15,Cmin,B-maj,E-maj,A-maj,Gmaj,Cmin,B-maj,A-maj,Gmaj,Cmin,B-maj,E-maj,A-maj,Gmaj,Cmaj,,,,,0.9709505944546686,#########,_CmajGmajA-majE-majB-majCminGmajA-majB-majCminGmajA-majE-majB-majCmin,0242; 0782
+18,9,Cmin,B-maj,E-maj,B-maj,E-maj,B-maj,E-maj,B-maj,E-maj,,,,,,,,,,,0.9141828384352135,##,_E-majB-majE-majB-majE-majB-majE-majB-majCmin,0004; 0025; 0079; 1039; 1063; 1180; 1212; 1229
+23,6,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,,,,,,,,,,,,,,1.306170651709187,#,_B-majCminDminE-majB-majCmin,0993; 1257
+13,14,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,,,,,,0.9912642605354289,######,_B-majCminDminE-majB-majCminDminE-majB-majCminDminE-majB-majCmin,1257
+10,18,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,E-maj,Dmin,Cmin,B-maj,,1.1567796494470395,###,_B-majCminDminE-majB-majCminDminE-majB-majCminDminE-majB-majCminDminE-majB-majCmin,1257
+12,6,Cmin,B-maj,E-maj,Fmaj,Dmaj,Gmin,,,,,,,,,,,,,,1.2516291673878228,#,_GminDmajFmajE-majB-majCmin,0016; 1274
+26,8,Cmin,B-maj,Fmaj,Cmin,B-maj,Fmaj,Cmin,B-maj,,,,,,,,,,,,1.6714055834424972,#,_B-majCminFmajB-majCminFmajB-majCmin,0254; 0384; 0582; 0701; 0929; 1069; 1282; 1296
+10,11,Cmin,B-maj,Fmaj,Cmin,B-maj,Fmaj,Cmin,B-maj,Fmaj,Cmin,B-maj,,,,,,,,,1.7609640474436812,#,_B-majCminFmajB-majCminFmajB-majCminFmajB-majCmin,0254; 0384; 0701; 0929; 1282; 1296
+23,7,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,,,,,,,,,,,,,0.9123163027543336,###,_FmajB-majCminFminFmajB-majCmin,0848
+18,11,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,,,,,,,,,1.0529407605626349,###,_FmajB-majCminFminFmajB-majCminFminFmajB-majCmin,0848
+13,15,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,Fmin,Cmin,B-maj,Fmaj,,,,,1.2389012566026305,###,_FmajB-majCminFminFmajB-majCminFminFmajB-majCminFminFmajB-majCmin,0848
+16,5,Cmin,B-maj,Fmin,Cmin,B-maj,,,,,,,,,,,,,,,1.771782221599798,#,_B-majCminFminB-majCmin,0898; 1180
+19,8,Cmin,B-maj,Fmin,Gmin,Cmin,B-maj,Fmin,Gmin,,,,,,,,,,,,1.2674438038072338,###,_GminFminB-majCminGminFminB-majCmin,0716
+12,12,Cmin,B-maj,Fmin,Gmin,Cmin,B-maj,Fmin,Gmin,Cmin,B-maj,Fmin,Gmin,,,,,,,,1.4833557549816874,###,_GminFminB-majCminGminFminB-majCminGminFminB-majCmin,0716
+15,7,Cmin,B-maj,Fmin,Gmin,Fmin,Cmin,B-maj,,,,,,,,,,,,,1.1589385323502772,##,_B-majCminFminGminFminB-majCmin,0393
+10,12,Cmin,B-maj,Fmin,Gmin,Fmin,Cmin,B-maj,Fmin,Gmin,Fmin,Cmin,B-maj,,,,,,,,1.360964047443681,####,_B-majCminFminGminFminB-majCminFminGminFminB-majCmin,0393
+12,8,Cmin,B-maj,Fno3,B-maj,A-maj,Fmin,Ddim,Gmaj,,,,,,,,,,,,1.0408520829727552,####,_GmajDdimFminA-majB-majFno3B-majCmin,0856
+14,18,Cmin,B-maj,Gmin,A-maj,Cmin,B-maj,Gmin,A-maj,Cmin,B-maj,Gmin,A-maj,Cmin,B-maj,Gmin,A-maj,Cmin,B-maj,,0.946372935985442,##########,_B-majCminA-majGminB-majCminA-majGminB-majCminA-majGminB-majCminA-majGminB-majCmin,0741
+13,15,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,,,,,0.9912642605354289,########,_A-majB-minCminD-majA-majB-minCminD-majA-majB-minCminD-majA-majB-minCmin,1257
+10,19,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,D-maj,Cmin,B-min,A-maj,1.1567796494470395,###,_A-majB-minCminD-majA-majB-minCminD-majA-majB-minCminD-majA-majB-minCminD-majA-majB-minCmin,1257
+16,4,Cmin,B-min,Cmaj,Fmin,,,,,,,,,,,,,,,,1.8050365325772657,#,_FminCmajB-minCmin,0716; 0804; 0895; 0958
+10,7,Cmin,B-min,Cmin,Fmin,D-maj,Cmin,B-min,,,,,,,,,,,,,1.0,##,_B-minCminD-majFminCminB-minCmin,0804
+18,9,Cmin,B-min,D-maj,E-maj,Fmin,Cmin,B-min,D-maj,E-maj,,,,,,,,,,,1.275162982784857,####,_E-majD-majB-minCminFminE-majD-majB-minCmin,0099; 0122
+13,14,Cmin,B-min,D-maj,E-maj,Fmin,Cmin,B-min,D-maj,E-maj,Fmin,Cmin,B-min,D-maj,E-maj,,,,,,1.198183947911799,####,_E-majD-majB-minCminFminE-majD-majB-minCminFminE-majD-majB-minCmin,0099; 0122
+26,6,Cmin,B-min,D-min,A-maj,Fmaj,B-min,,,,,,,,,,,,,,1.1401156785146092,###,_B-minFmajA-majD-minB-minCmin,0517; 0680
+12,17,Cmin,B-min,D-min,A-maj,Fmaj,B-min,A-maj,B-min,B-dim,D-dim,A-maj,Cmin,B-min,D-min,A-maj,Fmaj,B-min,,,1.4591479170272448,#########,_B-minFmajA-majD-minB-minCminA-majD-dimB-dimB-minA-majB-minFmajA-majD-minB-minCmin,0517; 0680
+27,10,Cmin,B-min,E-no3,Fmin,Cmin,D-maj,Fmin,Cmin,B-min,E-no3,,,,,,,,,,0.9182958340544896,######,_E-no3B-minCminFminD-majCminFminE-no3B-minCmin,0524; 1098; 1183
+18,17,Cmin,B-min,E-no3,Fmin,Cmin,D-maj,Fmin,Cmin,B-min,E-no3,Fmin,Cmin,D-maj,Fmin,Cmin,B-min,E-no3,,,1.0,######,_E-no3B-minCminFminD-majCminFminE-no3B-minCminFminD-majCminFminE-no3B-minCmin,0524; 1098; 1183
+15,9,Cmin,B-min,Fmin,E-maj,B-min,Cmin,B-min,Fmin,E-maj,,,,,,,,,,,1.1589385323502772,####,_E-majFminB-minCminB-minE-majFminB-minCmin,0393
+10,14,Cmin,B-min,Fmin,E-maj,B-min,Cmin,B-min,Fmin,E-maj,B-min,Cmin,B-min,Fmin,E-maj,,,,,,1.360964047443681,####,_E-majFminB-minCminB-minE-majFminB-minCminB-minE-majFminB-minCmin,0393
+27,5,Cmin,B-no3,B-maj,D-maj,Ddim,,,,,,,,,,,,,,,0.9182958340544896,#,_DdimD-majB-majB-no3Cmin,0524; 1098; 1183
+10,6,Cmin,B-no3,Fno3,Gmin,B-maj,E-maj,,,,,,,,,,,,,,1.1567796494470395,##,_E-majB-majGminFno3B-no3Cmin,1167
+13,5,Cmin,Cdim,B-maj,Cmin,Cdim,,,,,,,,,,,,,,,0.9912642605354289,#,_CdimCminB-majCdimCmin,0336; 0607; 0746
+20,10,Cmin,Cdim,E-dim,B-maj,Dmin,Cmin,E-min,B-maj,Gmaj,Cmin,,,,,,,,,,1.1567796494470395,#######,_CminGmajB-majE-minCminDminB-majE-dimCdimCmin,0517; 0680
+14,5,Cmin,Cno3,A-maj,Gno3,Gmaj,,,,,,,,,,,,,,,1.3787834934861756,##,_GmajGno3A-majCno3Cmin,1192; 1283
+20,7,Cmin,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,,,,,,,,,,,,,0.9709505944546686,####,_GmajDmajFmajA-majGmajCno3Cmin,0381; 0999
+12,19,Cmin,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,Cno3,Gmaj,A-maj,E-maj,D-maj,Cmin,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,0.9182958340544896,###########,_GmajDmajFmajA-majGmajCno3CminD-majE-majA-majGmajCno3GmajDmajFmajA-majGmajCno3Cmin,0381; 0999
+19,8,Cmin,D-maj,A-maj,Cmin,D-maj,A-maj,Cmin,D-maj,,,,,,,,,,,,1.3605273114437082,##,_D-majCminA-majD-majCminA-majD-majCmin,0154; 0177
+12,7,Cmin,D-maj,A-maj,Cmin,Gmaj,E-maj,B-maj,,,,,,,,,,,,,1.0,##,_B-majE-majGmajCminA-majD-majCmin,0317; 0323
+12,8,Cmin,D-maj,B-min,E-maj,Cmin,D-maj,B-min,E-maj,,,,,,,,,,,,0.9182958340544896,###,_E-majB-minD-majCminE-majB-minD-majCmin,0158; 1237
+15,7,Cmin,D-maj,Cmin,E-maj,Cmin,B-maj,A-maj,,,,,,,,,,,,,0.9709505944546686,##,_A-majB-majCminE-majCminD-majCmin,0259; 0279; 0552
+12,6,Cmin,D-maj,E-maj,A-maj,Cmin,D-maj,,,,,,,,,,,,,,1.5510981710072647,#,_D-majCminA-majE-majD-majCmin,0012; 0154; 0203; 0231; 0926; 1221
+10,7,Cmin,D-maj,E-maj,Fmaj,F#maj,Fmaj,B-min,,,,,,,,,,,,,0.9709505944546686,##,_B-minFmajF#majFmajE-majD-majCmin,1053; 1204
+18,19,Cmin,D-maj,E-maj,Fmin,Cmin,D-maj,E-maj,Fmin,Cmin,D-maj,E-maj,Fmin,Cmin,D-maj,E-maj,Fmin,Cmin,D-maj,E-maj,0.9864267287308424,##########,_E-majD-majCminFminE-majD-majCminFminE-majD-majCminFminE-majD-majCminFminE-majD-majCmin,0281; 0660
+27,13,Cmin,D-maj,Fmin,Cmin,B-min,E-no3,Fmin,Cmin,D-maj,Fmin,Cmin,B-min,E-no3,,,,,,,0.9182958340544896,#######,_E-no3B-minCminFminD-majCminFminE-no3B-minCminFminD-majCmin,0524; 1098; 1183
+53,8,Cmin,D-maj,Fmin,Cmin,D-maj,Fmin,Cmin,D-maj,,,,,,,,,,,,1.2300544394722288,##,_D-majCminFminD-majCminFminD-majCmin,0227; 0275; 0481; 0978; 1186
+14,16,Cmin,D-maj,Fmin,E-maj,Cmin,D-maj,Fmin,E-maj,Cmin,D-maj,Fmin,E-maj,Cmin,D-maj,Fmin,E-maj,,,,0.946372935985442,#########,_E-majFminD-majCminE-majFminD-majCminE-majFminD-majCminE-majFminD-majCmin,0741
+14,7,Cmin,Dmaj,Gmaj,Emin,Cmin,Dmaj,Gmaj,,,,,,,,,,,,,1.1488348542809168,##,_GmajDmajCminEminGmajDmajCmin,0157; 0603
+11,7,Cmin,Dmaj,Gmin,Edim,Cno3,Dmaj,Gmaj,,,,,,,,,,,,,1.3092966682370037,###,_GmajDmajCno3EdimGminDmajCmin,0205
+20,5,Cmin,Dmin,Cmaj,Cmin,Dmin,,,,,,,,,,,,,,,1.6477309221191607,##,_DminCminCmajDminCmin,0550
+10,8,Cmin,Dmin,Cmaj,Cmin,Dmin,Cmaj,Cmin,Dmin,,,,,,,,,,,,1.1567796494470395,##,_DminCminCmajDminCminCmajDminCmin,0550
+16,5,Cmin,Dmin,Cmin,Fmaj,B-maj,,,,,,,,,,,,,,,2.4056390622295662,#,_B-majFmajCminDminCmin,0506; 0636; 0722; 0984; 1061; 1099
+15,10,Cmin,Dmin,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,,,,,,,,,,1.158938532350277,####,_FmajGminCminDminCminFmajGminCminDminCmin,0393
+10,15,Cmin,Dmin,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,,,,,1.3609640474436813,####,_FmajGminCminDminCminFmajGminCminDminCminFmajGminCminDminCmin,0393
+23,6,Cmin,Dmin,E-maj,Dmin,Gmin,Cmin,,,,,,,,,,,,,,0.9876925088958034,#,_CminGminDminE-majDminCmin,0319; 0795; 1112
+10,8,Cmin,Dmin,E-maj,Fmaj,Gmaj,A-maj,Gmaj,Cmin,,,,,,,,,,,,0.9709505944546686,##,_CminGmajA-majGmajFmajE-majDminCmin,1053; 1204
+19,6,Cmin,Dmin,Gmin,Fmaj,Cmin,Dmin,,,,,,,,,,,,,,1.2674438038072338,##,_DminCminFmajGminDminCmin,0716
+12,10,Cmin,Dmin,Gmin,Fmaj,Cmin,Dmin,Gmin,Fmaj,Cmin,Dmin,,,,,,,,,,1.4833557549816874,###,_DminCminFmajGminDminCminFmajGminDminCmin,0716
+16,11,Cmin,E-maj,A-maj,A-min,E-maj,B-min,E-maj,A-maj,A-min,E-maj,Cmin,,,,,,,,,1.0,#######,_CminE-majA-minA-majE-majB-minE-majA-minA-majE-majCmin,0240; 0295
+11,5,Cmin,E-maj,A-maj,B-no3,E-maj,,,,,,,,,,,,,,,1.0957952550009338,#,_E-majB-no3A-majE-majCmin,1033; 1200
+13,7,Cmin,E-maj,A-maj,Cmin,E-maj,A-maj,Cmin,,,,,,,,,,,,,0.9912642605354289,##,_CminA-majE-majCminA-majE-majCmin,0345
+10,10,Cmin,E-maj,A-maj,Cmin,E-maj,A-maj,Cmin,E-maj,A-maj,Cmin,,,,,,,,,,0.9219280948873623,##,_CminA-majE-majCminA-majE-majCminA-majE-majCmin,0345
+10,10,Cmin,E-maj,A-maj,E-maj,B-maj,E-maj,Gmin,Cmin,E-maj,B-maj,,,,,,,,,,0.9709505944546686,####,_B-majE-majCminGminE-majB-majE-majA-majE-majCmin,0128; 0682
+16,7,Cmin,E-maj,A-maj,E-maj,Fmin,B-maj,E-maj,,,,,,,,,,,,,1.4772170014624826,#,_E-majB-majFminE-majA-majE-majCmin,0485; 1178
+17,5,Cmin,E-maj,A-maj,Gmin,Fmin,,,,,,,,,,,,,,,1.2607717938967942,#,_FminGminA-majE-majCmin,0412; 0804; 1221
+16,12,Cmin,E-maj,B-maj,E-maj,B-maj,E-maj,B-maj,Cmin,E-maj,B-maj,E-maj,B-maj,,,,,,,,1.2987949406953985,#####,_B-majE-majB-majE-majCminB-majE-majB-majE-majB-majE-majCmin,0492; 0881
+11,10,Cmin,E-maj,B-maj,E-maj,Cmin,Gmaj,Cmin,E-maj,B-maj,E-maj,,,,,,,,,,1.6171895725927152,####,_E-majB-majE-majCminGmajCminE-majB-majE-majCmin,0845
+28,6,Cmin,E-maj,Cmin,A-maj,B-maj,E-maj,,,,,,,,,,,,,,1.0622698109081754,#,_E-majB-majA-majCminE-majCmin,0217; 0250; 0401; 0450; 0549; 0598; 0616; 0617; 0730; 0749; 0902
+11,9,Cmin,E-maj,Cmin,A-maj,B-maj,E-maj,Cmin,E-maj,Cmin,,,,,,,,,,,1.823067982273661,#,_CminE-majCminE-majB-majA-majCminE-majCmin,0598; 0616; 0617; 0730
+14,8,Cmin,E-maj,Cmin,E-maj,B-maj,Gmin,E-maj,B-maj,,,,,,,,,,,,1.4488156357251847,##,_B-majE-majGminB-majE-majCminE-majCmin,0390; 0522
+16,8,Cmin,E-maj,Cmin,E-maj,Cmin,A-maj,B-maj,E-maj,,,,,,,,,,,,1.5016144718101818,#,_E-majB-majA-majCminE-majCminE-majCmin,0250; 0401; 0549; 0598; 0617; 0730; 0902
+14,10,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,B-maj,Gmin,E-maj,B-maj,,,,,,,,,,1.4488156357251847,###,_B-majE-majGminB-majE-majCminE-majCminE-majCmin,0390; 0522
+99,9,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,,,,,,,,,,,1.1570147556111146,#,_CminE-majCminE-majCminE-majCminE-majCmin,0003; 0112; 0250; 0310; 0400; 0404; 0543; 0549; 0596; 0617; 0730; 0818; 0920; 1020; 1091; 1270
+74,11,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,,,,,,,,,1.3701410804285394,#,_CminE-majCminE-majCminE-majCminE-majCminE-majCmin,0112; 0310; 0400; 0404; 0549; 0596; 0617; 0730; 0818; 0920; 1020; 1091; 1270
+53,13,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,,,,,,,1.1633111206795796,#,_CminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCmin,0112; 0310; 0400; 0404; 0596; 0617; 0730; 0920; 1091; 1270
+41,15,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,,,,,1.1846285747078382,#,_CminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCmin,0112; 0310; 0400; 0404; 0596; 0920; 1091; 1270
+31,17,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,,,0.9042326000115628,#,_CminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCmin,0112; 0400; 0404; 0596; 0920; 1091; 1270
+24,19,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,E-maj,Cmin,1.0434356963218767,#,_CminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCminE-majCmin,0112; 0400; 0404; 0596; 0920; 1091; 1270
+26,8,Cmin,E-maj,Fmaj,B-maj,Cmin,E-maj,Fmaj,B-maj,,,,,,,,,,,,1.1160762796829877,##,_B-majFmajE-majCminB-majFmajE-majCmin,0010; 0258; 0349; 0747
+12,13,Cmin,E-maj,Fmaj,B-maj,Cmin,E-maj,Fmaj,B-maj,Cmin,E-maj,Fmaj,B-maj,Cmin,,,,,,,0.9182958340544896,###,_CminB-majFmajE-majCminB-majFmajE-majCminB-majFmajE-majCmin,0258; 0349
+16,12,Cmin,E-maj,Fmaj,B-maj,Cmin,Fmaj,B-maj,Cmin,E-maj,Fmaj,B-maj,Cmin,,,,,,,,1.1994602933016414,#####,_CminB-majFmajE-majCminB-majFmajCminB-majFmajE-majCmin,0258; 0349; 1285
+30,6,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,,,,,,,,,,,,,,1.080424344959478,#,_FmajE-majCminFmajE-majCmin,0525; 0663; 0701; 1296
+22,9,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,,,,,,,,,,,1.3342094594480485,##,_FmajE-majCminFmajE-majCminFmajE-majCmin,0525; 0663
+16,12,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,,,,,,,,0.9933927290103626,##,_FmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCmin,0663
+13,15,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,,,,,1.1451104143815827,##,_FmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCmin,0663
+10,18,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,Cmin,E-maj,Fmaj,,1.3567796494470397,##,_FmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCminFmajE-majCmin,0663
+10,17,Cmin,E-maj,Fmaj,E-maj,Fmaj,B-maj,Cmin,E-maj,Fmaj,E-maj,Fmaj,B-maj,Cmin,E-maj,Fmaj,E-maj,Fmaj,,,0.9219280948873623,########,_FmajE-majFmajE-majCminB-majFmajE-majFmajE-majCminB-majFmajE-majFmajE-majCmin,1104
+18,8,Cmin,E-maj,Fmaj,Gmin,Dmin,Cmin,E-maj,Fmaj,,,,,,,,,,,,1.275162982784857,###,_FmajE-majCminDminGminFmajE-majCmin,0099; 0122
+13,13,Cmin,E-maj,Fmaj,Gmin,Dmin,Cmin,E-maj,Fmaj,Gmin,Dmin,Cmin,E-maj,Fmaj,,,,,,,1.198183947911799,####,_FmajE-majCminDminGminFmajE-majCminDminGminFmajE-majCmin,0099; 0122
+16,19,Cmin,E-maj,Fno3,B-maj,Cmin,E-maj,Fno3,B-maj,Cmin,E-maj,Fno3,B-maj,Cmin,E-maj,Fno3,B-maj,Cmin,E-maj,Fno3,1.014097655573916,############,_Fno3E-majCminB-majFno3E-majCminB-majFno3E-majCminB-majFno3E-majCminB-majFno3E-majCmin,0720
+26,5,Cmin,E-min,B-maj,Gmaj,Cmin,,,,,,,,,,,,,,,1.1401156785146092,#,_CminGmajB-majE-minCmin,0517; 0680
+12,16,Cmin,E-min,B-maj,Gmaj,Cmin,B-maj,Cmin,Cdim,E-dim,B-maj,Dmin,Cmin,E-min,B-maj,Gmaj,Cmin,,,,1.4591479170272448,#########,_CminGmajB-majE-minCminDminB-majE-dimCdimCminB-majCminGmajB-majE-minCmin,0517; 0680
+12,5,Cmin,E-no3,E-maj,A-maj,Fmin,,,,,,,,,,,,,,,0.9182958340544896,#,_FminA-majE-majE-no3Cmin,0419
+14,6,Cmin,E-no3,Fno3,Cmin,E-no3,Fno3,,,,,,,,,,,,,,1.2916919971380596,##,_Fno3E-no3CminFno3E-no3Cmin,0861
+10,9,Cmin,E-no3,Fno3,Cmin,E-no3,Fno3,Cmin,E-no3,Fno3,,,,,,,,,,,1.3567796494470397,##,_Fno3E-no3CminFno3E-no3CminFno3E-no3Cmin,0861
+12,6,Cmin,E-no3,Fno3,Fmin,Cmin,E-no3,,,,,,,,,,,,,,1.040852082972755,##,_E-no3CminFminFno3E-no3Cmin,0865
+10,7,Cmin,Fmaj,B-maj,Amin,Gmin,Cmaj,Fmaj,,,,,,,,,,,,,0.9219280948873623,##,_FmajCmajGminAminB-majFmajCmin,0895
+16,6,Cmin,Fmaj,B-maj,B-min,Fmaj,Dmin,,,,,,,,,,,,,,1.0,#,_DminFmajB-minB-majFmajCmin,0240; 0295
+11,5,Cmin,Fmaj,B-maj,B-no3,B-maj,,,,,,,,,,,,,,,1.823067982273661,#,_B-majB-no3B-majFmajCmin,0182; 0588; 0656; 0950
+26,8,Cmin,Fmaj,B-maj,Cmin,E-maj,Fmaj,B-maj,Cmin,,,,,,,,,,,,1.3405071628991212,###,_CminB-majFmajE-majCminB-majFmajCmin,0258; 0349; 1285
+46,9,Cmin,Fmaj,B-maj,Cmin,Fmaj,B-maj,Cmin,Fmaj,B-maj,,,,,,,,,,,1.2166641288412903,#,_B-majFmajCminB-majFmajCminB-majFmajCmin,0296; 0410; 0729; 0767; 0834; 0984; 1027; 1138; 1192; 1283
+33,11,Cmin,Fmaj,B-maj,Cmin,Fmaj,B-maj,Cmin,Fmaj,B-maj,Cmin,Fmaj,,,,,,,,,1.0957952550009338,#,_FmajCminB-majFmajCminB-majFmajCminB-majFmajCmin,0296; 0410; 0729; 0767; 0834; 1027; 1138; 1192; 1283
+15,7,Cmin,Fmaj,B-maj,E-maj,B-maj,Fmaj,B-maj,,,,,,,,,,,,,2.739572261986723,#,_B-majFmajB-majE-majB-majFmajCmin,0004; 0127; 0149; 0220; 0515; 0562; 0696; 0926; 1009; 1229
+10,7,Cmin,Fmaj,B-maj,E-maj,Cmin,E-maj,B-maj,,,,,,,,,,,,,0.9219280948873623,#,_B-majE-majCminE-majB-majFmajCmin,0100; 0296
+23,6,Cmin,Fmaj,B-maj,Gmaj,Cmin,Fmaj,,,,,,,,,,,,,,1.1545676820893709,#,_FmajCminGmajB-majFmajCmin,0192; 0789; 1138
+10,14,Cmin,Fmaj,B-maj,Gmaj,Cmin,Fmaj,B-maj,Gmaj,Cmin,Fmaj,B-maj,Gmaj,Cmin,Fmaj,,,,,,0.9219280948873623,####,_FmajCminGmajB-majFmajCminGmajB-majFmajCminGmajB-majFmajCmin,0789
+63,10,Cmin,Fmaj,B-maj,Gmin,Cmin,Fmaj,B-maj,Gmin,Cmin,Fmaj,,,,,,,,,,0.9055527390714916,##,_FmajCminGminB-majFmajCminGminB-majFmajCmin,0315; 0484; 0728; 0926; 0986; 1161
+16,9,Cmin,Fmaj,Cmin,Fmaj,B-maj,Cmin,Fmaj,Cmin,Fmaj,,,,,,,,,,,1.5016144718101818,###,_FmajCminFmajCminB-majFmajCminFmajCmin,0228; 0236; 0369; 0872; 0917; 1292
+12,6,Cmin,Fmaj,Dmin,E-maj,Cmin,Fmaj,,,,,,,,,,,,,,0.9182958340544896,##,_FmajCminE-majDminFmajCmin,0158; 1237
+14,7,Cmin,Fmaj,E-maj,Cmin,Fmaj,E-maj,Cmin,,,,,,,,,,,,,1.8423709931771086,#,_CminE-majFmajCminE-majFmajCmin,0701; 1020; 1296
+11,9,Cmin,Fmaj,E-maj,Fmaj,E-maj,Fmaj,E-maj,Fmaj,E-maj,,,,,,,,,,,0.9940302114769565,##,_E-majFmajE-majFmajE-majFmajE-majFmajCmin,0088; 0637; 0670; 0685; 1031
+23,5,Cmin,Fmaj,Gmaj,Cmin,Fmaj,,,,,,,,,,,,,,,0.9274479232123118,#,_FmajCminGmajFmajCmin,0242; 0364; 0643; 0782
+15,9,Cmin,Fmaj,Gmaj,Cmin,Fmaj,Gmaj,Cmin,Fmaj,Gmaj,,,,,,,,,,,0.9055872616982603,##,_GmajFmajCminGmajFmajCminGmajFmajCmin,0643
+12,12,Cmin,Fmaj,Gmaj,Cmin,Fmaj,Gmaj,Cmin,Fmaj,Gmaj,Cmin,Fmaj,Gmaj,,,,,,,,1.0408520829727552,##,_GmajFmajCminGmajFmajCminGmajFmajCminGmajFmajCmin,0643
+13,8,Cmin,Fmaj,Gmin,Cmin,Fmaj,Gmin,Cmin,Fmaj,,,,,,,,,,,,1.1451104143815827,#,_FmajCminGminFmajCminGminFmajCmin,0978; 1234; 1258
+12,6,Cmin,Fmaj,Gmin,Fmaj,Cmin,Fmaj,,,,,,,,,,,,,,1.4591479170272446,#,_FmajCminFmajGminFmajCmin,0242; 0782; 1173
+10,11,Cmin,Fmin,A-maj,D-maj,A-maj,E-maj,A-maj,Cmin,Fmin,A-maj,E-maj,,,,,,,,,0.9709505944546686,#####,_E-majA-majFminCminA-majE-majA-majD-majA-majFminCmin,0128; 0682
+12,9,Cmin,Fmin,B-maj,Cmin,Fmin,B-maj,Cmin,Fmin,B-maj,,,,,,,,,,,1.207518749639422,##,_B-majFminCminB-majFminCminB-majFminCmin,0978; 1234; 1258
+81,8,Cmin,Fmin,B-maj,E-maj,Cmin,Fmin,B-maj,E-maj,,,,,,,,,,,,1.2601721282321614,##,_E-majB-majFminCminE-majB-majFminCmin,0218; 0315; 0484; 0728; 0831; 0834; 0926; 0986; 1046; 1161
+60,11,Cmin,Fmin,B-maj,E-maj,Cmin,Fmin,B-maj,E-maj,Cmin,Fmin,B-maj,,,,,,,,,0.9394142632300229,##,_B-majFminCminE-majB-majFminCminE-majB-majFminCmin,0315; 0484; 0728; 0926; 0986
+13,9,Cmin,Fmin,B-min,Cmin,Fmin,B-min,Cmin,Fmin,B-min,,,,,,,,,,,1.1401156785146092,#,_B-minFminCminB-minFminCminB-minFminCmin,0476; 0631
+72,8,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,,,,,,,,,,,,1.1874334276384142,#,_FminCminFminCminFminCminFminCmin,0025; 0195; 0239; 0300; 0531; 0614; 0683; 0768; 0811; 0958; 1101
+53,10,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,,,,,,,,,,1.1243901383172583,#,_FminCminFminCminFminCminFminCminFminCmin,0025; 0195; 0811; 0958; 1101
+41,12,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,,,,,,,,1.0768257850003535,#,_FminCminFminCminFminCminFminCminFminCminFminCmin,0025; 0195; 0811; 0958
+25,16,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,Cmin,Fmin,,,,0.996118213778296,##,_FminCminFminCminFminCminFminCminFminCminFminCminFminCminFminCmin,0025; 0195; 0958
+23,11,Cmin,Fmin,D-maj,Cmin,Fmin,D-maj,Cmin,Fmin,D-maj,Cmin,Fmin,,,,,,,,,0.9274479232123118,###,_FminCminD-majFminCminD-majFminCminD-majFminCmin,0526; 0648
+12,7,Cmin,Fmin,E-maj,A-maj,B-maj,Gmaj,Cmin,,,,,,,,,,,,,1.2516291673878228,##,_CminGmajB-majA-majE-majFminCmin,0016; 1274
+12,9,Cmin,Fmin,E-maj,B-min,Cmin,Fmin,E-maj,B-min,Cmin,,,,,,,,,,,1.4833557549816874,###,_CminB-minE-majFminCminB-minE-majFminCmin,0716
+12,6,Cmin,Fmin,E-maj,Gmaj,Cmin,Fmin,,,,,,,,,,,,,,0.9182958340544896,##,_FminCminGmajE-majFminCmin,0319; 0795
+11,8,Cmin,Fmin,Gmaj,Cmin,Adim,Fno3,Gmaj,Cmaj,,,,,,,,,,,,1.3092966682370037,###,_CmajGmajFno3AdimCminGmajFminCmin,0205
+23,7,Cmin,Fmin,Gmin,A-maj,Gmin,Cmin,Fmin,,,,,,,,,,,,,0.9876925088958034,##,_FminCminGminA-majGminFminCmin,0319; 0795; 1112
+17,4,Cmin,Fmin,Gno3,Gmaj,,,,,,,,,,,,,,,,1.022420703848328,#,_GmajGno3FminCmin,0325; 0476; 0651
+10,9,Cmin,Fno3,B-maj,Fmaj,Cmin,Fno3,B-maj,Fmaj,Cmin,,,,,,,,,,,1.3709505944546687,##,_CminFmajB-majFno3CminFmajB-majFno3Cmin,0944; 1276
+27,9,Cmin,Fno3,B-maj,Gmin,E-maj,Cmin,Fno3,B-maj,Gmin,,,,,,,,,,,1.3516441151533924,###,_GminB-majFno3CminE-majGminB-majFno3Cmin,0309; 0769; 1084
+15,14,Cmin,Fno3,B-maj,Gmin,E-maj,Cmin,Fno3,B-maj,Gmin,E-maj,Cmin,Fno3,B-maj,Gmin,,,,,,1.3709505944546687,####,_GminB-majFno3CminE-majGminB-majFno3CminE-majGminB-majFno3Cmin,0309; 0769; 1084
+27,9,Cmin,Fno3,Gmin,Dmin,E-maj,Gmin,Dmin,Cmin,Fno3,,,,,,,,,,,0.9182958340544896,#####,_Fno3CminDminGminE-majDminGminFno3Cmin,0524; 1098; 1183
+18,16,Cmin,Fno3,Gmin,Dmin,E-maj,Gmin,Dmin,Cmin,Fno3,Gmin,Dmin,E-maj,Gmin,Dmin,Cmin,Fno3,,,,1.0,######,_Fno3CminDminGminE-majDminGminFno3CminDminGminE-majDminGminFno3Cmin,0524; 1098; 1183
+16,6,Cmin,Gmaj,Cmin,E-maj,B-maj,E-maj,,,,,,,,,,,,,,1.3244602933016414,#,_E-majB-majE-majCminGmajCmin,0845
+11,12,Cmin,Gmaj,Cmin,E-maj,B-maj,E-maj,Cmin,Gmaj,Cmin,E-maj,B-maj,E-maj,,,,,,,,1.6171895725927152,#####,_E-majB-majE-majCminGmajCminE-majB-majE-majCminGmajCmin,0845
+87,7,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,,,,,,,,,,,,,1.3336591564654232,#,_CminGmajCminGmajCminGmajCmin,0004; 0104; 0343; 0396; 0456; 0798; 1013; 1070; 1087; 1229
+64,9,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,,,,,,,,,,,0.964473435606965,#,_CminGmajCminGmajCminGmajCminGmajCmin,0104; 0343; 0396; 0456; 0798; 1013; 1070
+50,11,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,Gmaj,Cmin,,,,,,,,,0.9943095546405663,#,_CminGmajCminGmajCminGmajCminGmajCminGmajCmin,0104; 0396; 0798; 1013; 1070
+16,8,Cmin,Gmaj,Dmin,Gmaj,Cmaj,Cmin,Gmaj,Emin,,,,,,,,,,,,1.0,#####,_EminGmajCminCmajGmajDminGmajCmin,0240; 0295
+12,4,Cmin,Gmaj,E-maj,B-maj,,,,,,,,,,,,,,,,1.0,#,_B-majE-majGmajCmin,0317; 0323
+12,15,Cmin,Gmaj,Emaj,Amin,Gmaj,Amin,Adim,Cdim,Gmaj,Bmin,Amin,Cmin,Gmaj,Emaj,Amin,,,,,1.4591479170272446,#########,_AminEmajGmajCminAminBminGmajCdimAdimAminGmajAminEmajGmajCmin,0517; 0680
+20,16,Cmin,Gmin,A-maj,B-maj,Cmin,Gmin,A-maj,B-maj,Cmin,Gmin,A-maj,B-maj,Cmin,Gmin,A-maj,B-maj,,,,0.9219280948873623,########,_B-majA-majGminCminB-majA-majGminCminB-majA-majGminCminB-majA-majGminCmin,0281; 0660
+101,5,Cmin,Gmin,A-maj,Cmin,Gmin,,,,,,,,,,,,,,,0.9396846718728563,#,_GminCminA-majGminCmin,0227; 0275; 0481; 0524; 0978; 1098; 1183; 1186
+47,9,Cmin,Gmin,A-maj,Cmin,Gmin,A-maj,Cmin,Gmin,A-maj,,,,,,,,,,,0.9711580961275045,#,_A-majGminCminA-majGminCminA-majGminCmin,0227; 0275; 0978
+27,14,Cmin,Gmin,A-maj,Cmin,Gmin,Fmin,B-no3,Cmin,Gmin,A-maj,Cmin,Gmin,Fmin,B-no3,,,,,,0.9182958340544896,#######,_B-no3FminGminCminA-majGminCminB-no3FminGminCminA-majGminCmin,0524; 1098; 1183
+12,8,Cmin,Gmin,A-maj,E-maj,Gmin,Dmaj,B-maj,Fmaj,,,,,,,,,,,,1.0,###,_FmajB-majDmajGminE-majA-majGminCmin,0317; 0323
+12,6,Cmin,Gmin,B-no3,B-maj,E-maj,Cmin,,,,,,,,,,,,,,0.9182958340544896,#,_CminE-majB-majB-no3GminCmin,0419
+12,7,Cmin,Gmin,B-no3,Cno3,Cmin,Gmin,B-no3,,,,,,,,,,,,,1.040852082972755,###,_B-no3GminCminCno3B-no3GminCmin,0865
+78,7,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,,,,,,,,,,,,,1.525496158327298,#,_CminGminCminGminCminGminCmin,0025; 0195; 0239; 0300; 0531; 0614; 0637; 0683; 0768; 0811; 0958; 1101; 1182
+53,9,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,,,,,,,,,,,1.1243901383172583,#,_CminGminCminGminCminGminCminGminCmin,0025; 0195; 0811; 0958; 1101
+41,11,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,,,,,,,,,1.0768257850003535,#,_CminGminCminGminCminGminCminGminCminGminCmin,0025; 0195; 0811; 0958
+25,15,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,,,,,0.996118213778296,##,_CminGminCminGminCminGminCminGminCminGminCminGminCminGminCmin,0025; 0195; 0958
+16,19,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,Gmin,Cmin,0.9933927290103626,##,_CminGminCminGminCminGminCminGminCminGminCminGminCminGminCminGminCminGminCmin,0025; 0958
+23,8,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,,,,,,,,,,0.9123163027543337,###,_CmajFmajGminCminCmajFmajGminCmin,0848
+18,12,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,,,,,,1.0529407605626349,###,_CmajFmajGminCminCmajFmajGminCminCmajFmajGminCmin,0848
+13,16,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,Cmin,Gmin,Fmaj,Cmaj,,,,1.2389012566026307,###,_CmajFmajGminCminCmajFmajGminCminCmajFmajGminCminCmajFmajGminCmin,0848
+15,8,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,,,,,,,,,,,,1.158938532350277,###,_FmajGminCminDminCminFmajGminCmin,0393
+10,13,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,Cmin,Dmin,Cmin,Gmin,Fmaj,,,,,,,1.3609640474436813,####,_FmajGminCminDminCminFmajGminCminDminCminFmajGminCmin,0393
+16,6,Cmin,Gmin,Fmaj,Cmin,Gmin,Fmaj,,,,,,,,,,,,,,1.771782221599798,#,_FmajGminCminFmajGminCmin,0898; 1180
+23,5,Cmin,Gmin,Fmin,A-maj,B-maj,,,,,,,,,,,,,,,1.0862293462325945,#,_B-majA-majFminGminCmin,0099; 0122
+18,10,Cmin,Gmin,Fmin,A-maj,B-maj,Cmin,Gmin,Fmin,A-maj,B-maj,,,,,,,,,,1.275162982784857,####,_B-majA-majFminGminCminB-majA-majFminGminCmin,0099; 0122
+13,15,Cmin,Gmin,Fmin,A-maj,B-maj,Cmin,Gmin,Fmin,A-maj,B-maj,Cmin,Gmin,Fmin,A-maj,B-maj,,,,,1.198183947911799,####,_B-majA-majFminGminCminB-majA-majFminGminCminB-majA-majFminGminCmin,0099; 0122
+27,11,Cmin,Gmin,Fmin,B-no3,Cmin,Gmin,A-maj,Cmin,Gmin,Fmin,B-no3,,,,,,,,,0.9182958340544896,######,_B-no3FminGminCminA-majGminCminB-no3FminGminCmin,0524; 1098; 1183
+18,18,Cmin,Gmin,Fmin,B-no3,Cmin,Gmin,A-maj,Cmin,Gmin,Fmin,B-no3,Cmin,Gmin,A-maj,Cmin,Gmin,Fmin,B-no3,,1.0,######,_B-no3FminGminCminA-majGminCminB-no3FminGminCminA-majGminCminB-no3FminGminCmin,0524; 1098; 1183
+12,4,Cmin,Gno3,Cno3,Cmin,,,,,,,,,,,,,,,,1.0,#,_CminCno3Gno3Cmin,0736
+28,6,Cno3,A-no3,B-no3,Cno3,A-no3,B-no3,,,,,,,,,,,,,,1.1981174211304033,##,_B-no3A-no3Cno3B-no3A-no3Cno3,0352; 0503; 0913; 1276
+17,9,Cno3,A-no3,B-no3,Cno3,A-no3,B-no3,Cno3,A-no3,B-no3,,,,,,,,,,,0.9975025463691153,##,_B-no3A-no3Cno3B-no3A-no3Cno3B-no3A-no3Cno3,0352; 0503; 1276
+16,14,Cno3,A-no3,B-no3,E-no3,B-no3,Cno3,A-no3,B-no3,E-no3,B-no3,Cno3,A-no3,B-no3,E-no3,,,,,,0.9544340029249649,########,_E-no3B-no3A-no3Cno3B-no3E-no3B-no3A-no3Cno3B-no3E-no3B-no3A-no3Cno3,0217; 0450
+10,19,Cno3,A-no3,B-no3,E-no3,B-no3,Cno3,A-no3,B-no3,E-no3,B-no3,Cno3,A-no3,B-no3,E-no3,B-no3,Cno3,A-no3,B-no3,E-no3,0.9709505944546686,####,_E-no3B-no3A-no3Cno3B-no3E-no3B-no3A-no3Cno3B-no3E-no3B-no3A-no3Cno3B-no3E-no3B-no3A-no3Cno3,0217; 0450
+11,7,Cno3,B-no3,Fno3,Cno3,B-no3,Fno3,Cno3,,,,,,,,,,,,,1.2406705316766886,#,_Cno3Fno3B-no3Cno3Fno3B-no3Cno3,0567; 0701; 1296
+27,7,Cno3,Cmaj,Amin,Gno3,Gmaj,B-maj,Bdim,,,,,,,,,,,,,0.9182958340544896,###,_BdimB-majGmajGno3AminCmajCno3,0524; 1098; 1183
+11,8,Cno3,Cmaj,B-maj,Fmaj,Cno3,Cmaj,B-maj,Fmaj,,,,,,,,,,,,0.9940302114769565,###,_FmajB-majCmajCno3FmajB-majCmajCno3,0268; 0910; 1085
+174,6,Cno3,Cmaj,Cno3,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,,1.2016850176187288,#,_CmajCno3CmajCno3CmajCno3,0182; 0236; 0348; 0421; 0461; 0469; 0507; 0512; 0590; 0651; 0657; 0706; 0770; 0775; 0781; 1234
+14,6,Cno3,Cmaj,Cno3,Cmaj,Fno3,Fmaj,,,,,,,,,,,,,,1.8423709931771088,#,_FmajFno3CmajCno3CmajCno3,0236; 0469; 0507; 0657
+10,7,Cno3,Cmaj,Dmaj,Bmin,Emin,Amin,Dno3,,,,,,,,,,,,,1.295461844238322,###,_Dno3AminEminBminDmajCmajCno3,1112
+26,8,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,,,,,,,,,,,,1.0101190680613157,#,_B-majFmajCmajCno3B-majFmajCmajCno3,0083; 0472; 0791; 1188; 1277
+15,14,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,Fmaj,B-maj,Cno3,Cmaj,,,,,,0.9055872616982603,###,_CmajCno3B-majFmajCmajCno3B-majFmajCmajCno3B-majFmajCmajCno3,0083; 0791; 1277
+15,8,Cno3,Cmaj,Fmaj,Cmaj,Gmaj,Cmaj,Gmaj,Cmaj,,,,,,,,,,,,1.9219280948873623,##,_CmajGmajCmajGmajCmajFmajCmajCno3,0822; 0954; 1107; 1110; 1166
+14,9,Cno3,Cmaj,Fmaj,Gmaj,Cno3,Cmaj,Fmaj,Gno3,Gmaj,,,,,,,,,,,1.4299111709758698,####,_GmajGno3FmajCmajCno3GmajFmajCmajCno3,1126
+18,5,Cno3,Cmaj,Fmaj,Gno3,Gmaj,,,,,,,,,,,,,,,2.0566416671474377,#,_GmajGno3FmajCmajCno3,0507; 0791; 1126
+14,6,Cno3,Cmaj,Gmaj,Cmaj,Cno3,Cmaj,,,,,,,,,,,,,,2.217021885879718,#,_CmajCno3CmajGmajCmajCno3,0068; 0348; 0354
+12,8,Cno3,Cmin,Gmin,B-no3,Cno3,Cmin,Gmin,B-no3,,,,,,,,,,,,1.040852082972755,###,_B-no3GminCminCno3B-no3GminCminCno3,0865
+12,5,Cno3,Cmin,Gno3,Cno3,Cmin,,,,,,,,,,,,,,,1.0,##,_CminCno3Gno3CminCno3,0736
+27,5,Cno3,D-no3,Cno3,D-no3,Cno3,,,,,,,,,,,,,,,0.908653933541588,#,_Cno3D-no3Cno3D-no3Cno3,0884; 0904
+10,5,Cno3,Ddim,Cno3,Fmaj,Cmaj,,,,,,,,,,,,,,,1.3709505944546687,##,_CmajFmajCno3DdimCno3,0240; 0295
+11,6,Cno3,Dmaj,Cmaj,Dmaj,Cmaj,Dmaj,,,,,,,,,,,,,,1.3485878960124222,##,_DmajCmajDmajCmajDmajCno3,0415; 0706; 0844; 0865
+27,8,Cno3,Dmin,Amin,B-maj,Dmin,Amin,Gmin,Cno3,,,,,,,,,,,,0.9182958340544896,###,_Cno3GminAminDminB-majAminDminCno3,0524; 1098; 1183
+18,15,Cno3,Dmin,Amin,B-maj,Dmin,Amin,Gmin,Cno3,Dmin,Amin,B-maj,Dmin,Amin,Gmin,Cno3,,,,,1.0,######,_Cno3GminAminDminB-majAminDminCno3GminAminDminB-majAminDminCno3,0524; 1098; 1183
+13,4,Cno3,Dmin,Cno3,Dmin,,,,,,,,,,,,,,,,2.7773627950641693,#,_DminCno3DminCno3,0092; 0141; 0236; 0978
+14,5,Cno3,Dno3,Amin,Cno3,Dno3,,,,,,,,,,,,,,,1.2916919971380596,#,_Dno3Cno3AminDno3Cno3,0861
+10,8,Cno3,Dno3,Amin,Cno3,Dno3,Amin,Cno3,Dno3,,,,,,,,,,,,1.3567796494470397,##,_Dno3Cno3AminDno3Cno3AminDno3Cno3,0861
+42,5,Cno3,Dno3,Ano3,Cno3,Dno3,,,,,,,,,,,,,,,1.0392332819352068,#,_Dno3Cno3Ano3Dno3Cno3,0353; 1106; 1134; 1267
+27,9,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,,,,,,,,,,,1.042344321483692,##,_Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3,1106; 1267
+21,12,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,,,,,,,,0.9637459942073318,##,_Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3,1106
+13,18,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,Cno3,Dno3,Ano3,,0.9912642605354289,####,_Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3Ano3Dno3Cno3,1106
+10,5,Cno3,Dno3,Ano3,Dno3,Ano3,,,,,,,,,,,,,,,0.9709505944546686,#,_Ano3Dno3Ano3Dno3Cno3,0353; 1106
+66,4,Cno3,Dno3,B-no3,Cno3,,,,,,,,,,,,,,,,1.6657895682065358,#,_Cno3B-no3Dno3Cno3,0217; 0352; 0450; 0503; 0844; 0913; 1276
+17,10,Cno3,Dno3,B-no3,Cno3,Dno3,B-no3,Cno3,Dno3,B-no3,Cno3,,,,,,,,,,0.9975025463691153,####,_Cno3B-no3Dno3Cno3B-no3Dno3Cno3B-no3Dno3Cno3,0352; 0503; 1276
+16,15,Cno3,Dno3,B-no3,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,,,,,0.9544340029249649,########,_Fno3Cno3B-no3Dno3Cno3Fno3Cno3B-no3Dno3Cno3Fno3Cno3B-no3Dno3Cno3,0217; 0450
+12,5,Cno3,Dno3,Dmin,Amin,Cno3,,,,,,,,,,,,,,,1.040852082972755,#,_Cno3AminDminDno3Cno3,0865
+29,5,Cno3,Dno3,Eno3,Cno3,Dno3,,,,,,,,,,,,,,,1.3731999597495852,#,_Dno3Cno3Eno3Dno3Cno3,0352; 0503; 0844; 0913; 1276
+17,8,Cno3,Dno3,Eno3,Cno3,Dno3,Eno3,Cno3,Dno3,,,,,,,,,,,,0.9975025463691153,##,_Dno3Cno3Eno3Dno3Cno3Eno3Dno3Cno3,0352; 0503; 1276
+10,7,Cno3,Dno3,Gno3,Cno3,Gno3,Cno3,Gno3,,,,,,,,,,,,,0.9219280948873623,#,_Gno3Cno3Gno3Cno3Gno3Dno3Cno3,0594; 0777; 1170
+16,13,Cno3,Dno3,Gno3,Dno3,Eno3,Cno3,Dno3,Gno3,Dno3,Eno3,Cno3,Dno3,Gno3,,,,,,,0.9544340029249649,#######,_Gno3Dno3Cno3Eno3Dno3Gno3Dno3Cno3Eno3Dno3Gno3Dno3Cno3,0217; 0450
+10,18,Cno3,Dno3,Gno3,Dno3,Eno3,Cno3,Dno3,Gno3,Dno3,Eno3,Cno3,Dno3,Gno3,Dno3,Eno3,Cno3,Dno3,Gno3,,0.9709505944546686,####,_Gno3Dno3Cno3Eno3Dno3Gno3Dno3Cno3Eno3Dno3Gno3Dno3Cno3Eno3Dno3Gno3Dno3Cno3,0217; 0450
+33,7,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,,,,,,,,,,,,,0.9116073751641003,##,_Cno3Fno3E-no3Cno3Fno3E-no3Cno3,1106; 1267
+27,10,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,,,,,,,,,,1.042344321483692,##,_Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3,1106; 1267
+21,13,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,,,,,,,0.9637459942073318,##,_Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3,1106
+13,19,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,E-no3,Fno3,Cno3,0.9912642605354289,####,_Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3Fno3E-no3Cno3,1106
+10,6,Cno3,E-no3,Fno3,Cno3,Fno3,Cno3,,,,,,,,,,,,,,0.9709505944546686,#,_Cno3Fno3Cno3Fno3E-no3Cno3,0353; 1106
+62,7,Cno3,Fmaj,B-maj,Cno3,Fmaj,B-maj,Cno3,,,,,,,,,,,,,1.0632372863006547,#,_Cno3B-majFmajCno3B-majFmajCno3,0046; 0385; 0628; 0736; 0911; 1188; 1200
+43,10,Cno3,Fmaj,B-maj,Cno3,Fmaj,B-maj,Cno3,Fmaj,B-maj,Cno3,,,,,,,,,,0.9964156475663195,##,_Cno3B-majFmajCno3B-majFmajCno3B-majFmajCno3,0046; 0736; 1200
+23,7,Cno3,Fmaj,B-maj,Fmaj,Cno3,Fmaj,B-maj,,,,,,,,,,,,,0.9656361333706098,##,_B-majFmajCno3FmajB-majFmajCno3,0071; 0207; 0222; 0508; 1235
+15,8,Cno3,Fmaj,Cmaj,Gmin,Cno3,Fmaj,Cmaj,Gmin,,,,,,,,,,,,1.103307408607834,###,_GminCmajFmajCno3GminCmajFmajCno3,0944; 1276
+27,8,Cno3,Fmaj,Dmin,B-maj,Gmin,Cno3,Fmaj,Dmin,,,,,,,,,,,,1.3516441151533924,###,_DminFmajCno3GminB-majDminFmajCno3,0309; 0769; 1084
+15,13,Cno3,Fmaj,Dmin,B-maj,Gmin,Cno3,Fmaj,Dmin,B-maj,Gmin,Cno3,Fmaj,Dmin,,,,,,,1.3709505944546687,####,_DminFmajCno3GminB-majDminFmajCno3GminB-majDminFmajCno3,0309; 0769; 1084
+12,6,Cno3,Fmaj,E-maj,Cmin,Adim,Dmaj,,,,,,,,,,,,,,1.040852082972755,##,_DmajAdimCminE-majFmajCno3,0856
+10,6,Cno3,Fmaj,Fmin,Cmaj,Fmin,Gmaj,,,,,,,,,,,,,,0.9709505944546686,##,_GmajFminCmajFminFmajCno3,0106; 0988
+12,6,Cno3,Fmaj,Fno3,Fmaj,Fno3,Fmaj,,,,,,,,,,,,,,0.9182958340544896,###,_FmajFno3FmajFno3FmajCno3,0207; 0234; 0461; 0781
+19,17,Cno3,Fmaj,Gmin,B-maj,Cno3,Fmaj,Gmin,B-maj,Cno3,Fmaj,Gmin,B-maj,Cno3,Fmaj,Gmin,B-maj,Cno3,,,0.9132829641650989,##########,_Cno3B-majGminFmajCno3B-majGminFmajCno3B-majGminFmajCno3B-majGminFmajCno3,0720
+11,4,Cno3,Fno3,Cmaj,Fmaj,,,,,,,,,,,,,,,,1.0957952550009338,#,_FmajCmajFno3Cno3,0105; 0217; 0450; 0828; 0865
+16,12,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,,,,,,,,0.9544340029249649,######,_Fno3Cno3B-no3Dno3Cno3Fno3Cno3B-no3Dno3Cno3Fno3Cno3,0217; 0450
+10,17,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,Cno3,Dno3,B-no3,Cno3,Fno3,,,0.9709505944546686,####,_Fno3Cno3B-no3Dno3Cno3Fno3Cno3B-no3Dno3Cno3Fno3Cno3B-no3Dno3Cno3Fno3Cno3,0217; 0450
+13,6,Cno3,Fno3,Cno3,E-no3,Fno3,Cno3,,,,,,,,,,,,,,0.9957274520849256,##,_Cno3Fno3E-no3Cno3Fno3Cno3,0353; 1106
+11,9,Cno3,Fno3,Cno3,Fno3,Cno3,Fno3,Dmaj,Gmaj,Cno3,,,,,,,,,,,0.9456603046006402,##,_Cno3GmajDmajFno3Cno3Fno3Cno3Fno3Cno3,0594
+11,7,Cno3,Fno3,Cno3,Fno3,Dmaj,Gmaj,Cno3,,,,,,,,,,,,,0.9456603046006402,##,_Cno3GmajDmajFno3Cno3Fno3Cno3,0594
+11,5,Cno3,Fno3,Dmaj,Gmaj,Cno3,,,,,,,,,,,,,,,0.9456603046006402,##,_Cno3GmajDmajFno3Cno3,0594
+16,7,Cno3,Fno3,Gno3,Cno3,Fno3,Gno3,Cno3,,,,,,,,,,,,,1.3244602933016414,#,_Cno3Gno3Fno3Cno3Gno3Fno3Cno3,0467; 0736; 1170
+20,12,Cno3,Gmaj,A-maj,E-maj,D-maj,Cmin,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,,,,,,,,0.9709505944546686,########,_GmajDmajFmajA-majGmajCno3CminD-majE-majA-majGmajCno3,0381; 0999
+20,6,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,,,,,,,,,,,,,,0.9709505944546686,##,_GmajDmajFmajA-majGmajCno3,0381; 0999
+12,18,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,Cno3,Gmaj,A-maj,E-maj,D-maj,Cmin,Cno3,Gmaj,A-maj,Fmaj,Dmaj,Gmaj,,0.9182958340544896,###########,_GmajDmajFmajA-majGmajCno3CminD-majE-majA-majGmajCno3GmajDmajFmajA-majGmajCno3,0381; 0999
+14,4,Cno3,Gmin,B-no3,Cno3,,,,,,,,,,,,,,,,1.2916919971380596,#,_Cno3B-no3GminCno3,0861
+10,7,Cno3,Gmin,B-no3,Cno3,Gmin,B-no3,Cno3,,,,,,,,,,,,,1.3567796494470397,##,_Cno3B-no3GminCno3B-no3GminCno3,0861
+11,5,Cno3,Gno3,Amin,Cmaj,Fmaj,,,,,,,,,,,,,,,1.0957952550009338,#,_FmajCmajAminGno3Cno3,1167
+16,16,Cno3,Gno3,Ano3,Fno3,Gno3,Cno3,Gno3,Ano3,Fno3,Gno3,Cno3,Gno3,Ano3,Fno3,Gno3,Cno3,,,,0.9544340029249649,#########,_Cno3Gno3Fno3Ano3Gno3Cno3Gno3Fno3Ano3Gno3Cno3Gno3Fno3Ano3Gno3Cno3,0217; 0450
+32,8,Cno3,Gno3,B-no3,Cno3,Gno3,B-no3,Cno3,Gno3,,,,,,,,,,,,0.9308927290103626,##,_Gno3Cno3B-no3Gno3Cno3B-no3Gno3Cno3,1106; 1267
+21,14,Cno3,Gno3,B-no3,Cno3,Gno3,B-no3,Cno3,Gno3,B-no3,Cno3,Gno3,B-no3,Cno3,Gno3,,,,,,0.9637459942073318,####,_Gno3Cno3B-no3Gno3Cno3B-no3Gno3Cno3B-no3Gno3Cno3B-no3Gno3Cno3,1106
+10,7,Cno3,Gno3,B-no3,Cno3,Gno3,Cno3,Gno3,,,,,,,,,,,,,0.9709505944546686,#,_Gno3Cno3Gno3Cno3B-no3Gno3Cno3,0353; 1106
+11,6,Cno3,Gno3,Cno3,Amaj,Dmaj,Gno3,,,,,,,,,,,,,,0.9456603046006402,##,_Gno3DmajAmajCno3Gno3Cno3,0594
+11,8,Cno3,Gno3,Cno3,Gno3,Cno3,Amaj,Dmaj,Gno3,,,,,,,,,,,,0.9456603046006402,##,_Gno3DmajAmajCno3Gno3Cno3Gno3Cno3,0594
+14,10,Cno3,Gno3,Cno3,Gno3,Cno3,Gno3,Cno3,Gno3,Cno3,Gno3,,,,,,,,,,1.1981174211304033,#,_Gno3Cno3Gno3Cno3Gno3Cno3Gno3Cno3Gno3Cno3,0105; 1106
+11,6,Cno3,Gno3,Dno3,Cno3,Gno3,Dno3,,,,,,,,,,,,,,1.2406705316766886,#,_Dno3Gno3Cno3Dno3Gno3Cno3,0567; 0701; 1296
+10,4,Cno3,Gno3,Fmaj,Gmaj,,,,,,,,,,,,,,,,0.9709505944546686,#,_GmajFmajGno3Cno3,0205

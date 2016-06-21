@@ -814,7 +814,7 @@ class mcgillCorpus:
 			
 			####FIND LOOPING PROGRESSIONS####
 			lickLen = len(lick)
-			maxLoopLen = 0 #dummy variable to keep track of max loop length
+			self.maxLoopLen = 0 #dummy variable to keep track of max loop length
 			for i in range(1, lickLen - 1):
 				testLoop = lick[0:i] #find loop to test as subset
 				loopLen = len(lick[0:i]) #find test loop length
@@ -823,14 +823,14 @@ class mcgillCorpus:
 				if lick == (testLoop * testVal) + testLoop[0:testValRem]: # if lick = a multiple of the loop (including remainder), then loop is valid loop 
 					loop = lick[0:i]
 					repeats = round(lickLen/float(loopLen), 2)
-					if maxLoopLen < loopLen:
-						maxLoopLen = loopLen
+					if self.maxLoopLen < loopLen:
+						self.maxLoopLen = loopLen
 					break
 				else:
 					loop = lick
 					repeats = 1
-					if maxLoopLen < loopLen:
-						maxLoopLen = loopLen
+					if self.maxLoopLen < loopLen:
+						self.maxLoopLen = loopLen
 			#APPEND ALL INFORMATION FROM LOOPS		
 			output.append(loop)	 
 			output.append(repeats)
@@ -859,16 +859,21 @@ class mcgillCorpus:
 				#find distance interval from previous chord 
 				if prevRoot == '': #if no previous chord, distance = 0
 					chordDist = ''
+					prevRoot = chordRoot
 				else:	
 					y = int(pitchClassTranslate[chordRoot]) 
+					print y
 					x = int(pitchClassTranslate[prevRoot]) 
+					print x
 					chordDist = (y - x) % 12 #find interval distance mod 12
+					print chordDist
+					prevRoot = chordRoot
 				chordAbst = chordQual + '_' + chordBeat
 				output.append(chordDist) #append chord distance from previous chord 
 				output.append(chordAbst) #append chord abstraction	 
 			#####empty cells for alignment#######
-			for i in range(len(loop),self.treeDepth-1): 
-			    output.append('')	  
+			for i in range(len(loop),self.maxLoopLen): 
+				output.append('')	  
 			
 			####Song IDs (of those containing licks) added to spreadsheet
 			lickSongs = set()

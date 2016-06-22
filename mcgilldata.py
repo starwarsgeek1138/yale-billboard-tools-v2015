@@ -814,23 +814,22 @@ class mcgillCorpus:
 			
 			####FIND LOOPING PROGRESSIONS####
 			lickLen = len(lick)
-			self.maxLoopLen = 0 #dummy variable to keep track of max loop length
 			for i in range(1, lickLen - 1):
-				testLoop = lick[0:i] #find loop to test as subset
-				loopLen = len(lick[0:i]) #find test loop length
+				testLoop = lick[0:i+1] #find loop to test as subset
+				loopLen = len(lick[0:i+1]) #find test loop length
 				testVal = int(lickLen/loopLen) #find divisor, rounded down 
 				testValRem= lickLen%loopLen #find remainder
 				if lick == (testLoop * testVal) + testLoop[0:testValRem]: # if lick = a multiple of the loop (including remainder), then loop is valid loop 
-					loop = lick[0:i]
+					loop = lick[0:i+1]
 					repeats = round(lickLen/float(loopLen), 2)
-					if self.maxLoopLen < loopLen:
-						self.maxLoopLen = loopLen
+					if self.maxLoopLen < len(loop):
+						self.maxLoopLen = len(loop)
 					break
 				else:
 					loop = lick
 					repeats = 1
-					if self.maxLoopLen < loopLen:
-						self.maxLoopLen = loopLen
+					if self.maxLoopLen < len(loop):
+						self.maxLoopLen = len(loop)
 			#APPEND ALL INFORMATION FROM LOOPS		
 			output.append(loop)	 
 			output.append(repeats)
@@ -872,13 +871,13 @@ class mcgillCorpus:
 				output.append(chordDist) #append chord distance from previous chord 
 				output.append(chordAbst) #append chord abstraction	 
 			#####empty cells for alignment#######
-			for i in range(len(loop),self.maxLoopLen): 
-				output.append('')	  
-			
+			for i in range(len(loop), 2*self.treeDepth): output.append('')
+
 			####Song IDs (of those containing licks) added to spreadsheet
 			lickSongs = set()
 			songsCounter = set() #keeps track of total songs for lick (including duplicates)
 			dupSongs = set() #keeps track of total duplicated songs
+			songForms = set() #keeps track of form letters
 			for s in sorted(self.songIDLicks[n][lick[0:-1]][lick[-1:]]):
 				#split songID from the formal marker
 				sID = s[:-1]
@@ -893,13 +892,20 @@ class mcgillCorpus:
 					dupSongs.update(dups) #add song duplicates to duplicates set
 				else:
 					songID = sID + sForm
+				songForms.add(sForm)
 				lickSongs.add(str(songID))
 			totalSongs = len(songsCounter)
 			totalNonDupSongs = totalSongs - len(dupSongs) 
-			###APPEND: Song number + form, number of songs, number of songs without dups
-			output.append(', '.join(lickSongs))
+			###APPEND: Song number + form, number of songs, number of songs without dups, distinct song forms
 			output.append(totalSongs)
 			output.append(totalNonDupSongs)
+			
+			#### FIGURE OUT HOW TO ITERATE THROUGH THESE SETS. ALSO DON'T FORGET TO 
+			####APPEND BLANK SPACES IN BETWEEN
+			for y in range(1, len(lickSongs)):
+				output.append(lickSongs[y])
+			for x in range(1, len(songForms)):
+				output.append(songForms[x])
 			#####Output Progression Chords (Sorted backward)
 			output.append('_'+sortString)
 						
@@ -928,6 +934,7 @@ class mcgillCorpus:
 	def listLicks (self): #creates your output list and starts the suffix tree traversal
 		outputList = list()
 		self.suffixTreeCounter = 0 ###Set counter for CASE IDs of progressions
+		self.maxLoopLen = 0 ###Set counter for maximum loop length
 		for note in sorted(self.suffixTree[2]):
 			if note == 'total': continue
 			self.traverseSuffixTree(note, 0, outputList)

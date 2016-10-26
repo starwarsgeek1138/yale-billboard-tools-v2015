@@ -1,7 +1,6 @@
 import mcgilldata, string, os, sys, collections, csv, music21
-
 ##Code to find distribution of roots for all chords for all tonics within the McGill Corpus
-##Output gives percentages AND total counts per chord root SD (in mod12) for all tonics
+##Output gives percentages and total counts per chord root for all tonics
 
 mcgillPath = 'mcgill-billboard'
 
@@ -15,6 +14,7 @@ for theSongid, theSong in theCorpus.songs.iteritems():
 	for thePhrase in theSong.phrases:
 		for theMeasure in thePhrase.measures:
 			songTonic = theMeasure.tonic
+
 			#determine song tonic for each measure: if the tonic exists, add chordRoot to dictionary, otherwise add tonic to dict		
 			for theChord in theMeasure.chords:
 				try: #turn chordRoot into pitch object
@@ -59,4 +59,3 @@ for songTonic in ChordTally:
 		thisRow.append(total)
 	outputCsv.writerow(thisRow)
 		
-
